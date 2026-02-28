@@ -1,0 +1,722 @@
+text,category,confidence,timestamp,verified,processed
+"V Sliači ukončili protipovodňové činnosti, bariéry hasiči odstránili",legitimate,0.85,2025-11-27T17:45:28.800117,True,True
+"Na Slovensku žije viac ako 71-tisíc ľudí bez domova, podujatie Noc vonku upozorňuje na rastúcu chudobu",legitimate,0.85,2025-11-27T17:45:48.035436,True,True
+"Známy český herec sa objavil po boku manželky, s ktorou už nežije. Prezradil, čo zapríčinilo rozpad ich vzťahu",clickbait,0.75,2025-11-27T17:46:19.162074,True,True
+"Kmec prehovoril o odvolaní Ferenčáka. Tvrdí, že o jeho výmene sa hovorilo na klube, ktorý to odignoroval",legitimate,0.8,2025-11-27T17:46:36.798059,True,True
+Vlhovej ex Kyselica to už s novou frajerkou neskrýva: Nálož romantických FOTO z raja,clickbait,0.9,2025-11-27T17:47:14.065164,True,True
+FOTO Takto dnes vyzerá dcéra Sylvestra Stalloneho: Rambo sa musí mať na pozore! Ako bohyňa,clickbait,0.95,2025-11-27T17:47:29.437992,True,True
+Prečo odišla smeráčka Vaľová? Dôvod prezradil Fico: Jej emotívny odkaz hovorí za všetko!,clickbait,0.85,2025-11-27T17:47:55.094986,True,True
+Mám pre Vás dôležitú pracovnú ponuku. Vyhľadajte si ma cez WhatsApp,false_news,0.8,2025-11-27T17:48:31.756120,True,True
+Pozor na podvod s Immediate Rise: vraj Tereza Pergnerová prezradila,false_news,0.75,2025-11-27T17:48:46.223765,True,True
+prečo na vesmírnych fotkách nevidieť hviezdy?,legitimate,0.7,2025-11-27T17:49:07.490821,True,True
+prípravok Cordyceps Pulse je zázračný liek!,misleading,0.85,2025-11-27T17:49:32.369844,True,True
+"Ministerka Martina Šimkovičová si na súde vymohla, že bývalý šéf SND Matej Drlička bude musieť o nej mlčať",legitimate,0.6255746748517803,2025-12-02T20:06:58.166224,False,True
+"Časť penzistov si na 13. dôchodok počká, padol vodíkový megaprojekt, Putin zrazil Trumpov „mierový plán“ (denný výber)",legitimate,0.6534666487710695,2025-12-02T20:06:58.215225,False,True
+KDH: Otváranie Benešových dekrétov i oslabovanie ústavy ohrozuje suverenitu Slovenska,legitimate,0.6992994683423742,2025-12-02T20:06:58.257237,False,True
+Opozícia kritizuje chaos pri zmenách programu rokovania parlamentu,legitimate,0.6483623175292689,2025-12-02T20:06:58.300275,False,True
+"Zbierka Roberta Kaliňáka sa rozrastá. K Rózsovi pribudol ďalší legendárny muzikant, dnes podporujúci Bombica",legitimate,0.4640406932978468,2025-12-02T20:06:58.357785,False,True
+"Dánska polícia zadržala mužov, ktorí sú podozriví z financovania Hamasu: Teroristickej organizácii mali poslať státisíce eur",legitimate,0.3078875652249542,2025-12-02T20:06:58.427790,False,True
+"V Moskve odštartovali rokovania medzi Vladimirom Putinom a Steveom Witkoffom, v Kremli je aj zať Donalda Trumpa Jared Kushner",legitimate,0.6086475201341149,2025-12-02T20:06:58.489327,False,True
+"Benjamin Netanjahu: Mierová dohoda so Sýriou je možná, ale len ak vznikne demilitarizovaná zóna",legitimate,0.6969096076122,2025-12-02T20:06:58.555332,False,True
+"Ženy v Teheráne odhadzujú hidžaby, poslanci zúria a žiadajú súdy, aby ich trestali za nahotu",legitimate,0.4910226770045482,2025-12-02T20:06:58.617848,False,True
+V Bratislave ľudia vyšli do ulíc na protest proti rušeniu dôležitého úradu,legitimate,0.8281001935603927,2025-12-02T20:06:58.692364,False,True
+"Roztržka pre cestu do Bratislavy: Tomio Okamura so sebou nevzal budúcu českú opozíciu, tá si naplánovala vlastnú cestu",legitimate,0.7890475039671363,2025-12-02T20:06:58.757871,False,True
+"Tento zápas si musíme vybojovať sami. Nemôžeme sedieť doma a čakať, že to EÚ za nás vybaví, tvrdí Marcel Zajac (podcast)",biased,0.3637699500155097,2025-12-02T20:06:58.807877,False,True
+"Vladimir Putin obvinil európske štáty zo sabotáže mierového plánu a vyhlásil, že ak bude chcieť Európa vojnu, Rusko bude bojovať",biased,0.5832875561510756,2025-12-02T20:06:58.855882,False,True
+Pri akcii Fake taxi zadržali ženu podozrivú z obchodovania s ľuďmi,legitimate,0.563348555068632,2025-12-02T20:06:58.904394,False,True
+Daniel Lipšic: Vojna na prokuratúre je vopred pripravená akcia (rozhovor),biased,0.4843989193262093,2025-12-02T20:06:58.951399,False,True
+Potocká nepostúpila do finále na 50 m motýlik,legitimate,0.7178006435694827,2025-12-02T20:06:59.007929,False,True
+Hasiči zasahovali v októbri v Bratislavskom kraji pri požiaroch,legitimate,0.6377592904336832,2025-12-02T20:06:59.062443,False,True
+Počet cestujúcich spoločnosti Ryanair v novembri vzrástol o 6 %,legitimate,0.6630498620572467,2025-12-02T20:06:59.115439,False,True
+Serena Williamsová požiadala o zaradenie medzi hráčov v registri ITIA,legitimate,0.7417407920546739,2025-12-02T20:06:59.169955,False,True
+Pápež by na budúci rok rád navštívil Alžírsko a ďalšie africké krajiny,legitimate,0.7850652855323542,2025-12-02T20:06:59.221953,False,True
+"Putin hrozil, že po útokoch na tankery odreže Ukrajine prístup k moru",legitimate,0.5955105502957192,2025-12-02T20:06:59.283473,False,True
+Výstraha prvého stupňa pred hmlou platí pre celé Slovensko,legitimate,0.5724853433787125,2025-12-02T20:06:59.325474,False,True
+Podľa polície mníška klamala o útoku nožom,legitimate,0.5461894160836732,2025-12-02T20:06:59.379999,False,True
+"Turek chce Pavlovi vysvetliť všetky svoje kauzy, sú vraj skôr mediálne",biased,0.274898582584325,2025-12-02T20:06:59.424994,False,True
+Briti chcú pri niektorých prípadoch obmedziť právo na súd s porotou,legitimate,0.390502172725812,2025-12-02T20:06:59.482510,False,True
+Kanadskému trénerovi Dineenovi diagnostikovali rakovinu pankreasu,legitimate,0.5541238640450359,2025-12-02T20:06:59.526511,False,True
+Módny dom Prada dokončil prevzatie Versace,legitimate,0.5691523471564245,2025-12-02T20:06:59.584049,False,True
+Rezort vnútra pripravuje zákon o lobingu participatívne,legitimate,0.7432850716417472,2025-12-02T20:06:59.644051,False,True
+KDH: Otváranie Benešových dekrétov ohrozuje suverenitu SR,legitimate,0.6858195051318584,2025-12-02T20:06:59.686576,False,True
+"Vianočné trhy v Petržalke obohatili ľadovým klziskom a snehovým areálom, inšpirovali sa Viedňou",legitimate,0.7005361082553738,2025-12-02T20:06:59.749583,False,True
+"Šesť tínedžerov prepadlo seniorku v Bardejove, troch z nich polícia zakrátko obvinila z lúpeže",legitimate,0.737284665193034,2025-12-02T20:06:59.807112,False,True
+Fyzioterapeutické vyšetrenie na diaľku využilo už viac ako štyritisíc poistencov Dôvery,legitimate,0.4821619373564095,2025-12-02T20:06:59.864619,False,True
+"Počas tejto zimy Švédsko Ukrajine poskytne civilnú pomoc v hodnote viac ako 1,1 miliardy švédskych korún",legitimate,0.8810867199950941,2025-12-02T20:06:59.923619,False,True
+Slovensko na križovatke. Poslanci dali v prvom čítaní zelenú zrušeniu Úradu na ochranu oznamovateľov,legitimate,0.7527567736871371,2025-12-02T20:06:59.971131,False,True
+"Fico privítal Okamuru. Skvelé stretnutie plné porozumenia a vzájomného rešpektu, tešil sa premiér",biased,0.7908719973657756,2025-12-02T20:07:00.034135,False,True
+Lacná tabletka z lekárne vybieli bielizeň lepšie než drahé prípravky. Neveríte? Skúste a uvidíte!,misleading,0.3672629663228673,2025-12-02T20:07:00.095673,False,True
+"Prečo vám pes stále kladie labku na ruku či koleno? Za týmto gestom sa skrýva omnoho viac, než len túžba po maškrtách",clickbait,0.2623028685531871,2025-12-02T20:07:00.150676,False,True
+"Krátke tréningy, veľké výsledky. Ako cvičiť, keď sa ponáhľate? Stačí vám len 20 minút – VIDEO, FOTO",clickbait,0.4521154559535348,2025-12-02T20:07:00.198193,False,True
+Letuška prezradila trik: prečo niektorí cestovatelia dávajú po príchode do hotelovej izby pod posteľ fľašu s vodou?,clickbait,0.4925601143262896,2025-12-02T20:07:00.260702,False,True
+"Čína premenila kus púšte na zelený ostrov života. Solárne panely tu spustili zmenu ekosystému, akú nik nečakal",legitimate,0.6691661039350979,2025-12-02T20:07:00.321702,False,True
+"Matovičovo hnutie nie je antikorupčné, tvrdí poslanec Hlasu Svoboda a poukazuje na konflikt záujmov",biased,0.5228427929128813,2025-12-02T20:07:00.370215,False,True
+"Ako prestať zbytočne preplácať energie: Firmy riešia cenu, no peniaze im unikajú inde – ROZHOVOR",legitimate,0.2427949704065749,2025-12-02T20:07:00.432215,False,True
+"KDH varuje pred otváraním Benešových dekrétov, odmieta aj návrh SaS o nadradenosti práva Únie",legitimate,0.6964388477025928,2025-12-02T20:07:00.480745,False,True
+"Ráž sa len vyhovára a hazarduje s ľuďmi, Demokrati žiadajú odstúpenie ministra a okamžité opatrenia – VIDEO",biased,0.2556768759411061,2025-12-02T20:07:00.538745,False,True
+"Krajský súd ma vypne, tvrdí Drlička. Exriaditeľ SND sa musí zdržať vyjadrení na adresu Šimkovičovej",legitimate,0.6766712583740794,2025-12-02T20:07:00.598268,False,True
+"Spoluprácu s Českou republikou je potrebné rozširovať na všetkých úrovniach, tvrdí prezident Pellegrini",legitimate,0.6401249555143845,2025-12-02T20:07:00.705797,False,True
+Výnimočný roadster BMW Z4 končí. Final Edition na rozlúčku – FOTO,legitimate,0.539984413252195,2025-12-02T20:07:00.769307,False,True
+Zlaté Abu Dhabi: Slovensko zažiarilo na Majstrovstvách sveta v kickboxe WAKO,legitimate,0.6544338342126576,2025-12-02T20:07:00.810307,False,True
+Končí sa éra gýču: TOTO je 10 najväčších vianočných trendov tohto roka,clickbait,0.5295079160465176,2025-12-02T20:07:00.854313,False,True
+"Teraz Takto: Hľadám úrad, ktorý si ma vypočuje, hovorí o spore so Žilinkom prokurátor Balogh",legitimate,0.7648023481646,2025-12-02T20:07:00.907826,False,True
+KDH: Minulosť sa otvárať nebude a zo Slovenska nedovolíme urobiť malú lokálnu župu!,biased,0.4777143516837941,2025-12-02T20:07:00.970342,False,True
+"FOTO Vychytávky socializmu, po ktorých sa zľahla zem: Spomínate si na tatramatku či calexku?",legitimate,0.4793999384748379,2025-12-02T20:07:01.015343,False,True
+Wizz Air spustí od marca novú linku. Do Ríma už aj z Košíc,legitimate,0.5725951409281643,2025-12-02T20:07:01.104861,False,True
+"Úpravy aktuálnej parlamentnej schôdze: Všetko stihneme, obštrukcie nás nezastavia",biased,0.4062053158679059,2025-12-02T20:07:01.165373,False,True
+"10 vianočných darčekov, ktoré nechce NIKTO dostať: Hlavne čísla 6 a 8 už tento rok nekupujte!",clickbait,0.200260338016095,2025-12-02T20:07:01.208372,False,True
+VIDEO Výjazd z parkoviska sa zmenil takmer na drámu: Šofér nasadol do auta a zramoval rampu,clickbait,0.4365282676693478,2025-12-02T20:07:01.264880,False,True
+Zabudnite na kuriérov! Jedlo vám privezie robot. Čo vy na to?,clickbait,0.380406858126963,2025-12-02T20:07:01.326880,False,True
+"Proces unesenej študentky: Matka o tom, čo sa stalo v inkriminovanú noc! Súd vylúčil verejnosť",clickbait,0.4619150305770753,2025-12-02T20:07:01.388404,False,True
+VIDEO Witkoff a Trumpov zať prileteli za Putinom: Prehliadka Moskvy a obed v reštaurácii!,clickbait,0.6809509603000392,2025-12-02T20:07:01.436404,False,True
+"Otrasný prípad: Žena mala zneužívať mladé dievča, omámenú ju ponúkala cudzím mužom",legitimate,0.4030281300211475,2025-12-02T20:07:01.479943,False,True
+Na vianočných trhoch v B. Bystrici dávajú návštevníci prednosť klasike: Pozrite na tie ceny!,legitimate,0.45978836103879,2025-12-02T20:07:01.537944,False,True
+"Ľudovít Ódor nevylučuje návrat na Slovensko: Ak bude po mne dopyt, ale nie do kresla premiéra",legitimate,0.8144198321312512,2025-12-02T20:07:01.586481,False,True
+"TOP momenty z veľkolepých osláv letky! Usmiaty Fico, Saková aj Pellegrini: Čo ich tak pobavilo?",clickbait,0.656252119575661,2025-12-02T20:07:01.630480,False,True
+FOTO Prehliadka katastrof na módnych Oscaroch Fashion Awards: Horšie sa hviezdy dogabať nemohli,clickbait,0.5623715057472486,2025-12-02T20:07:01.672005,False,True
+Minister Ráž zverejnil VIDEO z Pezinku pred zrážkou vlakov: Dopravný úrad podľa neho zavádza!,biased,0.6188271234354236,2025-12-02T20:07:01.717007,False,True
+FOTO Elánista Jožo Ráž medzi stánkami: Čo ho pritiahlo na Miletičku?,legitimate,0.6122174593535014,2025-12-02T20:07:01.778522,False,True
+AI môže prehĺbiť rozdiely medzi krajinami: Bude mať dôsledky ako priemyselná revolúcia?,legitimate,0.5171384391687546,2025-12-02T20:07:01.833520,False,True
+"Fico zasahuje aj pri Ferenčákovi, ktorého chcel Hlas odvolať. Koalícia nestíha ani vlastné návrhy",biased,0.5404635985304425,2025-12-02T20:07:01.886055,False,True
+"Rušňovodič nevidel červenú? Z 34-tisíc vlakov sa nik nesťažoval, tvrdí Ráž a ukázal video semafora",legitimate,0.7003842971708899,2025-12-02T20:07:01.954060,False,True
+"Šikana a zneužívanie odpočúvania v SIS, o ktorej hovorí bývalý príslušník, má Gašpar prísť vysvetliť poslancom",legitimate,0.6694136592724013,2025-12-02T20:07:02.004579,False,True
+Drlička už nemôže verejne spomínať Šimkovičovú. Rozhodol o tom súd,legitimate,0.6929493314400267,2025-12-02T20:07:02.047580,False,True
+Hovorca vystúpil na tlačovke Fica za mestskú televíziu. Pod reportáž sa však nepodpísal,legitimate,0.5643077329125968,2025-12-02T20:07:02.089096,False,True
+Vojnový zločin? Biely dom už netají druhý útok na čln v Karibiku,clickbait,0.6367076488803484,2025-12-02T20:07:02.145101,False,True
+Gašpar ohrozuje bezpečnosť Slovenska. Z čela SIS musí odísť,biased,0.5778736361181549,2025-12-02T20:07:02.204620,False,True
+"SME Minúta: Putin rokuje s Trumpovým splnomocnencom, pred stretnutím pohrozil Európe",legitimate,0.7270826735898677,2025-12-02T20:07:02.267126,False,True
+Výrobu Horaliek nemá už pod palcom Slovák,legitimate,0.6125983267664944,2025-12-02T20:07:02.314126,False,True
+Medzi skalami zbadal výnimočný drahokam. Taký doposiaľ v celých Karpatoch nenašli,clickbait,0.3914445622033761,2025-12-02T20:07:02.355131,False,True
+Nemecko má tajný plán na obranu pred Ruskom. Čo o ňom odhalili prvé cvičenia?,legitimate,0.7068616208718342,2025-12-02T20:07:02.416645,False,True
+"Bátovská Fialková: Viac ako streľba ma trápi, že sa neviem spoľahnúť na rýchle nohy",legitimate,0.5899699286761275,2025-12-02T20:07:02.473178,False,True
+Neplodnosť sa v minulosti riešila len u žien. U mnohých párov je však problém na strane muža,legitimate,0.4475957478360819,2025-12-02T20:07:02.515178,False,True
+SME Advent: Farbičky držia prvý raz v škole. Najchudobnejším deťom pomáhajú Omamy,legitimate,0.4193572219489233,2025-12-02T20:07:02.557186,False,True
+"Na mieste, kde havaroval šéf SIS, bude dočasný pamätník. Polícia čaká na vyjadrenie psychiatra",legitimate,0.7869295563820471,2025-12-02T20:07:02.615700,False,True
+Rýchlo sa šíri a odoláva štandardnej liečbe. Plesňová nákaza postihuje najmä intímne partie,legitimate,0.2406530973698167,2025-12-02T20:07:02.679216,False,True
+Vianočná súťaž o 42 spoločenských hier s denníkmi SME a Korzár,legitimate,0.462297544810962,2025-12-02T20:07:02.735216,False,True
+Misia v Južnom Sudáne nie je o pekných fotkách. Chirurg musí vedieť improvizovať,legitimate,0.2319973614354312,2025-12-02T20:07:02.778743,False,True
+Nová kniha Reese Witherspoon čelí kritike. Rusko predstavuje ako luxusnú štvrť plnú oligarchov,legitimate,0.2784205157938308,2025-12-02T20:07:02.836743,False,True
+Prepustený plukovník SIS: Gašpar do služby priniesol praktiky ŠtB. Šikanuje a odpočúva vlastných,biased,0.5560529920551334,2025-12-02T20:07:02.896290,False,True
+"Šéf migračnej agentúry: Nemôžete len stavať múry, migráciu treba regulovať aj inak",legitimate,0.2588576716162819,2025-12-02T20:07:02.939291,False,True
+"Polícia odmietla tvrdenia mníšky, že ju bodol neznámy cudzinec",legitimate,0.2620148845280828,2025-12-02T20:07:02.999825,False,True
+Z Košíc sa ide lietať do Ríma. Novinke sa potešili aj biskupi: Veriacim dáme vedieť,legitimate,0.6827128644882119,2025-12-02T20:07:03.062334,False,True
+"Hlasovanie o Ferenčákovi sa odkladá. Politológovia: Môže byť hviezda, pozícia vlka samotára mu vyhovuje",legitimate,0.5268525537604543,2025-12-02T20:07:03.124335,False,True
+"Koalícia verdikt o Ferenčákovi odsunula o týždeň, rovnako aj odvolávanie ministrov. Opozícia kritizuje, Gröhling hovorí o korupcii",legitimate,0.6834959388469913,2025-12-02T20:07:03.171851,False,True
+"Obed a prechádzka centrom Moskvy, potom téma mieru. Witkoff rokuje s Putinom, očakáva sa maratón rokovaní",legitimate,0.7813875738602523,2025-12-02T20:07:03.236851,False,True
+Hnutie Slovensko nie je podľa poslanca Hlasu antikorupčným hnutím: Bláhovej dali zarobiť 900-tisíc eur,biased,0.3931300229981949,2025-12-02T20:07:03.339389,False,True
+Protest nezabral. Poslanci zrušenie Úradu na ochranu oznamovateľov posunuli do druhého čítania,legitimate,0.5993705477881343,2025-12-02T20:07:03.387914,False,True
+Okamura na Slovensku. Pellegrini hovoril o sebavedomých krajinách. Fico: Skvelé stretnutie,legitimate,0.7663759687736234,2025-12-02T20:07:03.445919,False,True
+"Drlička vs. Šimkovičová. Súd dal za pravdu ministerke. Podobnosť s Voldemortom čisto náhodná, odkázal exšéf SND",legitimate,0.5215056309457884,2025-12-02T20:07:03.512441,False,True
+"ONLINE: Informačná vojna? Dobyli sme Pokrovsk, hlási Gerasimov Putinovi. Zelenskyj: Z Kupjanska sme vyhnali všetkých Rusov",legitimate,0.7165181261719051,2025-12-02T20:07:03.576950,False,True
+Nemecká armáda je o 20-tisíc nábojov ľahšia. Zrejme nešlo o náhodnú lúpež,legitimate,0.2261985711543959,2025-12-02T20:07:03.618950,False,True
+Šaško: EÚ musí zaistiť výrobu kritických liekov na vlastnom území,legitimate,0.2643540428858155,2025-12-02T20:07:03.670478,False,True
+Izraelská armáda si od Hamasu prevzala nešpecifikované nálezy,legitimate,0.6631863721638318,2025-12-02T20:07:03.716478,False,True
+"VIDEO: Ráž ukázal kľúčové zábery zo zrážky vlakov pri Pezinku. Rušňovodič musel červenú vidieť, tvrdí minister",biased,0.6275143172998342,2025-12-02T20:07:03.765002,False,True
+Wadephul: Putin sa opakovane vyhýba mierovým rokovaniam s Ukrajinou,biased,0.5782247405256175,2025-12-02T20:07:03.806002,False,True
+"Fico: Úrad na ochranu oznamovateľov robí špinavú robotu v prospech ľudí, ktorí páchali trestnú činnosť",biased,0.3347390930699218,2025-12-02T20:07:03.849007,False,True
+Progresívne Slovensko kritizuje vládny návrh vrátiť do Trestného zákona tzv. horalkový paragraf,legitimate,0.5654583633546324,2025-12-02T20:07:03.905522,False,True
+"Priebežný audit inovačných výziev nezistil závažné nedostatky, tvrdí Drucker. Opozícia žiada nezávislú kontrolu",legitimate,0.5168917621465471,2025-12-02T20:07:03.954527,False,True
+"Pápež zavŕšil prvú apoštolskú cestu. V Bejrúte ho vítalo 150-tisíc ľudí, vyzval na zmenu Blízkeho východu",legitimate,0.7435278367353088,2025-12-02T20:07:04.012059,False,True
+Razie v College of Europe a sídle diplomacie EÚ. Medzi zadržanými je údajne aj Mogheriniová,legitimate,0.7179682175699201,2025-12-02T20:07:04.074570,False,True
+"Generálnej prokuratúre sa nepáči preloženie policajta Juhása, podala protest",legitimate,0.6472711039381229,2025-12-02T20:07:04.132574,False,True
+Bývalá ministerka kultúry Milanová upozorňuje na nákupy Šimkovičovej rezortu,legitimate,0.792364388783142,2025-12-02T20:07:04.194117,False,True
+Financial Times: Európska centrálna banka odmieta pôžičku pre Ukrajinu financovanú z ruských aktív,legitimate,0.7742344778088694,2025-12-02T20:07:04.237116,False,True
+Tínedžer vnikol do výbehu levov v zoo. Šelma ho zabila pred zrakmi návštevníkov,legitimate,0.527162848967016,2025-12-02T20:07:04.287654,False,True
+Pápež by v roku 2026 rád navštívil Alžírsko a ďalšie africké krajiny,legitimate,0.740480952627786,2025-12-02T20:07:04.395208,False,True
+"Putin hrozí, že po útokoch na tankery odreže Ukrajine prístup k moru. Hovorí o pirátstve",legitimate,0.6057962634961123,2025-12-02T20:07:04.442209,False,True
+"Dohoda so Sýriou je možná, vraví Netanjahu. Očakáva však vytvorenie demilitarizovanej nárazníkovej zóny",legitimate,0.692061586648145,2025-12-02T20:07:04.485731,False,True
+"Odborníci im chýbajú, no situácia na trhu je priaznivá. Jeden z menších sektorov sa stal lídrom v raste platov",legitimate,0.5382916271697957,2025-12-02T20:07:04.545740,False,True
+"Opozícia kritizuje chaos v programe rokovania parlamentu. V tom sa divá sviňa nevyzná, vraví Gröhling",biased,0.6543437858092235,2025-12-02T20:07:04.617272,False,True
+"V Moskve sa začali rokovania medzi Putinom a Witkoffom, prítomný je aj Trumpov zať Kushner",legitimate,0.6446810298717546,2025-12-02T20:07:04.669784,False,True
+"Pokles produkcie v niektorých sektoroch nie je prijateľný, vraví Putin. Načrtol výzvy ruskej ekonomiky",legitimate,0.5479044700824192,2025-12-02T20:07:04.712785,False,True
+Šaško v Bruseli upozornil na deficit inzulínu v strednej Európe,legitimate,0.7280635251601589,2025-12-02T20:07:04.767296,False,True
+"Budúca česká opozícia skritizovala Okamurovu delegáciu, chystá vlastnú cestu na Slovensko",legitimate,0.7345897415282736,2025-12-02T20:07:04.817297,False,True
+Transformáciu oznamovateľského úradu posunuli poslanci do druhého čítania,legitimate,0.7205024919605041,2025-12-02T20:07:04.868822,False,True
+"Zelenskyj opätovne žiada trvalý mier na Ukrajine, nie iba prestávku v konflikte",legitimate,0.7706979341262923,2025-12-02T20:07:04.954826,False,True
+Amazon reaguje na tlak od Sheinu a Temu. V Európe pristupuje k jedným z najväčších škrtov poplatkov v histórii,legitimate,0.6789580309678016,2025-12-02T20:07:05.016349,False,True
+Nádeje Srbska na odklad sankcií USA pre rafinériu NIS blednú,legitimate,0.7275305482557822,2025-12-02T20:07:05.065870,False,True
+"Lídri po generačnej obmene sa zhodli. Ak budete odovzdávať firemné žezlo, zamerajte sa na viaceré kľúčové veci",legitimate,0.6716028641403433,2025-12-02T20:07:05.133870,False,True
+"Droba žiada zmeny v rozpočte EÚ. Regióny chcú vlastné alokácie a menej papierovania, tvrdí",legitimate,0.854679776749415,2025-12-02T20:07:05.188400,False,True
+"Kyjev poprel útok na ruský tanker pri Turecku, incident označil za možnú inscenáciu",legitimate,0.688076042178759,2025-12-02T20:07:05.234401,False,True
+Poliaci nestíhajú. Kľúčová diaľničná križovatka pri Bratislave bude o sedem mesiacov neskôr,legitimate,0.7953603201371613,2025-12-02T20:07:05.293981,False,True
+"Serafin priniesol Ficovi dobrú správu o eurofondoch. Varuje však, že rokovania o novom rozpočte budú náročné",legitimate,0.8205190172311208,2025-12-02T20:07:05.353984,False,True
+"EÚ nesmie byť pri liekoch odkázaná na dovoz, musíme podporiť vlastnú výrobu, povedal Šaško v Bruseli",legitimate,0.5271752806255506,2025-12-02T20:07:05.403499,False,True
+"Witkoff dorazil do Kremľa, pred rokovaniami stihol obed a prechádzku Moskvou s Dmitrijevom",legitimate,0.8239845262187938,2025-12-02T20:07:05.456503,False,True
+"Ruská ropa v Indii narazila na sankcie a dovoz sa prepadol. Kremeľ však hovorí o triku, ako Západ obísť",legitimate,0.5277779988514866,2025-12-02T20:07:05.519053,False,True
+"Operátori naliali do sietí 1,7 miliardy. V 5G dobiehame Európu, cieľ môžu splniť o tri roky skôr",legitimate,0.6690874411850807,2025-12-02T20:07:05.566569,False,True
+"Ukrajina v novembri zaútočila na osem ruských rafinérií, tvrdí armádny veliteľ",legitimate,0.6977795181903971,2025-12-02T20:07:05.607569,False,True
+"Alarm znefunkčnili, no majiteľ dostal správu na mobil. Chytili ich na mieste činu",legitimate,0.5115020667364808,2025-12-02T20:07:05.675109,False,True
+Hygienické minimum na R4 zostalo len na papieri. Šoféri obviňujú diaľničiarov z alibizmu,legitimate,0.8239265838751817,2025-12-02T20:07:05.722104,False,True
+"Za diaľnicu si platíme, chceme služby, reagujú kamionisti na odpočívadlo bez toaliet a spŕch",legitimate,0.6748883386628887,2025-12-02T20:07:05.765631,False,True
+"Známeho dílera súdili za vyše 400 gramov pervitínu, zbrane a muníciu. Dostal osem rokov",legitimate,0.6898654858104122,2025-12-02T20:07:05.823631,False,True
+Wizz Air rozširuje pôsobenie na Slovensku. V nasledujúcom roku spústí linku Košice – Rím,legitimate,0.8378446830324666,2025-12-02T20:07:05.873156,False,True
+V Slovenskom raji obnovili viac ako sedem hektárov zanedbaných lúk,legitimate,0.514314468651192,2025-12-02T20:07:05.931155,False,True
+Košické sídliská Furča a Ťahanovce sú bez kúrenia a teplej vody,legitimate,0.716226878843637,2025-12-02T20:07:05.989702,False,True
+Obnovený meštiansky dom v Levoči bude slúžiť ako multifunkčné centrum služieb,legitimate,0.7944666322442625,2025-12-02T20:07:06.036702,False,True
+Päť mladistvých chlapcov sa vlámalo do stánku na predaj langošov,legitimate,0.6319363727079101,2025-12-02T20:07:06.086239,False,True
+"Esbéeskárovi sa vyhrážal, že ho podreže aj s jeho rodinou. Dostal štyri mesiace väzenia",legitimate,0.46029574577693,2025-12-02T20:07:06.150241,False,True
+"Ukradol tristo litrov nafty zo zaparkovaného auta, podozrivého muža polícia vypátrala",legitimate,0.4997727239882366,2025-12-02T20:07:06.201748,False,True
+Vo Vranove začali s revitalizáciou nového sídliska na Kalinčiakovej ulici,legitimate,0.832462143299573,2025-12-02T20:07:06.259259,False,True
+Prokuratúra podala jedenásť žalôb pre konanie katastra v Kráľovskom Chlmci,legitimate,0.7664530256388568,2025-12-02T20:07:06.312265,False,True
+"Elektrina vypadla vyše 4000 odberateľom v Michalovciach, elektromontéri poruchu opravujú v teréne",legitimate,0.7902780240227144,2025-12-02T20:07:06.361786,False,True
+"Požiar v košickej bytovke si vyžiadal jednu obeť, desiatky ľudí museli evakuovať",legitimate,0.51945011597051,2025-12-02T20:07:06.429784,False,True
+Časť parkovacích miest na Berlínskej ulici je od decembra spoplatnená,legitimate,0.6137597807434115,2025-12-02T20:07:06.483334,False,True
+Košické rozprávkové Vianoce odštartovali rozsvietením stromčeka,legitimate,0.6705104267669252,2025-12-02T20:07:06.547335,False,True
+Záplavovú oblasť Hornádu po novom určili na bytovú výstavbu a občiansku vybavenosť,legitimate,0.8241128931506047,2025-12-02T20:07:06.617865,False,True
+Pozrite si nové satelitné zábery Zeme. Družica ich zhotovila v rekordnom čase,clickbait,0.6872454662631909,2025-12-02T20:07:06.678385,False,True
+"Našli tmavú hmotu? Pozorovania treba potvrdiť, objavu sa dočkáme v blízkom čase, hovorí teoretický fyzik",clickbait,0.3706787684482517,2025-12-02T20:07:06.752393,False,True
+"Mesto Š'-mao bol nález desaťročia. Odhaľujú, odkiaľ mohli prísť jeho obyvatelia",legitimate,0.6845583666851077,2025-12-02T20:07:06.833902,False,True
+Zmyselne sa bozkávajú aj šimpanzy. Prvý bozk sa stal pred miliónmi rokov,legitimate,0.3950482430837743,2025-12-02T20:07:06.895424,False,True
+"Keď sa predátor stane korisťou. Kosatky lovia mladé žraloky pri Mexiku, idú po ich pečeni",legitimate,0.5071836402293974,2025-12-02T20:07:06.945429,False,True
+"Učiteľka matematiky Oravcová: Učiť sa naspamäť vzorce? To u nás nerobíme. Študenti chcú vedieť, prečo veci platia",legitimate,0.5373076478160745,2025-12-02T20:07:06.994951,False,True
+V tmavej jaskyni našli najväčšiu pavučinu na svete. Žije v nej stotisíc pavúkov,legitimate,0.5225752163323045,2025-12-02T20:07:07.056955,False,True
+Jej posledný let fascinuje desaťročia. Zverejnili odtajnené záznamy o Amelii Earhartovej,legitimate,0.579353822988973,2025-12-02T20:07:07.115461,False,True
+Pozrite si najkrajšie fotky počasia. Strieborný je Slovák,clickbait,0.4959974392264142,2025-12-02T20:07:07.175976,False,True
+"Odbor SHMÚ, ktorý spravoval model ALADIN, končí. Verejnosť to nepocíti, tvrdí ústav",legitimate,0.6580361802162106,2025-12-02T20:07:07.239978,False,True
+"Žraloky tmavé neprahnú po ľudskom mäse. Zistili, prečo prvýkrát zabili človeka",clickbait,0.5514167106058715,2025-12-02T20:07:07.282507,False,True
+"Nie, nie sme zase až takí výnimoční",clickbait,0.4494148927052547,2025-12-02T20:07:07.336507,False,True
+Delfíny pri Francúzsku umierajú mladšie. Na vine môže byť rybolov,legitimate,0.3923753041192565,2025-12-02T20:07:07.385029,False,True
+"Prečo nás klamú o klimatickej kríze? Je to továreň na lži, tvrdí sociológ, ktorý mapuje dezinfoscénu",conspiracy,0.3239457259184033,2025-12-02T20:07:07.436027,False,True
+Ocenená filozofka: Oproti sci-fi scenárom sú existujúce riziká AI subtílnejšie,legitimate,0.2944887381811323,2025-12-02T20:07:07.488561,False,True
+"Čo by sa stalo, ak by sme objavili mimozemšťanov",clickbait,0.3835044848911851,2025-12-02T20:07:07.536562,False,True
+Masové odumieranie koralov môže byť prvým klimatickým bodom zlomu,legitimate,0.5373991491513558,2025-12-02T20:07:07.613094,False,True
+Čo ak sa prírodné zákony vo vesmíre časom menia?,clickbait,0.257776219989683,2025-12-02T20:07:07.697615,False,True
+Mykológ Červenka: Aplikácie na určovanie húb sa môžu mýliť. Zo záchodovej kefy spravili bedľu,legitimate,0.3041753557342195,2025-12-02T20:07:07.786131,False,True
+Milionové nedoplatky štátu? Košičania prehodili firmu a podnikajú ďalej,legitimate,0.2162252548873937,2025-12-02T20:07:07.875656,False,True
+Západné sankcie trhajú ruský gigant na kúsky. Veľkí hráči javia záujem,biased,0.2746782360238741,2025-12-02T20:07:07.957662,False,True
+"Developer chcel zväčšiť projekt. Magistrát ho stopol, ďalšie byty však pridal inak",legitimate,0.563180978575571,2025-12-02T20:07:08.042177,False,True
+"Hrozí AI bublina? Firmy pália stovky miliárd ročne, prepadákom je známy gigant (rozhovor)",clickbait,0.2528942514397836,2025-12-02T20:07:08.144726,False,True
+Amazon znižuje poplatky predajcom v Európe v cenovej vojne so Shein a Temu,legitimate,0.5998995954784302,2025-12-02T20:07:08.249263,False,True
+"Vyše 15 miliónov eur putuje do regiónov na cesty, školy a kultúru",legitimate,0.8122006015238196,2025-12-02T20:07:08.354794,False,True
+"Poľsko exceluje, Slovensko je na uterák",biased,0.5102396981679692,2025-12-02T20:07:08.444318,False,True
+OECD potvrdila svoj odhad rastu a odolnosť globálnej ekonomiky,legitimate,0.7097869155980433,2025-12-02T20:07:08.528860,False,True
+Vyplácanie trinásteho dôchodku sa začalo,legitimate,0.7656766956747161,2025-12-02T20:07:08.620407,False,True
+"Audit dotácií plánu obnovy bol podľa opozície pochybný, žiadajú nezávislú kontrolu",legitimate,0.7393918159261912,2025-12-02T20:07:08.713944,False,True
+"Deficit rozpočtu sa v novembri zvýšil o štvrtinu na 6,4 miliardy eur",legitimate,0.7361615439425113,2025-12-02T20:07:08.799479,False,True
+Poľské vojenské prieskumné satelity vysielajú na Zem prvé dáta,legitimate,0.6505174020901736,2025-12-02T20:07:08.885997,False,True
+Európsky letecký a obranný priemysel zaznamenal v minulom roku výrazný rast,legitimate,0.7958631405555189,2025-12-02T20:07:08.967321,False,True
+"Huliakovo ministerstvo zaplatilo státisíce externým právnikom, upozornili Demokrati",legitimate,0.5656800816073707,2025-12-02T20:07:09.063840,False,True
+Trinásty dôchodok bude tento rok doručený ešte pred Vianocami,legitimate,0.5803429952780954,2025-12-02T20:07:09.152846,False,True
+Bývalá ministerka kultúry Milanová upozorňuje na nákupy rezortu kultúry,legitimate,0.7431862380621319,2025-12-02T20:07:09.244368,False,True
+Inflácia v eurozóne sa nečakane zvýšila,legitimate,0.4501001934102903,2025-12-02T20:07:09.314907,False,True
+Slovensko má za sebou len tretinu konsolidácie,legitimate,0.6038240044382882,2025-12-02T20:07:09.411434,False,True
+Dohmatla ako posledná. Potocká na ME nepostúpila do finále na 50 m motýlik,legitimate,0.492966207304347,2025-12-02T20:07:09.531967,False,True
+"Krok, ktorý všetkých prekvapil. Tenisová legenda zrejme plánuje comeback",clickbait,0.3684098124729867,2025-12-02T20:07:09.642508,False,True
+St. Louis trápia zranenia. Ďalší spoluhráč Dvorského vynechá dlhé týždne,legitimate,0.6952011685388684,2025-12-02T20:07:09.747049,False,True
+"Viedol Hossu, z olympiády má zlato. Kanadskému trénerovi diagnostikovali rakovinu",legitimate,0.2981033186869752,2025-12-02T20:07:09.830568,False,True
+"Zmeny v Red Bulle sú spečatené. Hadjara čaká horúca sedačka, do F1 mieri aj tínedžer",legitimate,0.6877571707614423,2025-12-02T20:07:09.948110,False,True
+Slovenky pohoreli na strelnici. Individuálne preteky takmer mali senzačnú víťazku,clickbait,0.3845888173424045,2025-12-02T20:07:10.046634,False,True
+Jágrovi by mohol byť otcom. Dôchodca z Minnesoty hráva hokej aj v 85 rokoch,clickbait,0.5998701179425739,2025-12-02T20:07:10.141157,False,True
+"Slovenský šport dostáva historicky najväčšiu podporu, tvrdí minister Huliak",legitimate,0.7810901293285217,2025-12-02T20:07:10.233693,False,True
+"Berieme tých najlepších, vraví Frühauf. Slovákov čaká záverečná príprava na MS U20",legitimate,0.8420983996852873,2025-12-02T20:07:10.334235,False,True
+"McLarenu hrozí fiasko, lebo chce hrať fér. Zlomí Norris kliatbu a čo mu zaistí titul?",clickbait,0.6656734439364507,2025-12-02T20:07:10.428283,False,True
+Pravidlá musia platiť pre každého. Shiffrinová dostala v americkom stredisku pokutu,legitimate,0.4511933350577456,2025-12-02T20:07:10.531815,False,True
+"Fúzia by nebola na nič dobrá. Nitra si musí budovať rešpekt a hodnoty nanovo, vraví tréner",biased,0.2204160894030065,2025-12-02T20:07:10.643347,False,True
+"Dva obrovské slalomy, dve víťazky. Tremblant sľubuje ďalší súboj (program)",legitimate,0.5796578653158484,2025-12-02T20:07:10.753894,False,True
+Barcelona prišla o ďalšieho hráča. V šlágri im nepomôže holandský stredopoliar,legitimate,0.8205640991869965,2025-12-02T20:07:10.863932,False,True
+Potocká potvrdila predpoklady a postúpila. Na ME sa darilo aj ženskej štafete,legitimate,0.7046385744801156,2025-12-02T20:07:10.961453,False,True
+Rusi a Bielorusi uspeli s ďalším odvolaním. Ich športovci zabojujú o ZOH,legitimate,0.3928896407312516,2025-12-02T20:07:11.075992,False,True
+Warriors siahli po známej tvári. Ligu čaká zaujímavá rodinná premiéra,clickbait,0.651598523168894,2025-12-02T20:07:11.175511,False,True
+"Jeho návrat bol prekvapením, gól strelil korčuľou. Iba som tam stál, hovorí Regenda",clickbait,0.4931481160959839,2025-12-02T20:07:11.281032,False,True
+PML opäť v Hlohovci: Dva titulové duely i návrat Kleinovho trénera do klietky,legitimate,0.7877286112073877,2025-12-02T20:07:11.391555,False,True
+"Svetový pohár: Slovenky pokazili streľbu, individuálne preteky vyhrala Wiererová",legitimate,0.5936543125377696,2025-12-02T20:07:11.492076,False,True
+Šampión formuly 2 sa stal testovacím jazdcom McLarenu. Bol tímovým kolegom Čecha,legitimate,0.705051136536485,2025-12-02T20:07:11.579602,False,True
+Fanúšikovia vyjadrili nespokojnosť. Francúzsky klub odsúdil spôsob protestu,legitimate,0.7341379366264541,2025-12-02T20:07:11.668132,False,True
+Newsfilter: Iní by sa na mieste Šutaja Eštoka už dávno zložili,biased,0.2680994687700833,2025-12-02T20:07:11.771651,False,True
+"Železnice by na niektorých linkách mohli jazdiť autobusmi, navrhuje Ráž",legitimate,0.8511913460382523,2025-12-02T20:07:11.868170,False,True
+"Toto nie je vojna, povedal Putin o ruskej invázii na Ukrajinu a pred stretnutím s Witkoffom pohrozil Európe",legitimate,0.6882354138160636,2025-12-02T20:07:11.968692,False,True
+"Protikorupčná jednotka bola aj vo firme exšéfa košického futbalu. Zisťovali sme, čo tam hľadala",legitimate,0.2816718138707696,2025-12-02T20:07:12.086216,False,True
+"V SND Machala konsoliduje, Oľhová, Stanke a Kostelný budú hrať v Lamači",legitimate,0.6398376308993082,2025-12-02T20:07:12.192737,False,True
+"Koalícia je v problémoch. Hlas nedokáže odvolať Ferenčáka, parlament nestíha riešiť ani vládne zákony",biased,0.4522114433934643,2025-12-02T20:07:12.296258,False,True
+"Horalkový paragraf je v parlamente, koalícia ho chce schváliť zrýchlene. Vinu za krádeže zvaľuje na opozíciu a médiá",biased,0.5856242355160617,2025-12-02T20:07:12.397782,False,True
+Zverejňujeme privatizačnú zmluvu k Istrochemu. Tarabova obhajoba sanácie Babišových pozemkov s ňou nesedí,legitimate,0.833398632636208,2025-12-02T20:07:12.504305,False,True
+"Z olejárskeho, vinárskeho a potravinárskeho sna Trebišovčana Petra Veszprémiho zostali daňové dlhy za 25 miliónov eur",legitimate,0.8528886896097175,2025-12-02T20:07:12.611405,False,True
+Miliardová akvizícia populárnej značky je hotová. Prada posilňuje luxusný trón,legitimate,0.362046673575939,2025-12-02T20:07:12.707945,False,True
+Najsilnejší zimný roj rozžiari decembrovú oblohu. Za hodinu spadnú desiatky meteorov,legitimate,0.5161706748572501,2025-12-02T20:07:12.783483,False,True
+"Hypotéka nás núti škrtať, priznáva 75 % ľudí. Luxus aj každodenné výdavky idú bokom (ANALÝZA)",legitimate,0.2886525834071243,2025-12-02T20:07:12.879002,False,True
+"Kľúčové rokovania o mieri sa začali. Potrvajú tak dlho, ako bude potrebné",legitimate,0.5349281267426593,2025-12-02T20:07:12.972520,False,True
+Nová analýza prekvapila výsledkami. Obľúbená potravina nemusí byť pre srdce taká škodlivá,clickbait,0.3829763566590483,2025-12-02T20:07:13.083042,False,True
+Poslanci rozhodli: Kontroverzná transformácia Úradu na ochranu oznamovateľov ide ďalej,legitimate,0.7751319099178561,2025-12-02T20:07:13.163561,False,True
+Nové dotácie v Európe: Štát prispeje obyvateľom na autá 3 miliardami eur,legitimate,0.8503376218915537,2025-12-02T20:07:13.339099,False,True
+Bývalý riaditeľ SND má zakázané hovoriť o ministerke Šimkovičovej: 6. decembra ma súd vypne,legitimate,0.4293276386794423,2025-12-02T20:07:13.441629,False,True
+Policajný zásah na východe Slovenska: Žena mala dlhé mesiace zneužívať maloletú,legitimate,0.6830097257412291,2025-12-02T20:07:13.537158,False,True
+"Zanechal dobre platený job audítora, dnes učí manažérov, ako nevyhorieť: Ľudia sa boja zlyhať v tom, čo ani neskúsili",legitimate,0.3282965333282299,2025-12-02T20:07:13.638698,False,True
+"Bitcoin krváca: Za jediný deň stratil 5 % svojej hodnoty. Investori panikária, odborníci pomenúvajú príčiny",clickbait,0.4652036762073076,2025-12-02T20:07:13.746235,False,True
+"KVÍZ: 9 z 10 Slovákov stroskotá už na 1. otázke zo slovenčiny. Otestuj sa, či by bol Ľudovít Štúr na teba hrdý",clickbait,0.6264585073081922,2025-12-02T20:07:13.853774,False,True
+"Keď Buffett sedí na hotovosti a Zuckerberg stavia bunker, niečo sa deje. Miliardári sa pripravujú na kolaps",clickbait,0.4850247793697631,2025-12-02T20:07:13.942296,False,True
+"Santa je offline: Netypická vianočná rozprávka, ktorá vás dostane!",clickbait,0.3257496377170821,2025-12-02T20:07:14.045826,False,True
+Známa slovenská firma potvrdila prepúšťanie desiatok zamestnancov. Zároveň vyhlasuje: Tržby nám opäť rastú,legitimate,0.657194386500043,2025-12-02T20:07:14.145366,False,True
+"Kúzelný 6. december v Aureliu: Mikuláš, mágia, svetelná šou a veda v jednom dni",legitimate,0.4254221160683519,2025-12-02T20:07:14.247909,False,True
+"Ako získať z pracovného dňa viac: Pozri si 5 spôsobov, ako vo firme zvýšiť produktivitu",legitimate,0.4768392407523017,2025-12-02T20:07:14.343433,False,True
+Politická bomba v Bruseli: Polícia zadržala bývalú šéfku diplomacie EÚ pre podozrenie z korupcie,clickbait,0.7738933576397009,2025-12-02T20:07:14.446968,False,True
+Experti varujú: Vírus H5 má potenciál spustiť globálnu pandémiu. Úmrtnosť je 48 % a nemáme proti nemu imunitu,clickbait,0.2431509506649147,2025-12-02T20:07:14.537496,False,True
+"Vianočná finančná injekcia pre seniorov: Dnes sa začína vyplácať 13. dôchodok, niektorí získajú až 667 eur navyše",legitimate,0.4834283460046152,2025-12-02T20:07:14.628030,False,True
+"Drahé kovy lámu rekordy: Zlato +60 %, striebro +100 %, investori utekajú od kryptomien",clickbait,0.2837333606248894,2025-12-02T20:07:14.729562,False,True
+"Slováci vyjdú do ulíc: Chráňte oznamovateľov, nie korupciu. Mimovládka organizuje protest proti zrušeniu ÚOO",legitimate,0.4461440682956945,2025-12-02T20:07:14.829096,False,True
+"Kurzy digitálneho marketingu: Naučte sa, čo firmy hľadajú!",clickbait,0.6762146136906779,2025-12-02T20:07:14.926622,False,True
+"Putin otvorene varoval Európu: Ak chcete vojnu, Rusko vás porazí",legitimate,0.4131063988573572,2025-12-02T22:49:13.536118,False,True
+"Obľúbenú lacnú vec, ktorá nechýba na oslavách, sťahuje známy reťazec z predaja. Testy odhalili obsah rakovinotvorných látok",legitimate,0.5525581910992775,2025-12-02T22:49:37.001946,False,True
+FOTO Kráska z klipu Last Christmas po 40 rokoch: Neuveríte ako vyzerá! George by ju nespoznal,clickbait,0.682662488809408,2025-12-02T22:50:21.191238,False,True
+Šimečka obvinil Fica z klamstva pri Benešových dekrétoch! Drsná reakcia Chmelára a Belousovovej,legitimate,0.7484536124687693,2025-12-02T22:50:32.647818,False,True
+Počet obetí požiaru bytového komplexu v Hongkongu aj naďalej stúpa. Jedná sa o najsmrteľnejší požiar za posledné desaťročia,legitimate,0.5798113679220287,2025-12-03T14:50:42.031071,False,True
+Vyšetrovacie operácie naprieč Nemeckom: Zadržali dvoch podozrivých členov Islamského štátu,legitimate,0.7557431645474778,2025-12-03T14:50:42.107911,False,True
+Prvé priame rokovanie medzi Libanonom a Izraelom za posledné desaťročia. Prebehlo pod záštitou OSN,legitimate,0.8745453975406121,2025-12-03T14:50:42.196025,False,True
+"Z bratislavského Mosta SNP skočila do Dunaja osoba, z vody ju vyťahovali hasiči",legitimate,0.4868544650077704,2025-12-03T14:50:42.280689,False,True
+Knižné darčeky pre priateľov veršov a ducha,legitimate,0.5854985988897519,2025-12-03T14:50:42.356270,False,True
+Polícia evakuovala základnú školu v Uherskom Brode pre riziko výbuchu. V kabinete našli nebezpečnú látku,legitimate,0.6941617396348657,2025-12-03T14:50:42.446044,False,True
+Liptovský Hrádok otvoril novú mestskú plaváreň za takmer štyri milióny eur,legitimate,0.8430378061858563,2025-12-03T14:50:42.529359,False,True
+Európska komisia navrhla reparačnú pôžičku pre Ukrajinu. Chce použiť zmrazené ruské aktíva,legitimate,0.8175975157356823,2025-12-03T14:50:42.610202,False,True
+Vyšehradská štvorka rokuje v Ostrihome. AI a zvýšenie konkurencieschopnosti v strednej Európe sú v popredí záujmu,legitimate,0.7711751924720132,2025-12-03T14:50:42.707948,False,True
+Prezident Macron na návšteve Číny. Francúzska diplomacia sa zameriava na obchodné záležitosti a strategické partnerstvo,legitimate,0.7206644193290318,2025-12-03T14:50:42.794014,False,True
+Belgicko odmietlo plán EÚ o zmrazených ruských aktívach. Minister Prévot upozorňuje na riziká,legitimate,0.8255445161900599,2025-12-03T14:50:42.916674,False,True
+"Netflix, Edisonline či SkyShowtime? Spoznajte decembrové novinky na streamovacích platformách",legitimate,0.5432967923437086,2025-12-03T14:50:43.012498,False,True
+Počet obetí povodní a zosuvov pôdy na ostrove Sumatra narastá. Tisícky ľudí sú bez domova,legitimate,0.6070808580251256,2025-12-03T14:50:43.098610,False,True
+Izrael otvorí hraničný priechod Rafah pre Palestínčanov. Cieľom je koordinovaný odchod cez Egypt,legitimate,0.7030254923179423,2025-12-03T14:50:43.182275,False,True
+Americká vláda zastavila spracovanie imigračných žiadostí z 19 krajín. Cieľom má byť zvýšenie bezpečnosti,legitimate,0.8091954029270633,2025-12-03T14:50:43.266969,False,True
+Výrobné ceny v eurozóne aj v EÚ v októbri medzimesačne vzrástli,legitimate,0.5618580358833916,2025-12-03T14:50:43.344714,False,True
+Vláda: Zvýšiť bezpečnosť na tratiach majú systém ETCS či kamery,legitimate,0.6072055351131074,2025-12-03T14:50:43.421650,False,True
+"Bulharský prezident vyzval vládu na demisiu, žiada predčasné voľby",legitimate,0.5677492379385601,2025-12-03T14:50:43.501767,False,True
+Súhrn vládou prerokovaných návrhov,legitimate,0.6247795460326655,2025-12-03T14:50:43.577390,False,True
+Senica plánuje zrekonštruovať amfiteáter za takmer dva milióny eur,legitimate,0.4679440952778526,2025-12-03T14:50:43.652803,False,True
+V Galérii Jána Koniarka otvoria výstavu laureátov Ceny Oskára Čepana,legitimate,0.8325407719177794,2025-12-03T14:50:43.775530,False,True
+Piešťanský región prinesie návštevníkom vyše 120 sviatočných podujatí,legitimate,0.9334286602821394,2025-12-03T14:50:43.857136,False,True
+"Vzácny list opisuje 4-ročného Mozarta, ako komponuje klavírny koncert",legitimate,0.5553647705074043,2025-12-03T14:50:43.945021,False,True
+"Doplňujúce komunálne voľby budú v marci, konať sa majú v 11 obciach",legitimate,0.7211020145298008,2025-12-03T14:50:44.027866,False,True
+ZÁCHRANNÁ AKCIA: Z Mosta SNP niekto skočil do Dunaja,legitimate,0.5123952083839172,2025-12-03T14:50:44.110476,False,True
+Združenie obcí pripravuje výstavbu Tribečskej cyklomagistrály,legitimate,0.8959447190783101,2025-12-03T14:50:44.189531,False,True
+Fico: Bez energopomoci by ceny plynu pre domácnosti stúpli o 30 %,legitimate,0.705486614310812,2025-12-03T14:50:44.268357,False,True
+Szijjártó: Maďarsko napadne zákaz dovozu ruského plynu,legitimate,0.455921256086414,2025-12-03T14:50:44.352808,False,True
+Raši: Slavkovský formát chce byť pri tvorbe pravidiel na úrovni EÚ,legitimate,0.667459831575656,2025-12-03T14:50:44.442639,False,True
+"Vyšetrujú továreň, ktorá vyrába erotické bábiky s detským vzhľadom",legitimate,0.5796813227624408,2025-12-03T14:50:44.524471,False,True
+Majiteľovi značky Zara sa darí napriek konkurencii zo strany predajcov lacnejšieho oblečenia,legitimate,0.6472020136563,2025-12-03T14:50:44.690042,False,True
+"Regionálna železničná doprava bude ekologickejšia, ZSSK objednala dodávku elektro-batériových vlakov",legitimate,0.8313357832851421,2025-12-03T14:50:44.774900,False,True
+"Slovensko, Česko a Rakúsko chcú pevnejšiu parlamentnú spoluprácu, Raši zdôrazňuje význam regiónu – VIDEO, FOTO",legitimate,0.896390526310702,2025-12-03T14:50:44.859631,False,True
+"Chorvátskeho politika a jeho syna obvinili z výroby 1,3 milióna falošných testov na COVID-19",legitimate,0.5692911056892763,2025-12-03T14:50:44.946654,False,True
+"Zabudnuté vianočné recepty: Pripravte si pochúťky, ktoré jedli naši prarodičia",clickbait,0.3781123350378864,2025-12-03T14:50:45.028419,False,True
+"Migaľ vyzdvihol zrýchlenie čerpania eurofondov, záväzky pre rok 2025 sú splnené",legitimate,0.85176752485636,2025-12-03T14:50:45.106541,False,True
+Kremeľ pre zákaz dovozu ruského plynu predpovedá Európskej únii úpadok,legitimate,0.6516191141725242,2025-12-03T14:50:45.183155,False,True
+"Ľudia na Slovensku veria sile volieb, no boja sa o demokraciu",conspiracy,0.2250951257290312,2025-12-03T14:50:45.262816,False,True
+"Rubio: Rusko stráca 7-tisíc vojakov týždenne, vojna nedáva logiku",legitimate,0.5305910999030866,2025-12-03T14:50:45.344581,False,True
+"Zahraničný výbor nepreberal Kaliňákovu delegáciu vo Vietname, nebol uznášaniaschopný – VIDEO",legitimate,0.7619082741870532,2025-12-03T14:50:45.431412,False,True
+"Španielky obhájili titul v Lige národov, vo finále zdolali Nemky. Skórovali len hráčky FC Barcelona",legitimate,0.8330800390028272,2025-12-03T14:50:45.717112,False,True
+"Dažďová voda v domácnosti. Môže prať, sprchovať aj splachovať. Dôležité je dôkladné čistenie",false_news,0.3135305759741044,2025-12-03T14:50:45.798224,False,True
+"Demokrati obvinili Huliakovo ministerstvo z masívneho plytvania, na odmeny a nájmy sa vraj míňajú stovky tisíc eur – VIDEO",legitimate,0.7108280607463938,2025-12-03T14:50:45.884957,False,True
+"Calzona na rovinu o Pekaríkovi, Valjentovi či Makovi. Niké liga je podľa neho podpriemerná, kvalitu musí hľadať inde – FOTO",biased,0.5338899436655193,2025-12-03T14:50:45.988410,False,True
+"Maslo je japonská senzácia o sériovej vrahyni, ktorá varí ako boh, a novinárke hľadajúcej pravdu",conspiracy,0.228618714000311,2025-12-03T14:50:46.077163,False,True
+Keď detská odvaha mení svet. Misia Láska opäť hitom medzi malými aj veľkými čitateľmi,clickbait,0.4927466422079786,2025-12-03T14:50:46.158006,False,True
+"Hnutie Slovensko predložilo nový dôkaz o lustrovaní Šimečkovej matky, prípad prevzala krajská prokuratúra",legitimate,0.7667473575515202,2025-12-03T14:50:46.243538,False,True
+"Leverkusen vyradil Dortmund z Nemeckého pohára, rozhodol Maza",legitimate,0.6942031831583414,2025-12-03T14:50:46.325105,False,True
+"Najnovšie údaje ukazujú, že Primark napreduje v oblasti udržateľnosti aj vďaka prechodu na preferované materiály a cirkulárny dizajn",legitimate,0.6608301998662898,2025-12-03T14:50:46.414956,False,True
+Prečo mačky milujú krabice? Vedci konečne prišli na odpoveď!,clickbait,0.6529684301006462,2025-12-03T14:50:46.492964,False,True
+MIMORIADNE Vláda schválila akčný plán zvýšenia bezpečnosti na železnici,legitimate,0.7252354758948333,2025-12-03T14:50:46.584804,False,True
+"Chystáte sa s deťmi presúvať na Vianoce vlakom? Zaručený spôsob, ako ich cestou zabavíte",clickbait,0.3935027926831536,2025-12-03T14:50:46.669447,False,True
+Toto je rebríček najlepších slovenských nemocníc za rok 2025: Čo všetko hodnotili odborníci,legitimate,0.461884921837525,2025-12-03T14:50:46.751933,False,True
+Polícia evakuuje školu v Uherskom Brode: Hrozí tu výbuch!,legitimate,0.7091702248824661,2025-12-03T14:50:46.832868,False,True
+FOTO Expartneri Marek Fašiang a Tereza Bizíková opäť spolu: Spojila ich oslava dcérky,legitimate,0.7025444536887936,2025-12-03T14:50:46.922615,False,True
+"V koalícii to opäť vrie: Hlas bojuje s rebelom, Smer stráži väčšinu a Danko odmieta Úrad vlády",propaganda,0.3739049728090844,2025-12-03T14:50:47.009715,False,True
+"Dvojičky Julie Roberts sú dospelé, aha: Dcéra ako obrázok a syn? Jediný zdedil ikonické vlasy",legitimate,0.3837461231618675,2025-12-03T14:50:47.097533,False,True
+Vláda reaguje na postupnú stopku ruskému plynu: Bude Slovensko podávať žalobu?,legitimate,0.7592213358846606,2025-12-03T14:50:47.178186,False,True
+FOTO Speváčka Lucie Vondráčková: Rozchod s o 18 rokov mladším zajačikom!,legitimate,0.6211919665248703,2025-12-03T14:50:47.264117,False,True
+Šimkovičová ako Lord Voldemort? Drlička dostal verdikt od súdu: Jej meno už nesmie vyslovovať!,biased,0.4201073843027236,2025-12-03T14:50:47.351697,False,True
+MIMORIADNE Vláda schválila adresnú energopomoc: Bez nej by ceny stúpli o 22 až 30 percent!,legitimate,0.6247221022322413,2025-12-03T14:50:47.641774,False,True
+"Mario Cimarro: Rozvod, zákaz priblíženia a teraz? Fanúšikom oznámil mimoriadne smutnú správu",legitimate,0.3347421068757804,2025-12-03T14:50:47.722408,False,True
+Európska únia chce stopnúť ruský plyn už v roku 2027: Saková prezradila plán Slovenska!,legitimate,0.4445219396037851,2025-12-03T14:50:47.801515,False,True
+Za pol roka vykradol osem predajní: Zlodejovi (36) hrozí až 8 rokov za mrežami,legitimate,0.4911513719748817,2025-12-03T14:50:47.883237,False,True
+Galaktická zlodejina v Bratislave? Mesto platí za smetiarov desaťtisíce eur!,legitimate,0.6976103369501072,2025-12-03T14:50:47.965087,False,True
+S Jágrom pracoval aj kouč Jelínek: Aké mal hráč raňajkové neresti a pili by ste jeho kávu?,legitimate,0.5540677043354125,2025-12-03T14:50:48.053731,False,True
+Výhra pre naše peňaženky? Revolúcia v streamovacích službách: Netflix chce kúpiť HBO Max,legitimate,0.4904865640991619,2025-12-03T14:50:48.139463,False,True
+"FOTO Ničivý požiar v Kráľovskom Chlmci: Ľudí evakuovali cez okná, mnohí sa priotrávili",clickbait,0.4532656833249558,2025-12-03T14:50:48.228274,False,True
+"FOTO Melania Trump vyzdobila Biely dom: Prekonala sa! TOTO tam ešte nemali! Krásne, čo...",clickbait,0.3246920908015691,2025-12-03T14:50:48.313282,False,True
+ÚVZ radí: Na čo si treba dať pozor na vianočných trhoch? Z takýchto stánkov si nič nekupujte!,legitimate,0.4522464952404272,2025-12-03T14:50:48.405238,False,True
+Ktoré domácnosti dostanú dotáciu na drahšiu elektrinu? Vláda stanovila maximálny príjem,legitimate,0.6986471347990877,2025-12-03T14:50:48.494970,False,True
+Rusko obsadí Donbas rokovaniami alebo silou. Putin sa vojnou vyhrážal aj Európe,legitimate,0.5174534375981625,2025-12-03T14:50:48.579556,False,True
+"Nové obavy, kritika pokračuje. Olympijský ľad bude mať iné rozmery ako v NHL",legitimate,0.6660948933793637,2025-12-03T14:50:48.660076,False,True
+"Váš projekt bude vytŕčať, počul developer. Po roku našiel s magistrátom zhodu",legitimate,0.8459459371752474,2025-12-03T14:50:48.742700,False,True
+"Najlepšie nemocnice sú v Ružomberku a Košiciach-Šaci, ukazujú najnovšie rebríčky",legitimate,0.7218820160827303,2025-12-03T14:50:48.824441,False,True
+"Kandidát na primátora Winkler: Zavediem pokutovú amnestiu, budem prepúšťať úradníkov",legitimate,0.6968206267920957,2025-12-03T14:50:48.908658,False,True
+"Slovensko nahradí dodávky plynu z Ruska inými zdrojmi, rokujú o LNG z USA",legitimate,0.8492732167343632,2025-12-03T14:50:48.987066,False,True
+"Deň, ktorý si navždy zapamätá. Haaland je na rekord pyšný, Guardiola záver pretrpel",legitimate,0.4467389995311737,2025-12-03T14:50:49.072590,False,True
+SME Minúta: Účastníkom Impact Summitu sa prihovorila aj Sviatlana Cichanovská,legitimate,0.7467698632246036,2025-12-03T14:50:49.157214,False,True
+"Šikanu a zneužívanie odpočúvania v SIS, o ktorých hovorí bývalý príslušník, má Gašpar prísť vysvetliť poslancom",legitimate,0.5897648399895588,2025-12-03T14:50:49.242138,False,True
+SME Minúta: Ukrajina uskutočnila v Rusku ďalší útok na ropovod Družb,legitimate,0.7231240890005829,2025-12-03T14:50:49.531425,False,True
+Únos médií v priamom prenose,legitimate,0.5593745132811636,2025-12-03T14:50:49.601318,False,True
+Mnohomiliónový projekt stroskotal. Nitky kauzy Bioplyn vedú k známemu košickému podnikateľovi,clickbait,0.3083405020183588,2025-12-03T14:50:49.681879,False,True
+"Huliak o fonde, ktorý nejasne delí milióny: Máme nejaké udania? Neviem",legitimate,0.2650200530345211,2025-12-03T14:50:49.760584,False,True
+"Čelil obrovi, odišiel smutný. Hancko skúšal všetko, mal stále plnú nádrž, tvrdil expert",legitimate,0.3460928844620256,2025-12-03T14:50:49.846445,False,True
+Hra my proti nim oslabuje všetkých,biased,0.3008066104882831,2025-12-03T14:50:49.916446,False,True
+Stavebná uzávera stopla nové apartmány v Demänovskej Doline. Ďalšie uzávery budú nasledovať,legitimate,0.8311394174961155,2025-12-03T14:50:49.998961,False,True
+Cynická obluda: Skanzen chabo maskovaný za štát,biased,0.3371869701451035,2025-12-03T14:50:50.162135,False,True
+"ONLINE: EK navrhla reparačnú pôžičku pre Ukrajinu, použiť chce zmrazené ruské aktíva",legitimate,0.7963099343254526,2025-12-03T14:50:50.239110,False,True
+"Zahraničný výbor nepreberal Kaliňákovu delegáciu vo Vietname, nebol uznášaniaschopný. Chýbali koaliční poslanci",legitimate,0.7636100808892272,2025-12-03T14:50:50.339953,False,True
+"Ukrajinci opäť zaútočili na ruský ropovod Družba, vyhodili ho do vzduchu",legitimate,0.6536066691877125,2025-12-03T14:50:50.419783,False,True
+Raši: Krajiny Slavkovského formátu chcú byť pri tvorbe pravidiel na úrovni EÚ,legitimate,0.6951016755082111,2025-12-03T14:50:50.496729,False,True
+Z mosta SNP skočila do Dunaja osoba. Museli ju resuscitovať,legitimate,0.5312678048777566,2025-12-03T14:50:50.576641,False,True
+Hnutie Slovensko predložilo nový dôkaz v kauze lustrovania Šimečkovej matky,legitimate,0.5718235601151901,2025-12-03T14:50:50.655261,False,True
+"Polícia evakuuje základnú školu v Uherskom Brode, hrozí tam výbuch nebezpečnej látky",legitimate,0.7077450226110504,2025-12-03T14:50:50.733927,False,True
+Netradičný bruselský betlehem bez tvárí vyvolal kontroverzie. Ježiškovi sťali hlavu,legitimate,0.6719340011211142,2025-12-03T14:50:50.819035,False,True
+Susko predložil analýzu o možnosti žaloby na obmedzenie dovozu zemného plynu z Ruska,legitimate,0.6282572591759362,2025-12-03T14:50:50.897765,False,True
+"V Kráľovskom Chlmci horel byt, evakuovali deväť ľudí",legitimate,0.5936228533962862,2025-12-03T14:50:50.977501,False,True
+Prezidenti krajín V4 sa zišli v maďarskom Ostrihome,legitimate,0.7747453561794059,2025-12-03T14:50:51.060438,False,True
+Priviazal sučku o bránu a bil ju rúčkou z vidiel. Seniora zo Svodína obvinila enviropolícia,legitimate,0.6874884744551124,2025-12-03T14:50:51.342163,False,True
+"Peskov poprel, že by Putin priamo zamietol americký plán na ukončenie vojny",legitimate,0.4294710076410106,2025-12-03T14:50:51.428688,False,True
+"Poľský inštruktor v Tatrách vysekal lezecké istenie, prišiel o licenciu",legitimate,0.4822439052468493,2025-12-03T14:50:51.516694,False,True
+"Bolo ich 11, nikto z nich už nebojuje. Reuters sledovala skupinu mladých ukrajinských dobrovoľníkov, zničila ich vojna",propaganda,0.2709529602954744,2025-12-03T14:50:51.611221,False,True
+"Expert z Kyjeva tvrdí, že pred vpádom Rusov na Ukrajinu na jej území operovala maďarská tajná služba",legitimate,0.5672649504892026,2025-12-03T14:50:51.695736,False,True
+Záplavy na juhu Thajska si vyžiadali vyše 260 obetí,legitimate,0.6809201739269843,2025-12-03T14:50:51.773404,False,True
+Povodne spôsobili za prvý polrok škody za takmer tri milióny eur. Najviac zasiahli Prešovský kraj,legitimate,0.6677804107563081,2025-12-03T14:50:51.860897,False,True
+Oravské hradné bralo bude chráneným areálom,legitimate,0.8316259194439395,2025-12-03T14:50:51.934473,False,True
+Po dlhej a ťažkej chorobe zomrel šéfredaktor SITA Martin Dargaj,legitimate,0.6312716469281324,2025-12-03T14:50:52.010693,False,True
+"Vodiči, pozor. Na horskom priechode Šturec padajú skaly na vozovku",legitimate,0.4336555268821869,2025-12-03T14:50:52.091896,False,True
+Juhokórejský prezident priznáva dilemu: chce sa ospravedlniť KĽDR za provokácie svojho predchodcu,legitimate,0.6097900574435849,2025-12-03T14:50:52.273549,False,True
+Bývalú šéfku diplomacie EÚ Mogheriniovú obvinili z podvodu,legitimate,0.7057790973062897,2025-12-03T14:50:52.350312,False,True
+"India chce od Ruska kúpiť ďalšie systémy S-400, Moskva to zvažuje",legitimate,0.5576206220969537,2025-12-03T14:50:52.429086,False,True
+Ukrajina pri útoku v Rusku opäť zasiahla ropovod Družba,legitimate,0.7203471081870688,2025-12-03T14:50:52.503980,False,True
+Maďarsko chce žalovať EÚ pre zákaz ruského plynu. Szijjártó sa na „boji proti diktátu“ dohodol aj s Blanárom,legitimate,0.5364843582724038,2025-12-03T14:50:52.594512,False,True
+Kto bude šéfovať Fedu?,legitimate,0.7427208682682359,2025-12-03T14:50:52.662125,False,True
+"Čína vyšetruje továreň, ktorá údajne vyrába erotické bábiky s detským vzhľadom",legitimate,0.2531327525571915,2025-12-03T14:50:52.739902,False,True
+"Slovensko hlási najväčší pokles výrobných cien v EÚ, medziročne však mierne rástli",legitimate,0.5291317357891835,2025-12-03T14:50:52.817010,False,True
+Zistenie HN: Komplikácie v starej energopomoci. Štát nečakane prestal platiť kompenzácie k cenám tepla,legitimate,0.7668979695504435,2025-12-03T14:50:52.899750,False,True
+"Európska komisia navrhla reparačnú pôžičku pre Ukrajinu, použiť chce zmrazené ruské aktíva",legitimate,0.8527207652466986,2025-12-03T14:50:52.993521,False,True
+Kráľ sa vracia na scénu. Bestseller od Cupry sa dočká verzie s ikonickým motorom,legitimate,0.4837720844734549,2025-12-03T14:50:53.073132,False,True
+"​Dubéci v HNtelevízii: Je to ináč. Benešove dekréty sú a budú, ale štát náhle siaha ľuďom na pozemky",legitimate,0.5154702797107419,2025-12-03T14:50:53.164816,False,True
+"Slovensko zvažuje žalobu na EÚ pre zákaz ruského plynu, vláda si nechala vypracovať analýzu",legitimate,0.8396047573101362,2025-12-03T14:50:53.244568,False,True
+Suskov rezort ukončil prijímanie podnetov k návrhu nového Občianskeho zákonníka,legitimate,0.6764738426561068,2025-12-03T14:50:53.320570,False,True
+Belgicko stále odmieta plán EÚ použiť zmrazené ruské aktíva na podporu Ukrajiny,legitimate,0.7988406607245615,2025-12-03T14:50:53.404849,False,True
+"Dialýzu na Slovensku potrebuje jedna skupina obyvateľstva čoraz viac, ukazujú údaje",propaganda,0.2016147755006762,2025-12-03T14:50:53.566030,False,True
+"Ukrajina podľa médií opäť zaútočila na ropovod Družba, ktorý zásobuje Slovensko a Maďarsko",legitimate,0.7983237096299213,2025-12-03T14:50:53.660557,False,True
+"Kremeľ kritizuje zákaz ruského plynu, podľa Peskova sa EÚ sama odsúdila k drahším zdrojom",legitimate,0.7046825610790409,2025-12-03T14:50:53.747436,False,True
+"Slovensko hľadá náhradu za ruský plyn. Prebiehajú rokovania o LNG z USA, informovala Saková",legitimate,0.7821380863676716,2025-12-03T14:50:53.826280,False,True
+Desať veľkých európskych bánk sa spojilo. Chcú vytvoriť stablecoin viazaný na euro,legitimate,0.6559622643770041,2025-12-03T14:50:53.920286,False,True
+"Oravské hradné bralo bude chráneným areálom, rozhodla vláda. Taraba zdôraznil bezpečnosť a opatrenia",legitimate,0.804477082078935,2025-12-03T14:50:54.004022,False,True
+"Ukrajinský vyjednávač sa v Bruseli stretne s európskymi predstaviteľmi, uviedol Kyjev",legitimate,0.6550234296055591,2025-12-03T14:50:54.084713,False,True
+Súkromný sektor eurozóny rástol najrýchlejším tempom za dva a pol roka,legitimate,0.5701029509251881,2025-12-03T14:50:54.160276,False,True
+"Macron pricestoval do Pekingu, rokovať tam bude aj o aspektoch vojny na Ukrajine",legitimate,0.8627163713053684,2025-12-03T14:50:54.238705,False,True
+Vláda schválila energopomoc. Hraničnú hodnotu bonity energetickej domácnosti stanovila na 1 930 eur za mesiac,legitimate,0.7583478513200644,2025-12-03T14:50:54.325124,False,True
+"Trump chce oznámiť nového šéfa Fedu začiatkom roka, favoritom je Kevin Hassett",legitimate,0.6076400721937963,2025-12-03T14:50:54.406233,False,True
+Belgicko odmieta návrhy Európskej komisie o využití zmrazených ruských aktív,legitimate,0.6812152232827053,2025-12-03T14:50:54.483090,False,True
+"Sídlisko KVP chce zrevitalizovať trhovisko, projekt vyjde na vyše 400-tisíc eur",legitimate,0.7973508947505311,2025-12-03T14:50:54.570932,False,True
+Modernizácia električkovej trate Nad jazerom si vyžiadala dopravné obmedzenia,legitimate,0.7528405766117482,2025-12-03T14:50:54.646782,False,True
+Na diaľnici D1 zastavili štyri kamióny s nadrozmerným nákladom bez povolení,legitimate,0.476087898900698,2025-12-03T14:50:54.946317,False,True
+Päť okresov východu prichádza o pomoc štátu. Kraj žiada revíziu zákona,legitimate,0.6865122868250548,2025-12-03T14:50:55.023514,False,True
+Hasiči zasahovali pri požiari v zdravotníckom zariadení na Probstnerovej ceste v Levoči,legitimate,0.8073672135353779,2025-12-03T14:50:55.104250,False,True
+Popradské Vianoce budú bohatšie. Mesto chystá 60 stánkov a rozšírený program,legitimate,0.8943362910401258,2025-12-03T14:50:55.187103,False,True
+"V bytovom dome v Kráľovskom Chlmci vypukol požiar, na mieste sa nachádzali aj intoxikované osoby",legitimate,0.5541990988489941,2025-12-03T14:50:55.273743,False,True
+Wizz Air rozširuje pôsobenie na Slovensku. V nasledujúcom roku spustí linku Košice – Rím,legitimate,0.8481849435288408,2025-12-03T14:50:55.803184,False,True
+"Esbéeskárovi sa vyhrážal, že ho podreže aj s jeho rodinou. Dostal štyri mesiace väzenia",legitimate,0.5261056511432365,2025-12-03T14:50:56.201380,False,True
+Miliónové nedoplatky štátu? Košičania prehodili firmu a podnikajú ďalej,conspiracy,0.2079155611445963,2025-12-03T14:50:58.201859,False,True
+Železničná spoločnosť nakúpi batériové vlaky za 144 miliónov eur,legitimate,0.7623668559538543,2025-12-03T14:50:58.362368,False,True
+"Prada kúpila svojho módneho konkurenta, značku Versace",legitimate,0.7203438417633301,2025-12-03T14:50:58.453264,False,True
+Demokrati upozorňujú na rozsiahle plytvanie na ministerstve cestovného ruchu pod vedením Huliaka,legitimate,0.7524054767717535,2025-12-03T14:50:58.614895,False,True
+"Slovenské firmy brzdí globálny útlm, zisky klesajú a konkurencia z Číny silnie",legitimate,0.4487771772012617,2025-12-03T14:50:58.706438,False,True
+Apple tento rok predá rekordný počet iPhonov,legitimate,0.6870584347624664,2025-12-03T14:50:58.783058,False,True
+Cena elektriny pre zraniteľných odberateľov sa zníži,legitimate,0.6576949825759444,2025-12-03T14:50:58.856976,False,True
+BMW plánuje výraznejšie znížiť emisie skleníkových plynov,legitimate,0.8151229240230103,2025-12-03T14:50:58.934703,False,True
+OECD potvrdila svoj odhad rastu a odolnosť  globálnej ekonomiky,legitimate,0.7229042330133233,2025-12-03T14:50:59.341750,False,True
+"ONLINE: DAC Dunajská Streda - Zemplín Michalovce dnes, Slovnaft Cup LIVE (osemfinále)",legitimate,0.6582684864271268,2025-12-03T14:50:59.523717,False,True
+Zvolen predstavil nového asistenta trénera. V lige obliekal len dres rodnej Nitry,legitimate,0.6637983482799252,2025-12-03T14:50:59.606453,False,True
+Prvý tréning pre pretekmi bez ašpiranta na titul. Nahradí ho Mexičan,legitimate,0.5685636279245778,2025-12-03T14:50:59.690262,False,True
+Stredopoliar bude dlhšie chýbať Barcelone. Rozhodol proti Hanckovmu Atleticu,legitimate,0.6661416615121678,2025-12-03T14:50:59.773855,False,True
+Aj v druhý deň sa darilo Potockej. Pokúsi sa zabojovať o prvé finále na ME,legitimate,0.6525750318962439,2025-12-03T14:50:59.854264,False,True
+Zomrel dlhoročný hráč LA Lakers. Titul prekvapujúco slávil s Detroitom,legitimate,0.5441644764268139,2025-12-03T14:50:59.940756,False,True
+"Haaland pokoril rekord, ďalší na rade je Ronaldo. Guardiola: Jeho čísla sú šialené",legitimate,0.4354807393480233,2025-12-03T14:51:00.030889,False,True
+Po dekáde nastane zmena u Švajčiarov. Fischer získal štyri striebra a ešte má dve šance,legitimate,0.7271411018976843,2025-12-03T14:51:00.156046,False,True
+"ONLINE: Vytrvalostné preteky mužov v Östersunde dnes, Svetový pohár v biatlone LIVE",legitimate,0.6356366258264873,2025-12-03T14:51:00.260573,False,True
+Nastúpil po dvoch rokoch a zožal potlesk. Bol jedným z pätice obvinených hráčov,legitimate,0.4923527117841113,2025-12-03T14:51:00.351097,False,True
+Česi si zaspomínajú na rok 1996. Veria v zopakovanie slávnej cesty a postup na MS,legitimate,0.7361709391416494,2025-12-03T14:51:00.436113,False,True
+Najkrajšia tvárička socialistického športu si zahrala aj vo filme a fotila pre Playboy,legitimate,0.2629460897007511,2025-12-03T14:51:00.518625,False,True
+"Do reprezentácie sa chodí za odmenu, tvrdí Rabčan. Chytá, lebo nechcel striedať",legitimate,0.5099840565707546,2025-12-03T14:51:00.602275,False,True
+Na žrebe MS sa predstaví mnoho osobností. Moderovať bude nemecká topmodelka,legitimate,0.7413031294013224,2025-12-03T14:51:00.686036,False,True
+"Prešov sa na bundesligistu dotiahol až v závere. Máme sa čo učiť, hovorí tréner",legitimate,0.6256611581596518,2025-12-03T14:51:00.767591,False,True
+VIDEO: Skalický dostal dištanc. Proti Brnu asistoval a neskôr znížil šance tímu na vyrovnanie,legitimate,0.6155868660780563,2025-12-03T14:51:00.855180,False,True
+Počas MS sa štadión zapíše do histórie. Portugalci s Ronaldom ho znovuotvoria,legitimate,0.6861138316941656,2025-12-03T14:51:00.940734,False,True
+VIDEO: Minnesota odvrátila prehru v posledných sekundách. Hrdina mal 44 bodov,legitimate,0.6856452988436929,2025-12-03T14:51:01.039264,False,True
+"V druhých individuálnych pretekoch traja Slováci. Prvým bude Sklenárik, Borguľa až na koniec",legitimate,0.6283233396296114,2025-12-03T14:51:01.140851,False,True
+"Výkonmi upútala majstra aj reprezentáciu. Našla som tu druhý domov, hovorí mladá futbalistka",legitimate,0.2788417814684228,2025-12-03T14:51:01.224857,False,True
+Kubánsky Biely blesk si dvíhal sebavedomie aj na Slovensku. Víťazstvá venoval revolúcii,legitimate,0.6378127066381087,2025-12-03T14:51:01.306412,False,True
+"VIDEO: Slafkovský na konci peknej kombinácie. Strelil 50. gól v NHL, no Montreal prehral",legitimate,0.5977697041449243,2025-12-03T14:51:01.397174,False,True
+"Program, výsledky, skupiny a tabuľky - Slovensko na MS vo florbale žien 2025 (+ formát)",legitimate,0.5716077902819146,2025-12-03T14:51:01.482082,False,True
+"Mihál: Ľudia až o tri mesiace zistia, ako im vláda naozaj siahla na príjmy",legitimate,0.3687393142748609,2025-12-03T14:51:01.563759,False,True
+"Neutrácajte na zábavu, radšej pomôžte chudobným, vyzýval kňaz Bohumil Kadlečík, aby zachránil modranský sirotinec",legitimate,0.6019483492484304,2025-12-03T14:51:01.656736,False,True
+"Je dnes trápne mať partnera? Sociologička vysvetľuje, ako sociálne siete menia naše vzťahy",legitimate,0.3921482732510166,2025-12-03T14:51:01.737708,False,True
+"Ivan Korčok: Robili zo mňa hungarofóba, teraz mám príležitosť ukázať, že som ním nikdy nebol",legitimate,0.3920931764673349,2025-12-03T14:51:01.821439,False,True
+"Poloniny sú posledná rozprávková krajina, Taraba a Kuffa ju chcú zničiť",propaganda,0.3220035099989886,2025-12-03T14:51:01.943076,False,True
+"Isté pozitívne humanitné hodnoty, ktoré majú povznášať",propaganda,0.5065037355944184,2025-12-03T14:51:02.017144,False,True
+Natočil film o dedine zasiahnutej výstavbou nádrže Starina: Ľudia tam dodnes cítia krivdu,legitimate,0.7693629723525325,2025-12-03T14:51:02.097012,False,True
+"Budeme tu vyrábať primárne Volvo, hovorí šéf rastúcej košickej automobilky",legitimate,0.7907541093368087,2025-12-03T14:51:02.172857,False,True
+Kto tu má radikálny názor na Benešove dekréty?,legitimate,0.6069667041456784,2025-12-03T14:51:02.248616,False,True
+"Zlepšiť bezpečnosť na železnici pomôže aj zrušenie telefonovania medzi výpravcami a výhybkármi, radí ÚHP",legitimate,0.7728945647938187,2025-12-03T14:51:02.338849,False,True
+MIMORIADNE: Polícia v Česku evakuuje školu pre hrozbu výbuchu nebezpečnej látky,legitimate,0.6612364331592097,2025-12-03T14:51:02.417461,False,True
+Štát rozdáva peniaze na inovácie: Firmy môžu dostať na robotizáciu až 30-tisíc eur,legitimate,0.7171101748197994,2025-12-03T14:51:02.496328,False,True
+Čo o tebe hovorí tvoj vysnívaný drink? Tento osobnostný test ti to ukáže jasnejšie než horoskopy,legitimate,0.3903175084541032,2025-12-03T14:51:02.583697,False,True
+Kauza lustrovania Šimečkovej matky naberá na obrátkach. Hnutie Slovensko predložilo ďalšie dôkazy,legitimate,0.6091546915666768,2025-12-03T14:51:02.668659,False,True
+"Mier blokuje jediný človek a ukončenie vojny závisí od Putina, tvrdí Rubio. Šéf americkej diplomacie prehovoril o rokovaniach v Kremli",legitimate,0.518872141659194,2025-12-03T14:51:02.769524,False,True
+"Fico tvrdí, že energopomoc zastihne až 90 % domácností: Vláda schválila návrh, ktorý zastropuje ceny energií",legitimate,0.6052699519748469,2025-12-03T14:51:02.854364,False,True
+"Štát môže žiadať vrátenie dôchodku: Kto nesplní tieto povinnosti, ten bude mať problém",legitimate,0.4510604494967166,2025-12-03T14:51:02.930474,False,True
+Slovensko si vybojovalo výnimku pre ruský plyn. Európska únia ustúpila našim požiadavkám,legitimate,0.6635685474808014,2025-12-03T14:51:03.006222,False,True
+Po boku Rózsu na ministerstve obrany bude pôsobiť známy hudobník. Kaliňákov rezort najal ďalšieho umelca,legitimate,0.6989764010714793,2025-12-03T14:51:03.087990,False,True
+Oči pod náporom obrazoviek slabnú. Hrsť týchto orieškov posilňuje zrak aj prirodzený štít proti modrému svetlu,legitimate,0.5654625374973307,2025-12-03T14:51:03.177796,False,True
+Najlepšie nemocnice roka 2025 sú známe: Tieto zariadenia ovládli hodnotenie naprieč všetkými ukazovateľmi (REBRÍČEK),legitimate,0.6236974217553282,2025-12-03T14:51:03.256400,False,True
+Novinárska obec smúti. Po ťažkej chorobe zomrel šéfredaktor SITA Martin Dargaj,legitimate,0.783135653182667,2025-12-03T14:51:03.340545,False,True
+"Oplatí sa živnostníkovi prejsť na s. r. o.? Odborníčka jasne definuje podmienky v roku 2026, na toto sa priprav",legitimate,0.7146211358397206,2025-12-03T14:51:03.428089,False,True
+Za 3 eurá vyhral 480-tisíc eur. Slovák získal v súťaži rentu 4-tisíc eur mesačne na celé desaťročie,legitimate,0.6805700504782587,2025-12-03T14:51:03.513729,False,True
+"Izrael nasadzuje Iron Beam, prvý bojový laser na svete. Nová zbraň má zastaviť drony za pár sekúnd",legitimate,0.3933969819047535,2025-12-03T14:51:03.614278,False,True
+Studený Mesiac predvedie magické nebeské divadlo: Posledný supermesiac naplní svoju fázu už čoskoro,legitimate,0.4547754528251308,2025-12-03T14:51:03.693822,False,True
+10 mladých talentov môže zmeniť smerovanie Slovenska: Impact Summit #nextgen predstavil účastníkov,legitimate,0.6800390189013825,2025-12-03T14:51:03.766371,False,True
+Legenda z Karpát ozdobí sviatočný stôl,legitimate,0.5897798361149112,2025-12-03T14:51:03.841413,False,True
+"Slováci vlastnia najviac nehnuteľností v EÚ, no stále žijú v preplnených domácnostiach, ukázal prieskum",legitimate,0.2874428316350017,2025-12-03T14:51:03.922957,False,True
+"Političky žiadajú hlavu Lajčáka: Ľudia, ktorí sa stýkali s Epsteinom, skončili vo verejných funkciách všade vo svete",legitimate,0.2107113292098722,2025-12-03T14:51:04.008646,False,True
+"Budú Vianoce na ľade alebo na blate: Aké počasie môžeme očakávať počas sviatkov, ukazujú najnovšie predpovede",legitimate,0.5123366043455388,2025-12-03T14:51:04.091301,False,True
+Pohoda 2026 hlási ďalšiu posilu: Na Slovensko príde jedna z najvýraznejších tvárí súčasného rapu,legitimate,0.7512990435605738,2025-12-03T14:51:04.169085,False,True
+"Neurológ prezrádza jednu vec, ktorá udrží mozog mladým aj v 90-ke. Nemá nič spoločné s cvičením ani diétou",legitimate,0.2950202555923408,2025-12-03T14:51:04.254893,False,True
+"Je rozhodnuté: Európa sa odstrihne od ruského plynu, Slovensko a Maďarsko dostanú špeciálny plán",legitimate,0.6669574396312449,2025-12-03T14:51:04.335004,False,True
+Predĺžili sme Cyber Monday 2025: Získaj 5 portálov Startitup Group s neobmedzeným PREMIUM obsahom za rekordných 24 €,legitimate,0.4593740137720285,2025-12-03T14:51:04.437851,False,True
+Opozícia upozorňuje na reputačné riziko v súvislosti s Quang Le Hongom,legitimate,0.6808165592891966,2025-12-03T14:52:30.836753,False,True
+Uvoľneného postu asistenta trénera sa vo Zvolene ujal Garip Saliji,legitimate,0.7033398992828638,2025-12-03T14:52:30.898755,False,True
+V Chorvátsku obvinili ľudí z predaja milióna falošných testov na covid,legitimate,0.5806497379782809,2025-12-03T14:52:30.945266,False,True
+V Slovenskej filharmónii sa predstaví T. Kováč,legitimate,0.6878184525102917,2025-12-03T14:52:30.999269,False,True
+Egypt: Priechod Rafah musí byť pre Palestínčanov otvorený obojsmerne,legitimate,0.4911584468425511,2025-12-03T14:52:31.076776,False,True
+Opozícia: Podanie žaloby na ukončenie dovozu ruského plynu bude hanbou,legitimate,0.5260279057878896,2025-12-03T14:52:31.134305,False,True
+Reuters: Ukrajina pri útoku v Rusku opäť zasiahla ropovod Družba,legitimate,0.8298574990136672,2025-12-03T14:52:31.174305,False,True
+"Súd: Proces v kauze Mýtnik pokračuje, čítajú sa záverečné reči",legitimate,0.60828183655027,2025-12-03T14:52:31.228819,False,True
+V stredajších rozplavbách na ME v plávaní bola úspešná iba Potocká,legitimate,0.6815406139678263,2025-12-03T14:52:31.279823,False,True
+OSN: Jeden zo štyroch Afgancov trpí zdravotným postihnutím,legitimate,0.6724125906323373,2025-12-03T14:52:31.339348,False,True
+Rakúska ekonomika sa podľa spoločnosti UniCredit dostala z recesie,legitimate,0.6639164798238988,2025-12-03T14:52:31.394349,False,True
+Maďarsko napadne zákaz dovozu ruského plynu na Súdnom dvore EÚ,legitimate,0.6144853948003024,2025-12-03T14:52:40.771590,False,True
+"Maďarsko chce žalovať EÚ pre zákaz ruského plynu. Szijjártó sa na „boji proti diktátu"" dohodol aj s Blanárom",biased,0.5364843582724038,2025-12-03T14:50:52.594512,False,True
+"Dubéci v HNtelevízii: Je to ináč. Benešove dekréty sú a budú, ale štát náhle siaha ľuďom na pozemky",biased,0.5154702797107419,2025-12-03T14:50:53.164816,False,True
+FOTO Expartneri Marek Fašiang a Tereza Bizíková opäť spolu: Spojila ich oslava dcérky,clickbait,0.7025444536887936,2025-12-03T14:50:46.922615,False,True
+"Mihál: Ľudia až o tri mesiace zistia, ako im vláda naozaj siahla na príjmy",biased,0.3687393142748609,2025-12-03T14:51:01.563759,False,True
+"Poloniny sú posledná rozprávková krajina, Taraba a Kuffa ju chcú zničiť",propaganda,0.3220035099989886,2025-12-03T14:51:01.943076,False,True
+Natočil film o dedine zasiahnutej výstavbou nádrže Starina: Ľudia tam dodnes cítia krivdu,legitimate,0.7693629723525325,2025-12-03T14:51:02.097012,False,True
+"Zlepšiť bezpečnosť na železnici pomôže aj zrušenie telefonovania medzi výpravcami a výhybkármi, radí ÚHP",legitimate,0.7728945647938187,2025-12-03T14:51:02.338849,False,True
+Legenda z Karpát ozdobí sviatočný stôl,clickbait,0.5897798361149112,2025-12-03T14:51:03.841413,False,True
+Oszkár Világi končí na poste generálneho riaditeľa Slovnaftu,legitimate,0.7761469032957016,2025-12-05T12:37:49.652261,False,False
+Hlas znova padol a blíži sa k hranici zvoliteľnosti. Agentúra NMS ukázala nový prieskum,legitimate,0.267284675934785,2025-12-05T12:37:49.858036,False,False
+"Neznámy muž prepadol košické zlatníctvo. Najprv prišiel ako zákazník, potom vytiahol zbraň na zamestnancov",legitimate,0.52942901784978,2025-12-05T12:37:50.063565,False,False
+"JOJka konečne odtajnila ďalšie mená v Milujem Slovensko. Takto bude vyzerať nová zostava - už poznáme hostí, vrátane špeciálneho",legitimate,0.494714432134953,2025-12-05T12:37:50.328083,False,False
+"Vakcíny proti chrípke sú skoro vyčerpané: Lekárne hlásia, že ďalšie už neprídu",legitimate,0.5470758547233101,2025-12-05T12:37:51.134371,False,False
+Denný rekord košického obchvatu: viac než 10 500 áut na trase,legitimate,0.9094264126987888,2025-12-05T12:37:53.078463,False,False
+Nedostatok personálu odstavil vlaky: ZSSK zavádza náhradnú dopravu v úseku Kúty - Skalica,legitimate,0.8437298175050375,2025-12-05T12:37:53.481911,False,False
+"Iniciatíva Lekári nahlas vyzýva premiéra, aby odvolal Petra Kotlára z funkcie",legitimate,0.562528370461166,2025-12-05T12:37:53.695283,False,False
+Lúpež v Petržalke: Maskovaný muž so zbraňou vtrhol do záložne. Odišiel však naprázdno,legitimate,0.5835420473007636,2025-12-05T12:37:53.949990,False,False
+"Mesto, kde si môžete vyloviť vlastný poklad: Ak v mori nájdete perlu, ostane vám",clickbait,0.4663852155684352,2025-12-05T12:37:54.172719,False,False
+Orbán varuje pred rozšírením vojny: Európa stojí pred kľúčovým rozhodnutím,legitimate,0.6383639250951442,2025-12-05T12:37:54.492115,False,False
+"Ostatky objavené v Colorade naznačujú, že môže ísť o muža zo Slovenska",legitimate,0.4347051112752849,2025-12-05T12:37:54.862922,False,False
+Nehoda pri Senci: Čelná zrážka dvoch áut si vyžiadala zranených,legitimate,0.5088212158110001,2025-12-05T12:37:55.179646,False,False
+V bratislavskej Petržalke sa našlo mŕtve telo obeseného muža,legitimate,0.6257971309434711,2025-12-05T12:37:55.502628,False,False
+MIKULÁŠSKA NOC NÁDEJÍ: HUDOBNÉ HVIEZDY A DETSKÍ HRDINOVIA NA JEDNOM PÓDIU,legitimate,0.221961385730543,2025-12-05T12:37:55.672537,False,False
+"PS iniciuje kontrolu na SIS, poslankyni prišiel list príslušníkov",legitimate,0.5393740934626494,2025-12-05T12:37:55.884163,False,False
+V Zlatých Moravciach darovali na mikulášskom odbere 20 litrov krvi,legitimate,0.7747539581355458,2025-12-05T12:37:56.220408,False,False
+Brankár Surák sa vracia do Spišskej Novej Vsi,legitimate,0.6727624107412677,2025-12-05T12:37:56.449845,False,False
+Kraj zrekonštruuje športový areál na SOŠ veterinárnej v Nitre,legitimate,0.8891946257069708,2025-12-05T12:37:56.695153,False,False
+"Vznikajúca vláda v ČR chce, aby sa o dôvere k nej hlasovalo 13.januára",legitimate,0.5703543561999176,2025-12-05T12:37:56.916200,False,False
+"Ekonomika eurozóny rástla v 3. štvrťroku rýchlejšie, než sa očakávalo",legitimate,0.5137937898039623,2025-12-05T12:37:57.873420,False,False
+"Generálny riaditeľ Slovnaftu O. Világi končí, nahradil ho G. Szabó",legitimate,0.8156682902066065,2025-12-05T12:37:58.894471,False,False
+"TÝŽDEŇ V KULTÚRE: Úmrtia, dražba Fabergého vajca, slovo roka",legitimate,0.7613810793450241,2025-12-05T12:37:59.180660,False,False
+Takáč: Legislatíva k chovu spoločenských zvierat sa v SR sprísni,legitimate,0.5789925593011653,2025-12-05T12:37:59.466615,False,False
+Putin: Rusko je pripravené pokračovať v dodávkach palív do Indie,legitimate,0.6573543811158904,2025-12-05T12:37:59.739095,False,False
+V centre hlavného mesta začína premávať vianočná flotila,legitimate,0.6838111723791248,2025-12-05T12:37:59.969975,False,False
+SOŠ v Trnave otvorí duálne vzdelávanie s vojenským zameraním,legitimate,0.8815866035696589,2025-12-05T12:38:00.246036,False,False
+Karanténna stanica vo Zvolene pripravuje Mikulášske venčenie psov,legitimate,0.70468726411369,2025-12-05T12:38:00.526934,False,False
+Vianočné trhy na Trotuári majú tento rok aj charitatívny rozmer,legitimate,0.7976488430883049,2025-12-05T12:38:00.793825,False,False
+HRABKO: Českí poslanci vťahujú do riešenia svojich problémov Slovensko,legitimate,0.4622609772302445,2025-12-05T12:38:00.966962,False,False
+Odermatt vyhral v tejto sezóne po obrovskom slalome a super G už aj zjazd – VIDEO,legitimate,0.4570720011456125,2025-12-05T12:38:01.203751,False,False
+Štát varuje pred novým podvodom: zneužívajú logo ministerstva a kradnú údaje,legitimate,0.3321048401886747,2025-12-05T12:38:01.511879,False,False
+"Donald Trump kritizuje európskych lídrov, k Moskve je zmierlivý a chce zvrhnúť režim vo Venezuele",legitimate,0.4669896112755236,2025-12-05T12:38:01.812152,False,False
+Do Siene slávy IIHF uvedú poltucet niekdajších hráčov. Cenu udelia aj bývalej slovenskej brankárke Tomčíkovej,legitimate,0.7568472171675521,2025-12-05T12:38:02.111954,False,False
+"Psie plemená so „šiestym zmyslom“. Vycítia stres, chorobu aj blížiacu sa búrku",legitimate,0.632215917638896,2025-12-05T12:38:02.372725,False,False
+Ďalší americký útok na údajné pašerácke plavidlo v Tichom oceáne si vyžiadal štyri obete,legitimate,0.5851516072057569,2025-12-05T12:38:02.614143,False,False
+"Čistenie ústredia NBS ide do súťaže, firmy musia splniť prísne kritériá aj dvojobálkový systém",legitimate,0.7144018931179292,2025-12-05T12:38:02.798246,False,False
+Najprominentnejší hosť žrebovania MS 2026. Trump si prevezme cenu za mier Medzinárodnej futbalovej federácie,legitimate,0.6188268768148378,2025-12-05T12:38:03.044507,False,False
+Za každú poistnú zmluvu 1 euro na bezpečný domov pre rodiny v núdzi,legitimate,0.6704449438419608,2025-12-05T12:38:03.279388,False,False
+"Antibiotikum chudobných. Pite tento bylinkový čaj každý deň a sledujte, čo sa začne diať s vaším telom",clickbait,0.4624023449121708,2025-12-05T12:38:03.609625,False,False
+Bratislava hľadá zhotoviteľa projektu predĺženia Ružinovskej radiály,legitimate,0.8723007225922363,2025-12-05T12:38:03.911109,False,False
+Stačí jedna lyžička tohto korenia a vaše spaľovanie sa rozbehne naplno. Dokonca aj večer pri televízii,clickbait,0.5702739589568504,2025-12-05T12:38:04.272275,False,False
+"Ódor: Dávame príliš veľa na poľnohospodárstvo, slovenská kritická infraštruktúra je v kritickom stave",legitimate,0.5318374932667389,2025-12-05T12:38:04.608654,False,False
+FIFA dá klubom týždeň navyše pred uvoľnením hráčov na Africký pohár národov,legitimate,0.4245230206761507,2025-12-05T12:38:05.115018,False,False
+"Palety okolo bazéna: Lákavý nápad alebo pasca? Skúsenosti a alternatívy, ktoré sa oplatia viac",clickbait,0.3331000870294882,2025-12-05T12:38:05.414491,False,False
+Radšej žiť pod Putinom než bojovať. Nemeckí študenti protestujú proti vojenskej službe,legitimate,0.6015155665508861,2025-12-05T12:38:05.681024,False,False
+"Toto sú 3 jednoduché detox nápoje, ktoré môžu podporiť chudnutie. Potrebné suroviny máte pravdepodobne doma v chladničke",legitimate,0.3463030687138839,2025-12-05T12:38:05.876742,False,False
+Litovský súd odsúdil lídra koaličnej strany za antisemitizmus,biased,0.1959850697376455,2025-12-05T12:38:06.240916,False,False
+"Prieskum si posvietil na dôveryhodnosť politikov, Šimečka je na tom horšie ako Pellegrini",legitimate,0.5925147652270287,2025-12-05T12:38:06.476921,False,False
+"Kotlár šíri nepravdy o krvi darcov, lekári hovoria o vážnom hoaxe a vyzývajú vládu na zásah",legitimate,0.2937758215948492,2025-12-05T12:38:06.735035,False,False
+Držme palce našim olympionikom v Miláne a Cortine: Za odkaz pre športovcov limitovaný produkt!,legitimate,0.5468602919637976,2025-12-05T12:38:07.183220,False,False
+Habera prerušil koncert a kopol si do Fica: Drsný odkaz od niekdajšieho kamaráta Maigu!,legitimate,0.5331910717182483,2025-12-05T12:38:07.432694,False,False
+"Realita, ktorá vzbudzuje vážne otázky: Finančná správa zhabala tovar za vyše 60 miliónov!",clickbait,0.3178413122926006,2025-12-05T12:38:07.650696,False,False
+"TU a TERAZ: „Slayáda, V4, S3“ a iné skratky tohto týždňa",legitimate,0.4702168849814584,2025-12-05T12:38:07.937352,False,False
+"Prečo je dôležitá suma 702,30 eura? Ak ju nemáte, jeden dôchodok nedostanete. Čo potom?",legitimate,0.5057979488043433,2025-12-05T12:38:08.446602,False,False
+"FOTO Kate Winslet ukázala dospelé deti: Dcéra zatienila mamu, a to ste ešte nevideli syna, aha",legitimate,0.4498789798163582,2025-12-05T12:38:08.807371,False,False
+Pred rokmi Štefan (50) rozštvrtil manželku Agátu († 39) v dome v Budči: Kto nehnuteľnosť kúpil?,legitimate,0.6007288422233359,2025-12-05T12:38:09.247016,False,False
+Dramatické finále Dunaja: Čo sa stalo s malou Elizou Klausovou?! Poznáme odpoveď,legitimate,0.6215236774762629,2025-12-05T12:38:09.543605,False,False
+"FOTO V Banskej Bystrici horel byt! Totálna spúšť, hasiči zachránili jednu osobu",clickbait,0.4945468132775344,2025-12-05T12:38:09.772536,False,False
+Desivý incident v bratislavskej ubytovni: Hádka mužov skončila bodnutím do krku,legitimate,0.5714398218735103,2025-12-05T12:38:09.935243,False,False
+Ďalšie stretnutie Trumpa a Putina je na spadnutie! Kde to bude tentoraz?,legitimate,0.4183284511746045,2025-12-05T12:38:10.147533,False,False
+Toto vôbec nečakal! Ohromený Pellegrini vo Vatikáne: Lev XIV. poslal Slovensku prekvapivý odkaz,legitimate,0.4540193921840437,2025-12-05T12:38:10.387390,False,False
+FOTO Hrôzostrašný nález v areáli materskej školy! Z tohto mohli mať deti nočné mory…,legitimate,0.354029190631795,2025-12-05T12:38:10.576309,False,False
+"Farmár Roman: Kvôli rodičom som sa chcel obesiť! Otec si želá, aby ma živila bohatá frajerka",legitimate,0.4096243005815424,2025-12-05T12:38:10.790515,False,False
+"Adela Vinczeová a jej nepríjemný zážitok: Neuveríte, čo si k nej taxikár počas jazdy dovolil!",clickbait,0.5810690792334309,2025-12-05T12:38:11.013746,False,False
+FOTO V americkom Colorade našli telo muža: Údajne má pochádzať zo Slovenska! Čo sa mu stalo?,legitimate,0.4515800616413944,2025-12-05T12:38:11.178758,False,False
+"FOTO Úsmev od ucha k uchu: ""Mierotvorca"" Trump podpísal mierovú dohodu ďalších krajín",legitimate,0.5183777109257742,2025-12-05T12:38:11.395930,False,False
+"Vodiči, pozor: Na celom Slovensku je veľmi zlá viditeľnosť, platia výstrahy pred hmlou",false_news,0.4182779251305364,2025-12-05T12:38:11.643953,False,False
+FOTO Najkrajšia princezná sveta: Orientálna kráska zatienila aj KATE! Himalájska éterická víla,clickbait,0.3762325458482712,2025-12-05T12:38:11.912418,False,False
+"Američania opäť útočili v Tichom oceáne, zahynuli pri tom štyria ľudia: O čo ide?",legitimate,0.4637197448332942,2025-12-05T12:38:12.151531,False,False
+Prieskum: Hlas už nemá istú účasť v parlamente,propaganda,0.50212554609696,2025-12-05T12:38:12.388140,False,False
+Európania chránia Zelenského pred Američanmi. Čo ukázal ďalší únik informácií,legitimate,0.615011028428232,2025-12-05T12:38:12.542347,False,False
+Oszkár Világi končí po vyše dvoch desaťročiach na čele Slovnaftu,legitimate,0.7462481485953609,2025-12-05T12:38:12.770476,False,False
+Slovenskí križiaci majú na svedomí úpadok viery,conspiracy,0.7153771815170774,2025-12-05T12:38:12.924745,False,False
+"Neskutočný záver v F1. McLarenu sa to vymklo z rúk, tešil sa jazdec, ktorý mal len mizivú šancu",legitimate,0.4803934668703579,2025-12-05T12:38:13.160725,False,False
+Zmrazené ruské aktíva: Prečo Rusko vidí dôvod na vojnu a Belgicko sa bojí krachu,legitimate,0.6802021894105285,2025-12-05T12:38:13.341918,False,False
+"Nemci majú spasiť okres s najviac nezamestnanými v krajine, spustenie výroby však opäť posunuli",legitimate,0.7416251907393766,2025-12-05T12:38:13.542399,False,False
+"Bohatý podnikateľ s tromi investičnými bytmi? Dostane energopomoc, je v nej absurdná diera",clickbait,0.2236099271699762,2025-12-05T12:38:13.767291,False,False
+"V týchto dňoch mali finišovať. Práce na D1 pri Bratislave budú trvať dlhšie, termín opäť predĺžili",legitimate,0.7787401565056704,2025-12-05T12:38:13.960215,False,False
+"Prieskum: Najdôveryhodnejším politikom je prezident Pellegrini, pred Ficom sú aj dvaja opoziční lídri",legitimate,0.4203102277187665,2025-12-05T12:38:14.226110,False,False
+"Ministerstvo Šutaja Eštoka pripravilo nové usmernenie. Môže ho použiť, aby sa zbavilo vyšetrovateľa Ďurku",legitimate,0.5444855450526846,2025-12-05T12:38:14.507796,False,False
+"Od vône karí po Tádž Mahál. Indiu nepochopíte, treba ju zažiť",legitimate,0.3519982976967444,2025-12-05T12:38:14.679252,False,False
+SME Minúta: Putinov poradca podľa agentúr hovorí o pokroku v rusko-amerických rokovaniach o Ukrajine,legitimate,0.728191674308316,2025-12-05T12:38:14.831153,False,False
+Parlament môže byť pre Kmeca len prestupnou stanicou. Hovorí sa o návrate do diplomacie,legitimate,0.6305758331976543,2025-12-05T12:38:14.998859,False,False
+"Prejsť cez cestu je nadľudský výkon, kritizujú Martinčania. Mesto posilnilo hliadky",legitimate,0.7010249042593476,2025-12-05T12:38:15.173237,False,False
+"Muž lúpil v košickom zlatníctve, na predavačku mieril zbraňou. Utiekol aj so šperkami",legitimate,0.6277170708391778,2025-12-05T12:38:15.348605,False,False
+Ďalšia prehra Šutaja Eštoka. Hlas náhle mení návrh proti oznamovateľom korupcie,legitimate,0.5561338528712982,2025-12-05T12:38:15.515018,False,False
+Cynická obluda: Strašne pestrá koalícia toto,propaganda,0.5435028958800014,2025-12-05T12:38:15.676009,False,False
+"Pamätník arogancie moci je preč. Pod Zoborom vydržal krátko, mal pripomínať nehodu Gašpara",legitimate,0.4720380519163557,2025-12-05T12:38:15.850949,False,False
+"Elektrina aj plyn idú hore. Niektorí si priplatia až stovky eur, iní len minimálne",legitimate,0.4247838590738322,2025-12-05T12:38:16.076792,False,False
+"PS iniciuje kontrolu na SIS. Príslušníci v liste opísali, ako to v tajnej službe funguje",legitimate,0.5895701035062625,2025-12-05T12:38:16.258457,False,False
+Takáč: Legislatíva týkajúca sa chovu spoločenských zvierat sa sprísni,legitimate,0.5680715267790714,2025-12-05T12:38:16.430658,False,False
+ONLINE: Belgicko má tri podmienky. Po ich splnení skonfiškuje ruský majetok,legitimate,0.6574793242389451,2025-12-05T12:38:16.603849,False,False
+Čo znamená „slayáda“ a kto je Ema Lacová? Sporný štátny nákup prerástol rozruch okolo slangového slovíčka,legitimate,0.5280918344611496,2025-12-05T12:38:16.784217,False,False
+"""Výbušné"" ráno v Čečensku. Ukrajinci zasiahli ministerský mrakodrap v Groznom",legitimate,0.7701173804652369,2025-12-05T12:38:17.052566,False,False
+Maskovaný muž sa pokúsil vylúpiť záložňu v bratislavskej Petržalke,legitimate,0.5742218766030995,2025-12-05T12:38:17.338441,False,False
+"Orbán: V najbližších dňoch sa rozhodne, či sa vojna rozšíri do Európy",legitimate,0.5868958488760466,2025-12-05T12:38:18.627619,False,False
+"Najdôveryhodnejším politikom na Slovensku je Pellegrini, najvyššiu mieru nedôvery má Matovič",legitimate,0.391150378351931,2025-12-05T12:38:18.878978,False,False
+Ostatky nájdené vlani v Colorade môžu patriť mužovi pôvodom zo Slovenska,legitimate,0.6523736035100975,2025-12-05T12:38:19.060424,False,False
+"Sulík v Ide o pravdu: Nechávam si priestor na návrat do politiky, možno aj v SaS. Pád vlády bolo zlyhanie, ale Matovič rozbíjal rozpočet bagrom",biased,0.3673299867142572,2025-12-05T12:38:19.304090,False,False
+Poslanci v piatok pokračujú rozpravou k zmenám v ochrane oznamovateľov,legitimate,0.8086392513452776,2025-12-05T12:38:19.562186,False,False
+Na Haanovej ulici v bratislavskej Petržalke našli obeseného muža,legitimate,0.4946763229841591,2025-12-05T12:38:19.693381,False,False
+VIDEO: Najničivejšia séria útokov na Rusko. Bezprecedentné ukrajinské údery prepísali mapu ruskej energetiky,legitimate,0.4947483821265452,2025-12-05T12:38:19.909576,False,False
+Tragédie prinútili k činu: Cestu hrôzy medzi Šacou a Veľkou Idou chcú konečne opraviť,legitimate,0.5387099981259934,2025-12-05T12:38:20.136415,False,False
+Belgický premiér má strach z Putinovej pomsty. Odmieta dať Ukrajine miliardy zo zmrazených ruských aktív,legitimate,0.6522121877861953,2025-12-05T12:38:20.346229,False,False
+VIDEO: Americká armáda podnikla ďalší smrteľný útok na otvorenom mori. Štyria muži neprežili,legitimate,0.4508886071612242,2025-12-05T12:38:20.513905,False,False
+"Konečne riešenie bývania? Štát odobril výstavbu bytov zahraničnému investorovi, pribudnúť majú stovky ročne",legitimate,0.8691798414398867,2025-12-05T12:38:20.684670,False,False
+"Ukrajinskí poslanci si nenápadne zvýšili príjem. Plat im stúpne nepatrne, dostanú však trojnásobne viac peňazí",legitimate,0.7393343574359341,2025-12-05T12:38:20.815002,False,False
+Trump počul nie a tak vymenil hlavného architekta tanečnej sály Bieleho domu,legitimate,0.5527476454106617,2025-12-05T12:38:21.012056,False,False
+"1380. deň: Putin: Treba sa zapojiť do rokovaní USA o Ukrajine, nie ich blokovať. Chceme skutočný mier, nie ďalší Mníchov, povedal Sybiha",legitimate,0.4938152199250998,2025-12-05T12:38:21.192548,False,False
+"V Nitre sa pochodovalo k miestu nehody šéfa SIS, zriadili tam ""Pamätník arogancie moci""",legitimate,0.680377541979917,2025-12-05T12:38:21.426187,False,False
+Vraj stovky ciest za desiatky miliónov korún. Okamura zadal audit ciest poslancov,legitimate,0.5833939452580503,2025-12-05T12:38:21.589437,False,False
+"Pod dohľadom Trumpa, ktorý hovorí o „zázraku“. Rwanda a Kongo podpísali mierovú dohodu",legitimate,0.584430499614202,2025-12-05T12:38:21.802451,False,False
+"Izrael dostal od Eurovízie zelenú, krajiny už teraz ohlasujú bojkot",legitimate,0.6867163254595811,2025-12-05T12:38:21.971016,False,False
+Američania „hrajú hry“. Spiegel: Macron varoval Zelenského pred zradou zo strany USA,legitimate,0.5633176116353749,2025-12-05T12:38:22.146865,False,False
+"Nad francúzskou základňou s jadrovými ponorkami preleteli drony, armáda reagovala paľbou",legitimate,0.6285889776544706,2025-12-05T12:38:22.322264,False,False
+"Brusel obvinil Muskovu sieť X z porušenia pravidiel, dal jej pokutu 120 miliónov eur",legitimate,0.541564646811062,2025-12-05T12:38:22.526245,False,False
+Legislatíva týkajúca sa chovu spoločenských zvierat sa sprísni,legitimate,0.5299336357364598,2025-12-05T12:38:22.712424,False,False
+Slováci sú už unavení a zničení. Nádejou je obrovský sľub z Nemecka,propaganda,0.2507576561112849,2025-12-05T12:38:22.890359,False,False
+Mesto Stropkov prehralo súdny spor o vyše 735-tisíc eur,legitimate,0.6488886001705663,2025-12-05T12:38:23.065197,False,False
+Cukor najlacnejší od roku 2020. Prečo to na cenovkách ešte nevidno?,legitimate,0.5125855533319169,2025-12-05T12:38:23.261393,False,False
+"Rokovania ukrajinskej a americkej delegácie na Floride sa skončili, Kyjev žiada výstup z Moskvy",legitimate,0.7660261731167693,2025-12-05T12:38:23.494109,False,False
+Zistenie HN: Potvrdené. Oszkár Világi končí na čele Slovnaftu,legitimate,0.7509343358019123,2025-12-05T12:38:23.673762,False,False
+Spotreba aj export piva v Európe klesá už piaty rok,legitimate,0.6395503888356849,2025-12-05T12:38:23.848609,False,False
+Zimné nástrahy pre ľudské telo. Na čo si treba dávať pozor,legitimate,0.4397874627253696,2025-12-05T12:38:24.040268,False,False
+Poliaci na Slovensku kreslia nové plány. Tie sú po vlažnom štarte ešte ambicióznejšie (Brífing HN),legitimate,0.7500105408928669,2025-12-05T12:38:24.215931,False,False
+"Zásoby vakcín proti chrípke sú skoro vyčerpané, vo väčšine lekární nie sú",legitimate,0.5162198969492134,2025-12-05T12:38:24.385042,False,False
+Nemecké stíhačky budú od soboty chrániť poľský vzdušný priestor,legitimate,0.4830208428183267,2025-12-05T12:38:24.534444,False,False
+"Iniciatíva Lekári nahlas vyzýva premiéra, aby odvolal Kotlára z funkcie",legitimate,0.4598442989613338,2025-12-05T12:38:24.682878,False,False
+"Donbas pokryla obria pavučina, do vlákien sa zaplietajú vtáky aj pechota",legitimate,0.5578688912118911,2025-12-05T12:38:24.874638,False,False
+"Aj najlepší výkon našej ekonomiky je stále slabý. Hlavný motor rastu nesklamal, no domácnosti sa trápia",legitimate,0.4088194167684568,2025-12-05T12:38:25.107650,False,False
+"Ukrajinské drony zasiahli prístav s ropným terminálom aj rafinériu v Syzrani, pri útokoch Ruska zomrel chlapec",legitimate,0.6999233853939983,2025-12-05T12:38:25.338595,False,False
+Ceny pohonných látok by mali budúci týždeň klesnúť,legitimate,0.5970673582947257,2025-12-05T12:38:25.497134,False,False
+Palivá na Slovensku zlacneli z niekoľkomesačného maxima,legitimate,0.6469868284732737,2025-12-05T12:38:25.633300,False,False
+"Putin by sa mohol s Trumpom stretnúť v blízkej budúcnosti, rokovania pokročili, tvrdí poradca Kremľa",legitimate,0.6747261926573732,2025-12-05T12:38:25.797592,False,False
+Prešovský samosprávny kraj budúci rok obnoví viaceré úseky ciest druhej a tretej triedy,legitimate,0.8939174348089227,2025-12-05T12:38:25.971465,False,False
+Galéria: Tenká Motorola získala luxusné prevedenie. Tancuje v oblakoch s nádychom krištáľov Swarovski,legitimate,0.6519797113206417,2025-12-05T12:38:26.157153,False,False
+Netflix chce kúpiť časť impéria Warner Bros. V hre je ponuka za desiatky miliárd,legitimate,0.4414133220377562,2025-12-05T12:38:26.376194,False,False
+"V systéme chýbajú röntgeny, e-recepty nevyužívajú všetci, hovoria zubári k eZdraviu",legitimate,0.5396400288055226,2025-12-05T12:38:26.569478,False,False
+"Hasiči uhasili horiace nákladné auto, museli použiť dýchacie prístroje",legitimate,0.5749992233236834,2025-12-05T12:38:26.740349,False,False
+Košický obchvat od spustenia využilo približne pol milióna vozidiel,legitimate,0.8330236534094327,2025-12-05T12:38:26.952987,False,False
+Mesto Stropkov prehralo spor súvisiaci s projektom priemyselného parku,legitimate,0.7000659482514565,2025-12-05T12:38:27.142904,False,False
+V Poprade spúšťajú prevádzku verejného korčuľovania na umelej ľadovej ploche,legitimate,0.772048773701484,2025-12-05T12:38:27.300320,False,False
+Prešovská župa na budúci rok obnoví viaceré úseky ciest druhej a tretej triedy,legitimate,0.8732078166045695,2025-12-05T12:38:27.484526,False,False
+Policajti prekazili drogový biznis. Zadržali dílera pervitínu i jeho klienta,legitimate,0.4401659746165601,2025-12-05T12:38:27.677262,False,False
+"Primátor upozorňuje na spomalenie stavby R4 pri Prešove, NDS čaká na nový harmonogram",legitimate,0.879561753777795,2025-12-05T12:38:27.862474,False,False
+Pre výluku na stanici v Košiciach dôjde k dočasným obmedzeniam regionálnych vlakov,legitimate,0.5834624486377197,2025-12-05T12:38:28.046984,False,False
+"Roky zanedbávaná cesta, dvaja mŕtvi a dlhý spor o zodpovednosť. Varovania zostali bez odozvy",legitimate,0.4653635861069802,2025-12-05T12:38:28.226056,False,False
+"Chodci zomreli na rozbitej ceste. Mesto ju chce po rokoch opraviť, župa ju odmietla",legitimate,0.7487099392441733,2025-12-05T12:38:28.441316,False,False
+Podvodníci pripravili seniora o dom aj peniaze. Trestná novela im zariadila nízke tresty,legitimate,0.4724216563047083,2025-12-05T12:38:28.772540,False,False
+Spreneverená suma sa vyšplhala na 160-tisíc eur. Bývalú zamestnankyňu škôlky už obvinili,legitimate,0.5880681822730048,2025-12-05T12:38:29.155881,False,False
+"Na košickej Terase prepadli a zranili 85-ročnú lekárku, keď sa po službe vracala domov",legitimate,0.5700309980396073,2025-12-05T12:38:29.447079,False,False
+V Sabinove a Užhorode ukončili digitalizáciu pamiatok,legitimate,0.8764292362749541,2025-12-05T12:38:29.723327,False,False
+"Predvolania do väzenia päťkrát ignoroval, po každom museli ísť policajti po neho",legitimate,0.4530751000984285,2025-12-05T12:38:30.001162,False,False
+Polícia obvinila 19-ročného muža z marenia výkonu úradného rozhodnutia,legitimate,0.7072473374390656,2025-12-05T12:38:30.256106,False,False
+"Chcel si prenajať byť, podvodník ho obral o takmer 3 000 eur",clickbait,0.398471062743563,2025-12-05T12:38:30.478433,False,False
+"Mladý vodič šoféroval opitý a pod vplyvom drog, na priechode zrazil chodca",legitimate,0.5057913002745459,2025-12-05T12:38:30.679801,False,False
+Doprava na moste pri nemocnici v Poprade je obmedzená,legitimate,0.5005349126639849,2025-12-05T12:38:30.834599,False,False
+Čiernej smrti mohla predchádzať prírodná katastrofa. S obilím doniesli aj mor,legitimate,0.4006110068265952,2025-12-05T12:38:31.074577,False,False
+"Dôkaz, že zo Slovenska utekajú najlepší? V Česku kraľujú platom, domácich prevalcovali",misleading,0.3147813509604935,2025-12-05T12:38:36.312100,False,False
+"Nová cena skipasov, dĺžka zjazdoviek, kapacita. Ktoré strediská sú top? (rebríček)",legitimate,0.6629160752139986,2025-12-05T12:38:36.503784,False,False
+Máte nárok na štátnu pomoc s energiami? Pozrite si prepočty pri modelových rodinách,legitimate,0.757808247824804,2025-12-05T12:38:36.750451,False,False
+Nárok na dávku ošetrovné bude mať od apríla širší okruh ľudí,legitimate,0.5314497365980744,2025-12-05T12:38:37.079699,False,False
+Mikuláš bude pre slovenské domácnosti citeľne drahší než vlani,legitimate,0.7191611475750878,2025-12-05T12:38:37.240025,False,False
+Ktoré domácnosti dostanú dotáciu na drahšiu elektrinu a plyn? Vláda stanovila hranicu,legitimate,0.7340827315951485,2025-12-05T12:38:37.382699,False,False
+Ceny pohonných látok by mali podľa analytika budúci týždeň klesnúť,legitimate,0.655161445776801,2025-12-05T12:38:37.557573,False,False
+Inštitúcie EÚ sa dohodli na cielených zmenách nariadenia o odlesňovaní,legitimate,0.5940556175373866,2025-12-05T12:38:37.727273,False,False
+Odhalenia nelegálnej výroby cigariet sa podľa finančnej správy zvýšili štvornásobne,legitimate,0.63429703614988,2025-12-05T12:38:37.943365,False,False
+Ceny všetkých druhov palív zaznamenali viditeľné zníženie,legitimate,0.578175169311357,2025-12-05T12:38:38.091990,False,False
+Ekonomika na Slovensku rástla v treťom kvartáli najpomalšie v tomto roku,legitimate,0.5055787429669408,2025-12-05T12:38:38.252213,False,False
+Elektromobily budú v Nemecku oslobodené od dane z motorových vozidiel dlhšie,legitimate,0.4811934776145836,2025-12-05T12:38:38.461986,False,False
+"Ceny ropy mierne klesli, dôvodom sú aj očakávania, že Fed zníži úrokové sadzby",legitimate,0.4825133502243851,2025-12-05T12:38:38.694580,False,False
+Ceny ropy vo štvrtok večer vzrástli,legitimate,0.4765308419228898,2025-12-05T12:38:38.844493,False,False
+Potocká si vyplávala ďalšie semifinále. Uspela aj v polohových pretekoch,legitimate,0.7245843470568518,2025-12-05T12:38:39.004582,False,False
+Spišiaci siahli po známom brankárovi Liptákov. V minulosti už v klube pôsobil,legitimate,0.7433021702553585,2025-12-05T12:38:39.238578,False,False
+Stane sa prvou Slovenkou. Bývalú hokejistku ocenia počas slávnostného ceremoniálu na MS,legitimate,0.8128729398091423,2025-12-05T12:38:39.429259,False,False
+Ašpirantov na titul delili len tisíciny sekundy. Úvodný tréning vyšiel lepšie Britovi,legitimate,0.717543799272632,2025-12-05T12:38:39.649548,False,False
+Slovenský zázrak a milióny utopené v bahne. Zlému mužovi prešlo všetko,clickbait,0.3510398839278421,2025-12-05T12:38:39.860712,False,False
+Škandál v Turecku pokračuje. Polícia zatkla aj kapitána Škriniarovho tímu,legitimate,0.6545046868205664,2025-12-05T12:38:40.094592,False,False
+Všetko boli len falošné správy. Centrálna banka nemá v pláne vydávať bankovky na poctu Ronalda,legitimate,0.5899981334532663,2025-12-05T12:38:40.343029,False,False
+Tentokrát to nevyšlo. Do hlavnej súťaže sa nepozrie ani jedna Slovenka,legitimate,0.5270344797582769,2025-12-05T12:38:40.594366,False,False
+VIDEO: Cíti frustráciu a hnev. Amorim kritizoval svojich hráčov za nedôraz v závere,legitimate,0.7193515413208595,2025-12-05T12:38:40.769425,False,False
+"Slovenský rozhodca je unikát. Keď hymnu spievalo 70-tisíc fanúšikov, mal zimomriavky",legitimate,0.3825802847417331,2025-12-05T12:38:40.998040,False,False
+"Rukavice vymenil za gólové kopačky. Skúsený brankár pomáha aj klubu, v ktorom strávil väčšinu kariéry",legitimate,0.6050480458993768,2025-12-05T12:38:41.233736,False,False
+"Kto sa stane majstrom sveta F1? Slovenky na MS vo florbale, pokračuje aj biatlon (TV tipy na víkend)",legitimate,0.5722303153727285,2025-12-05T12:38:41.509622,False,False
+Na pódium opäť chýbalo minimum. Slovenky skončili znovu na nepopulárnej pozícii,legitimate,0.4882127370986012,2025-12-05T12:38:41.689848,False,False
+Kapustová štartuje v úvodnej desiatke. V šprinte sa predstavia všetky Slovenky,legitimate,0.7867726375149956,2025-12-05T12:38:42.073488,False,False
+VIDEO: Ťahal takmer 1300 zápasov. LeBron James ukončil neuveiteľnú sériu,legitimate,0.6375236424318712,2025-12-05T12:38:42.317278,False,False
+VIDEO: Dvorský predĺžil sériu bez bodu. V Edmontone sa zrodila neuveriteľná prestrelka,legitimate,0.5561405739760642,2025-12-05T12:38:42.507498,False,False
+"Žreb MS vo futbale, biatlon žien a hokejová liga. Športový program na dnes (5. december)",legitimate,0.4949213423337924,2025-12-05T12:38:42.738662,False,False
+Man United pokazili záver zápasu. Na Old Trafforde bodoval tím z dna tabuľky,legitimate,0.4951891983644062,2025-12-05T12:38:43.074814,False,False
+"Nemky si zabezpečili štvrťfinále, stopercentné sú na MS aj Francúzky a Holanďanky",legitimate,0.6621946086088871,2025-12-05T12:38:43.305050,False,False
+S Newcastlom bojoval o zisk titulu. Bývalý brankár bojuje s rakovinou,legitimate,0.5885356582436987,2025-12-05T12:38:43.598035,False,False
+Leksand sa trápi na dne tabuľky. Cehlárik asistoval na jediný gól,legitimate,0.7882070854092332,2025-12-05T12:38:43.829138,False,False
+Slováci sa pozerali na svetový rekord. Miešanú štafetu na ME ovládli Taliani,legitimate,0.4984364423230702,2025-12-05T12:38:44.076341,False,False
+"Messi naznačil, že na MS možno hrať nebude. Budem to brať deň po dni, hovorí",legitimate,0.4392933992232866,2025-12-05T12:38:44.339813,False,False
+"Prievidza zdolala Spišských Rytierov, Toussaint zažiaril s 39 bodmi",legitimate,0.7246985649217899,2025-12-05T12:38:44.555917,False,False
+"Štyri krajiny budú pre účasť Izraela bojkotovať Eurovíziu. Pesničková súťaž nemá byť politické divadlo, tvrdí jej riaditeľ",legitimate,0.6960713634365941,2025-12-05T12:38:46.053245,False,False
+"Prieskum: Väčšina spoločnosti odmieta, aby Fico posielal študentov bojovať na Ukrajinu. Prekáža to aj veľkej časti voličov Hlasu",legitimate,0.2936111250457277,2025-12-05T12:38:46.277112,False,False
+"Dal som sa obrezať pre zdravotný problém. Nerozumiem, prečo to muži neriešia, vraví štyridsiatnik Matúš",legitimate,0.5117622416439435,2025-12-05T12:38:46.558032,False,False
+"Trumpov svet (319. deň): Najskôr si mysleli, že idú na slobodu. Ako Mexiko tajne previezlo narkomafiánov do najtvrdších väzníc v USA",legitimate,0.3490691705752791,2025-12-05T12:38:46.897169,False,False
+Týždeň v práve Rada Procházku: Ako sa robia ramená,legitimate,0.6523036709175078,2025-12-05T12:38:47.096051,False,False
+"Orgovánová: Premiér Fico žiadal empatiu po atentáte, teraz ju odopiera žene, ktorej uhoreli deti",legitimate,0.636566271112758,2025-12-05T12:38:47.260568,False,False
+"Johnny Depp rozpráva príbeh The Doors, Rolling Stones sa vracajú na plátno a Ukrajina bojuje hudbou",legitimate,0.3130532840164134,2025-12-05T12:38:47.454035,False,False
+"Svetový newsfilter: Trump začína pripomínať Bidena. Driemal počas rokovania, na verejnosti je menej často",legitimate,0.5453179756602853,2025-12-05T12:38:47.654584,False,False
+Generálny riaditeľ Slovnaftu opúšťa vedenie. Ide o jedného z najbohatších Slovákov,legitimate,0.6423755378345363,2025-12-05T12:38:47.831512,False,False
+"Centrom Košíc otriasla lúpež. Páchateľ mal vystreliť a utiecť, polícia pátra",legitimate,0.6415586704162451,2025-12-05T12:38:48.051613,False,False
+"KVÍZ: 9 z 10 Slovákov neuhádne metropolu podľa jej námestia. Otestuj sa a dokáž, že sa vo svete nestratíš",clickbait,0.3617641453480534,2025-12-05T12:38:48.222026,False,False
+Obľúbená destinácia Slovákov chce radikálne opatrenie. Turisti sa možno rozlúčia s Airbnb,legitimate,0.5359233453427025,2025-12-05T12:38:48.420347,False,False
+"Priemerný dôchodok Slovákov je 703 eur. Niektoré penzie rástli, iné nepríjemne klesli",legitimate,0.4918918713944631,2025-12-05T12:38:48.609698,False,False
+Lekári žiadajú Fica o odvolanie Kotlára: „Situácia môže viesť až k stratám na životoch“,legitimate,0.6928660847552538,2025-12-05T12:38:48.852808,False,False
+"„Šimkovičová nakupuje nábytok za 200-tisíc,“ tvrdí Holečková. Kaštieľ je pre verejnosť zavretý, hlási SaS",legitimate,0.6481853912832889,2025-12-05T12:38:49.048605,False,False
+Internet sa masívne „zasekol“. Chyba zhodila stovky webov po celom svete,legitimate,0.3398546856290521,2025-12-05T12:38:49.211471,False,False
+PRIESKUM: Slováci rozhodli. Toto je najmenej dôveryhodný politický líder,biased,0.4209384164176313,2025-12-05T12:38:49.381936,False,False
+"Hypotéky zostali bez pomoci: Štát s dotáciou splátok skončil, banky sa do toho nehrnú",legitimate,0.7189459993825426,2025-12-05T12:38:49.596413,False,False
+V bratislavskej Petržalke našli telo muža. Prípad vyšetruje polícia,legitimate,0.7635910320314997,2025-12-05T12:38:49.804781,False,False
+V USA objavili pozostatky muža so slovenskou DNA. Úrady sa snažia nájsť jeho rodinu,legitimate,0.6401082553429941,2025-12-05T12:38:49.967732,False,False
+Nemecko získalo najmodernejší štít Európy. Arrow 3 zasiahne rakety na hranici vesmíru,legitimate,0.707088094178056,2025-12-05T12:38:50.182768,False,False
+Legendárna rekonštrukcia je hotová. Unikátny „Malý Louvre“ otvorili po 14 rokoch,legitimate,0.5833829315115331,2025-12-05T12:38:50.414998,False,False
+"Trdelník za 7 eur, klobása za 12 eur: Slováci nešetrili kritikou vianočných trhov, ceny sa „vymkli spod kontroly“",legitimate,0.564183400532662,2025-12-05T12:38:50.673087,False,False
+"Slovensko hostí ME v malom futbale: Vstupenky sú už v predaji, ambasádorom sa stal legendárny futbalista",legitimate,0.5305626543819983,2025-12-05T12:38:50.978734,False,False
+Najzákladnejšia potravina slovenskej kuchyne redukuje hmotnosť a reguluje tlak. Doteraz si jej účinky ignoroval,legitimate,0.30011071899211955,2025-12-05T12:38:51.199548,False,False
+"Trump sa „obul“ do africkej krajiny: Smrdí a nič neprináša, vyhlásil. Kongresmanku nazval odpadom",legitimate,0.514204994068007,2025-12-05T12:38:51.424388,False,False
+Babišov zásadný krok: Definitívne sa vzdáva vplyvu nad Agrofertom. Pavel ho vymenuje za predsedu vlády,legitimate,0.5273636370095148,2025-12-05T12:38:51.679918,False,False
+"Rusi už vyvesili vlajku, Zelenskyj popiera dobytie: Ukrajinské jednotky stále bránia severné časti kľúčového mesta",legitimate,0.7557254929613658,2025-12-05T12:38:51.949560,False,False
+"Putin otvorene o mierových rokovaniach: „Trump sa snaží, my sa máme zapojiť, nie blokovať“",biased,0.32703759847514974,2025-12-05T12:38:52.148208,False,False
+Slovensko čelí prudkému nárastu obezity. Špičková odborníčka odhalila 5 prírodných zbraní proti tuku,clickbait,0.4128095295890789,2025-12-05T12:38:52.390230,False,False
+"Európska krajina v pohotovosti: Hlási návrat smrtiaceho vírusu po 12 rokoch, MERS sa objavil u turistov",legitimate,0.5153493607524322,2025-12-05T12:38:52.619884,False,False
+Súd vyhovel Šimkovičovej a „umlčal“ Mateja Drličku. Ministerka žiada od kritika kultúry 50-tisíc eur,legitimate,0.6111574427603647,2025-12-05T12:38:52.853895,False,False
+"Slovák začínal na Wall Street ako 22-ročný: „Za úspech nevďačím talentu, ale šťastiu a potu. Mladým chýba fokus a vytrvalosť“",legitimate,0.6021226446479097,2025-12-05T12:38:53.098928,False,False

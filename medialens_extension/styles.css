@@ -1,0 +1,24 @@
+.medialens-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  margin-left:10px;
+  padding:3px 8px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:700;
+  border:1px solid rgba(255,255,255,.18);
+  background:rgba(15,23,42,.92);
+  color:#8ab4ff;
+}
+
+.medialens-badge .dot{
+  width:8px; height:8px;
+  border-radius:50%;
+  background:currentColor;
+}
+
+.medialens-badge .p{
+  opacity:.8;
+  font-weight:600;
+}

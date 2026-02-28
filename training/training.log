@@ -1,0 +1,303 @@
+2025-11-22 19:45:47,000 - __main__ - INFO - Sp˙öùam trÈnovanie modelu...
+2025-11-22 19:45:47,001 - core.feature_extractor - INFO - NaËÌtavam Slovak BERT: gerulata/slovakbert
+2025-11-22 19:45:49,770 - core.feature_extractor - INFO - BERT model naËÌtan˝ na: cpu
+2025-11-22 19:45:49,770 - core.classifier - INFO - Classifier inicializovan˝ - BERT: True, TF-IDF: True
+2025-11-22 19:45:49,770 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2025-11-22 19:45:49,770 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2025-11-22 19:45:49,770 - core.data_processor - INFO - NaËÌtavam d·ta z: data/raw/training_data.csv
+2025-11-22 19:45:49,772 - core.data_processor - ERROR - Chyba pri naËÌtavanÌ d·t: [Errno 2] No such file or directory: 'data/raw/training_data.csv'
+2025-11-22 19:45:49,773 - core.classifier - ERROR - Chyba pri trÈnovanÌ: [Errno 2] No such file or directory: 'data/raw/training_data.csv'
+2025-11-22 19:45:49,773 - __main__ - ERROR - Chyba pri trÈnovanÌ: [Errno 2] No such file or directory: 'data/raw/training_data.csv'
+2025-11-27 16:56:17,721 - __main__ - INFO - Sp˙öùam trÈnovanie modelu...
+2025-11-27 16:56:17,721 - core.feature_extractor - INFO - NaËÌtavam Slovak BERT: gerulata/slovakbert
+2025-11-27 16:56:19,301 - core.feature_extractor - INFO - BERT model naËÌtan˝ na: cpu
+2025-11-27 16:56:19,301 - core.classifier - INFO - Classifier inicializovan˝ - BERT: True, TF-IDF: True
+2025-11-27 16:56:19,301 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2025-11-27 16:56:19,301 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2025-11-27 16:56:19,301 - core.data_processor - INFO - NaËÌtavam d·ta z: data/raw/training_data.csv
+2025-11-27 16:56:19,302 - core.data_processor - ERROR - Chyba pri naËÌtavanÌ d·t: [Errno 2] No such file or directory: 'data/raw/training_data.csv'
+2025-11-27 16:56:19,302 - core.classifier - ERROR - Chyba pri trÈnovanÌ: [Errno 2] No such file or directory: 'data/raw/training_data.csv'
+2025-11-27 16:56:19,303 - __main__ - ERROR - Chyba pri trÈnovanÌ: [Errno 2] No such file or directory: 'data/raw/training_data.csv'
+2025-11-27 17:03:22,666 - __main__ - INFO - Sp˙öùam trÈnovanie modelu...
+2025-11-27 17:03:22,666 - core.feature_extractor - INFO - NaËÌtavam Slovak BERT: gerulata/slovakbert
+2025-11-27 17:03:24,177 - core.feature_extractor - INFO - BERT model naËÌtan˝ na: cpu
+2025-11-27 17:03:24,177 - core.classifier - INFO - Classifier inicializovan˝ - BERT: True, TF-IDF: True
+2025-11-27 17:03:24,178 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2025-11-27 17:03:24,178 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2025-11-27 17:03:24,178 - core.data_processor - INFO - NaËÌtavam d·ta z: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SO»\FilterSOC\FilterSOC_Alpha4_ML\data\raw\training_data.csv
+2025-11-27 17:03:24,181 - core.data_processor - INFO - D·ta ˙speöne naËÌtanÈ. Tvar: (914, 2)
+2025-11-27 17:03:24,181 - core.classifier - INFO - NaËÌtan˝ch 914 trÈnovacÌch prÌkladov
+2025-11-27 17:03:24,181 - core.data_processor - INFO - ZaËÌnam augment·ciu d·t...
+2025-11-27 17:03:24,333 - core.data_processor - INFO - Rozdelenie kategÛriÌ po augment·cii:
+2025-11-27 17:03:24,334 - core.data_processor - INFO -   legitimate: 318 prÌkladov
+2025-11-27 17:03:24,334 - core.data_processor - INFO -   clickbait: 147 prÌkladov
+2025-11-27 17:03:24,334 - core.data_processor - INFO -   false_news: 103 prÌkladov
+2025-11-27 17:03:24,334 - core.data_processor - INFO -   conspiracy: 78 prÌkladov
+2025-11-27 17:03:24,334 - core.data_processor - INFO -   satire: 77 prÌkladov
+2025-11-27 17:03:24,334 - core.data_processor - INFO -   propaganda: 58 prÌkladov
+2025-11-27 17:03:24,334 - core.data_processor - INFO -   biased: 58 prÌkladov
+2025-11-27 17:03:24,334 - core.data_processor - INFO -   misleading: 53 prÌkladov
+2025-11-27 17:03:24,334 - core.data_processor - INFO -   bulvar: 1 prÌkladov
+2025-11-27 17:03:24,335 - core.classifier - INFO - Po augment·cii: 893 prÌkladov
+2025-11-27 17:03:24,335 - core.data_processor - INFO - Sp˙öùam preprocessing d·t...
+2025-11-27 17:03:24,341 - core.data_processor - INFO - Preprocessing dokonËen˝. PoËet prÌkladov: 893
+2025-11-27 17:03:24,341 - core.data_processor - INFO - Rozdelenie kategÛriÌ:
+category
+legitimate    318
+clickbait     147
+false_news    103
+conspiracy     78
+satire         77
+propaganda     58
+biased         58
+misleading     53
+bulvar          1
+Name: count, dtype: int64
+2025-11-27 17:03:24,343 - core.classifier - ERROR - Chyba pri trÈnovanÌ: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2025-11-27 17:03:24,343 - __main__ - ERROR - Chyba pri trÈnovanÌ: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2025-11-27 17:05:22,719 - __main__ - INFO - Sp˙öùam trÈnovanie modelu...
+2025-11-27 17:05:22,719 - core.feature_extractor - INFO - NaËÌtavam Slovak BERT: gerulata/slovakbert
+2025-11-27 17:05:24,137 - core.feature_extractor - INFO - BERT model naËÌtan˝ na: cpu
+2025-11-27 17:05:24,137 - core.classifier - INFO - Classifier inicializovan˝ - BERT: True, TF-IDF: True
+2025-11-27 17:05:24,138 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2025-11-27 17:05:24,138 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2025-11-27 17:05:24,138 - core.data_processor - INFO - NaËÌtavam d·ta z: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SO»\FilterSOC\FilterSOC_Alpha4_ML\data\raw\training_data.csv
+2025-11-27 17:05:24,141 - core.data_processor - INFO - D·ta ˙speöne naËÌtanÈ. Tvar: (913, 2)
+2025-11-27 17:05:24,141 - core.classifier - INFO - NaËÌtan˝ch 913 trÈnovacÌch prÌkladov
+2025-11-27 17:05:24,141 - core.data_processor - INFO - ZaËÌnam augment·ciu d·t...
+2025-11-27 17:05:24,286 - core.data_processor - INFO - Rozdelenie kategÛriÌ po augment·cii:
+2025-11-27 17:05:24,287 - core.data_processor - INFO -   legitimate: 328 prÌkladov
+2025-11-27 17:05:24,287 - core.data_processor - INFO -   clickbait: 149 prÌkladov
+2025-11-27 17:05:24,287 - core.data_processor - INFO -   false_news: 101 prÌkladov
+2025-11-27 17:05:24,287 - core.data_processor - INFO -   conspiracy: 77 prÌkladov
+2025-11-27 17:05:24,287 - core.data_processor - INFO -   satire: 72 prÌkladov
+2025-11-27 17:05:24,287 - core.data_processor - INFO -   biased: 61 prÌkladov
+2025-11-27 17:05:24,287 - core.data_processor - INFO -   propaganda: 55 prÌkladov
+2025-11-27 17:05:24,287 - core.data_processor - INFO -   misleading: 54 prÌkladov
+2025-11-27 17:05:24,288 - core.classifier - INFO - Po augment·cii: 897 prÌkladov
+2025-11-27 17:05:24,288 - core.data_processor - INFO - Sp˙öùam preprocessing d·t...
+2025-11-27 17:05:24,294 - core.data_processor - INFO - Preprocessing dokonËen˝. PoËet prÌkladov: 897
+2025-11-27 17:05:24,294 - core.data_processor - INFO - Rozdelenie kategÛriÌ:
+category
+legitimate    328
+clickbait     149
+false_news    101
+conspiracy     77
+satire         72
+biased         61
+propaganda     55
+misleading     54
+Name: count, dtype: int64
+2025-11-27 17:05:24,296 - core.data_processor - INFO - TrÈnovacie d·ta: 717
+2025-11-27 17:05:24,296 - core.data_processor - INFO - Testovacie d·ta: 180
+2025-11-27 17:05:24,296 - core.classifier - INFO - ZaËÌnam feature extraction...
+2025-11-27 17:05:24,296 - core.feature_extractor - INFO - TrÈnujem hybridn˝ feature extractor...
+2025-11-27 17:05:24,296 - core.feature_extractor - INFO - TrÈnujem TF-IDF...
+2025-11-27 17:05:24,307 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre trÈnovacie d·ta...
+2025-11-27 17:05:24,307 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 717 textov...
+2025-11-27 17:05:37,810 - core.feature_extractor - INFO - BERT embeddings shape: (717, 768)
+2025-11-27 17:05:37,810 - core.feature_extractor - INFO - Redukujem BERT dimenzie na 100
+2025-11-27 17:05:37,905 - core.feature_extractor - INFO - Feature extractor ˙speöne natrÈnovan˝
+2025-11-27 17:05:37,921 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 717 textov...
+2025-11-27 17:05:52,446 - core.feature_extractor - INFO - BERT embeddings shape: (717, 768)
+2025-11-27 17:05:52,453 - core.feature_extractor - INFO - KombinovanÈ features shape: (717, 2100)
+2025-11-27 17:05:52,459 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 180 textov...
+2025-11-27 17:05:56,277 - core.feature_extractor - INFO - BERT embeddings shape: (180, 768)
+2025-11-27 17:05:56,280 - core.feature_extractor - INFO - KombinovanÈ features shape: (180, 2100)
+2025-11-27 17:05:56,280 - core.classifier - INFO - TrÈnovacie features: (717, 2100)
+2025-11-27 17:05:56,281 - core.classifier - INFO - Testovacie features: (180, 2100)
+2025-11-27 17:05:56,281 - core.model_trainer - INFO - ZaËÌnam trÈnovanie modelu...
+2025-11-27 17:05:56,281 - core.model_trainer - INFO - TrÈnujem Random Forest...
+2025-11-27 17:05:56,589 - core.model_trainer - INFO - TrÈnovacia presnosù: 0.9777
+2025-11-27 17:05:56,589 - core.model_trainer - INFO - Testovacia presnosù: 0.8333
+2025-11-27 17:05:56,617 - core.model_trainer - INFO - 
+Classification Report:
+2025-11-27 17:05:56,623 - core.model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       1.00      0.58      0.74        12
+           1       1.00      0.83      0.91        30
+           2       1.00      0.88      0.93        16
+           3       1.00      0.80      0.89        20
+           4       0.69      1.00      0.82        66
+           5       1.00      0.64      0.78        11
+           6       1.00      0.36      0.53        11
+           7       0.92      0.79      0.85        14
+
+    accuracy                           0.83       180
+   macro avg       0.95      0.73      0.81       180
+weighted avg       0.88      0.83      0.83       180
+
+2025-11-27 17:05:56,623 - core.classifier - INFO - Uklad·m modely...
+2025-11-27 17:05:56,643 - core.feature_extractor - INFO - Feature extractor uloûen˝
+2025-11-27 17:05:56,671 - core.model_trainer - INFO - Model uloûen˝ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SO»\FilterSOC\FilterSOC_Alpha4_ML\data\models\trained_model.joblib
+2025-11-27 17:05:56,672 - core.data_processor - INFO - Label encoder uloûen˝
+2025-11-27 17:05:56,674 - core.classifier - INFO - Vöetky modely uloûenÈ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SO»\FilterSOC\FilterSOC_Alpha4_ML\data\models
+2025-11-27 17:05:57,620 - core.classifier - INFO - === TR…NOVANIE ⁄SPEäNE DOKON»EN… ===
+2025-11-27 17:05:57,621 - __main__ - INFO - TrÈnovanie ˙speöne dokonËenÈ!
+2025-11-27 17:31:13,876 - __main__ - INFO - Sp˙öùam trÈnovanie modelu...
+2025-11-27 17:31:13,877 - core.feature_extractor - INFO - NaËÌtavam Slovak BERT: gerulata/slovakbert
+2025-11-27 17:31:15,709 - core.feature_extractor - INFO - BERT model naËÌtan˝ na: cpu
+2025-11-27 17:31:15,709 - core.classifier - INFO - Classifier inicializovan˝ - BERT: True, TF-IDF: True
+2025-11-27 17:31:15,709 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2025-11-27 17:31:15,709 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2025-11-27 17:31:15,709 - core.data_processor - INFO - Nacitavam data z: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SO»\FilterSOC\FilterSOC_Alpha4_ML\data\raw\training_data.csv
+2025-11-27 17:31:15,712 - core.data_processor - INFO - Data uspesne nacitane. Tvar: (913, 2)
+2025-11-27 17:31:15,712 - core.classifier - INFO - NaËÌtan˝ch 913 trÈnovacÌch prÌkladov
+2025-11-27 17:31:15,712 - core.data_processor - INFO - Zacinam augmentaciu dat...
+2025-11-27 17:31:15,863 - core.data_processor - INFO - Rozdelenie kategorii po augmentacii:
+2025-11-27 17:31:15,864 - core.data_processor - INFO -   legitimate: 317 prikladov
+2025-11-27 17:31:15,864 - core.data_processor - INFO -   clickbait: 146 prikladov
+2025-11-27 17:31:15,864 - core.data_processor - INFO -   false_news: 98 prikladov
+2025-11-27 17:31:15,864 - core.data_processor - INFO -   conspiracy: 85 prikladov
+2025-11-27 17:31:15,864 - core.data_processor - INFO -   satire: 71 prikladov
+2025-11-27 17:31:15,864 - core.data_processor - INFO -   biased: 59 prikladov
+2025-11-27 17:31:15,864 - core.data_processor - INFO -   propaganda: 53 prikladov
+2025-11-27 17:31:15,864 - core.data_processor - INFO -   misleading: 52 prikladov
+2025-11-27 17:31:15,865 - core.classifier - INFO - Po augment·cii: 881 prÌkladov
+2025-11-27 17:31:15,865 - core.data_processor - INFO - Spustam preprocessing dat...
+2025-11-27 17:31:15,871 - core.data_processor - INFO - Preprocessing dokoncen˝. Pocet prikladov: 881
+2025-11-27 17:31:15,871 - core.data_processor - INFO - Rozdelenie kategorii:
+category
+legitimate    317
+clickbait     146
+false_news     98
+conspiracy     85
+satire         71
+biased         59
+propaganda     53
+misleading     52
+Name: count, dtype: int64
+2025-11-27 17:31:15,873 - core.data_processor - INFO - TrÈnovacie d·ta: 704
+2025-11-27 17:31:15,873 - core.data_processor - INFO - Testovacie d·ta: 177
+2025-11-27 17:31:15,873 - core.classifier - INFO - ZaËÌnam feature extraction...
+2025-11-27 17:31:15,873 - core.feature_extractor - INFO - TrÈnujem hybridn˝ feature extractor...
+2025-11-27 17:31:15,873 - core.feature_extractor - INFO - TrÈnujem TF-IDF...
+2025-11-27 17:31:15,883 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre trÈnovacie d·ta...
+2025-11-27 17:31:15,883 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 704 textov...
+2025-11-27 17:31:27,258 - core.feature_extractor - INFO - BERT embeddings shape: (704, 768)
+2025-11-27 17:31:27,258 - core.feature_extractor - INFO - Redukujem BERT dimenzie na 100
+2025-11-27 17:31:27,362 - core.feature_extractor - INFO - Feature extractor ˙speöne natrÈnovan˝
+2025-11-27 17:31:27,384 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 704 textov...
+2025-11-27 17:31:42,780 - core.feature_extractor - INFO - BERT embeddings shape: (704, 768)
+2025-11-27 17:31:42,788 - core.feature_extractor - INFO - KombinovanÈ features shape: (704, 2100)
+2025-11-27 17:31:42,795 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 177 textov...
+2025-11-27 17:31:46,587 - core.feature_extractor - INFO - BERT embeddings shape: (177, 768)
+2025-11-27 17:31:46,590 - core.feature_extractor - INFO - KombinovanÈ features shape: (177, 2100)
+2025-11-27 17:31:46,591 - core.classifier - INFO - TrÈnovacie features: (704, 2100)
+2025-11-27 17:31:46,591 - core.classifier - INFO - Testovacie features: (177, 2100)
+2025-11-27 17:31:46,591 - core.model_trainer - INFO - ZaËÌnam trÈnovanie modelu...
+2025-11-27 17:31:46,591 - core.model_trainer - INFO - TrÈnujem Random Forest...
+2025-11-27 17:31:51,001 - core.model_trainer - INFO - TrÈnovacia presnosù: 0.9943
+2025-11-27 17:31:51,001 - core.model_trainer - INFO - Testovacia presnosù: 0.8870
+2025-11-27 17:31:51,007 - core.model_trainer - INFO - 
+Classification Report:
+2025-11-27 17:31:51,011 - core.model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.75      0.75      0.75        12
+           1       1.00      0.90      0.95        29
+           2       0.80      0.94      0.86        17
+           3       1.00      0.80      0.89        20
+           4       0.91      0.97      0.94        64
+           5       0.88      0.70      0.78        10
+           6       0.67      0.73      0.70        11
+           7       0.87      0.93      0.90        14
+
+    accuracy                           0.89       177
+   macro avg       0.86      0.84      0.84       177
+weighted avg       0.89      0.89      0.89       177
+
+2025-11-27 17:31:51,011 - core.classifier - INFO - Uklad·m modely...
+2025-11-27 17:31:51,029 - core.feature_extractor - INFO - Feature extractor uloûen˝
+2025-11-27 17:31:51,060 - core.model_trainer - INFO - Model uloûen˝ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SO»\FilterSOC\FilterSOC_Alpha4_ML\data\models\trained_model.joblib
+2025-11-27 17:31:51,061 - core.data_processor - INFO - Label encoder ulozeny
+2025-11-27 17:31:51,061 - core.classifier - INFO - Vöetky modely uloûenÈ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SO»\FilterSOC\FilterSOC_Alpha4_ML\data\models
+2025-11-27 17:31:51,366 - core.classifier - INFO - KoneËn· presnosù: 0.8870
+2025-11-27 17:31:51,367 - core.classifier - INFO - Priemern· istota: 0.6629
+2025-11-27 17:31:51,367 - core.classifier - INFO - PoËet features: 2100
+2025-11-27 17:31:51,367 - core.classifier - INFO - === TR…NOVANIE ⁄SPEäNE DOKON»EN… ===
+2025-11-27 17:31:51,368 - __main__ - INFO - TrÈnovanie ˙speöne dokonËenÈ!
+2025-11-27 17:33:33,588 - __main__ - INFO - Sp˙öùam trÈnovanie modelu...
+2025-11-27 17:33:33,588 - core.feature_extractor - INFO - NaËÌtavam Slovak BERT: gerulata/slovakbert
+2025-11-27 17:33:35,271 - core.feature_extractor - INFO - BERT model naËÌtan˝ na: cpu
+2025-11-27 17:33:35,271 - core.classifier - INFO - Classifier inicializovan˝ - BERT: True, TF-IDF: True
+2025-11-27 17:33:35,271 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2025-11-27 17:33:35,271 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2025-11-27 17:33:35,271 - core.data_processor - INFO - Nacitavam data z: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SO»\FilterSOC\FilterSOC_Alpha4_ML\data\raw\training_data.csv
+2025-11-27 17:33:35,274 - core.data_processor - INFO - Data uspesne nacitane. Tvar: (913, 2)
+2025-11-27 17:33:35,274 - core.classifier - INFO - NaËÌtan˝ch 913 trÈnovacÌch prÌkladov
+2025-11-27 17:33:35,274 - core.data_processor - INFO - Zacinam augmentaciu dat...
+2025-11-27 17:33:35,425 - core.data_processor - INFO - Rozdelenie kategorii po augmentacii:
+2025-11-27 17:33:35,426 - core.data_processor - INFO -   legitimate: 328 prikladov
+2025-11-27 17:33:35,426 - core.data_processor - INFO -   clickbait: 147 prikladov
+2025-11-27 17:33:35,426 - core.data_processor - INFO -   false_news: 103 prikladov
+2025-11-27 17:33:35,426 - core.data_processor - INFO -   conspiracy: 73 prikladov
+2025-11-27 17:33:35,426 - core.data_processor - INFO -   satire: 71 prikladov
+2025-11-27 17:33:35,426 - core.data_processor - INFO -   biased: 61 prikladov
+2025-11-27 17:33:35,426 - core.data_processor - INFO -   propaganda: 58 prikladov
+2025-11-27 17:33:35,426 - core.data_processor - INFO -   misleading: 53 prikladov
+2025-11-27 17:33:35,427 - core.classifier - INFO - Po augment·cii: 894 prÌkladov
+2025-11-27 17:33:35,427 - core.data_processor - INFO - Spustam preprocessing dat...
+2025-11-27 17:33:35,434 - core.data_processor - INFO - Preprocessing dokoncen˝. Pocet prikladov: 894
+2025-11-27 17:33:35,434 - core.data_processor - INFO - Rozdelenie kategorii:
+category
+legitimate    328
+clickbait     147
+false_news    103
+conspiracy     73
+satire         71
+biased         61
+propaganda     58
+misleading     53
+Name: count, dtype: int64
+2025-11-27 17:33:35,436 - core.data_processor - INFO - TrÈnovacie d·ta: 715
+2025-11-27 17:33:35,436 - core.data_processor - INFO - Testovacie d·ta: 179
+2025-11-27 17:33:35,436 - core.classifier - INFO - ZaËÌnam feature extraction...
+2025-11-27 17:33:35,436 - core.feature_extractor - INFO - TrÈnujem hybridn˝ feature extractor...
+2025-11-27 17:33:35,436 - core.feature_extractor - INFO - TrÈnujem TF-IDF...
+2025-11-27 17:33:35,446 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre trÈnovacie d·ta...
+2025-11-27 17:33:35,446 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 715 textov...
+2025-11-27 17:33:51,612 - core.feature_extractor - INFO - BERT embeddings shape: (715, 768)
+2025-11-27 17:33:51,612 - core.feature_extractor - INFO - Redukujem BERT dimenzie na 100
+2025-11-27 17:33:51,734 - core.feature_extractor - INFO - Feature extractor ˙speöne natrÈnovan˝
+2025-11-27 17:33:51,749 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 715 textov...
+2025-11-27 17:34:15,450 - core.feature_extractor - INFO - BERT embeddings shape: (715, 768)
+2025-11-27 17:34:15,458 - core.feature_extractor - INFO - KombinovanÈ features shape: (715, 2100)
+2025-11-27 17:34:15,466 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 179 textov...
+2025-11-27 17:34:20,891 - core.feature_extractor - INFO - BERT embeddings shape: (179, 768)
+2025-11-27 17:34:20,891 - core.feature_extractor - INFO - KombinovanÈ features shape: (179, 2100)
+2025-11-27 17:34:20,891 - core.classifier - INFO - TrÈnovacie features: (715, 2100)
+2025-11-27 17:34:20,891 - core.classifier - INFO - Testovacie features: (179, 2100)
+2025-11-27 17:34:20,891 - core.model_trainer - INFO - ZaËÌnam trÈnovanie modelu...
+2025-11-27 17:34:20,891 - core.model_trainer - INFO - TrÈnujem Random Forest...
+2025-11-27 17:34:37,244 - core.model_trainer - INFO - TrÈnovacia presnosù: 1.0000
+2025-11-27 17:34:37,260 - core.model_trainer - INFO - Testovacia presnosù: 0.9274
+2025-11-27 17:34:37,278 - core.model_trainer - INFO - 
+Classification Report:
+2025-11-27 17:34:37,278 - core.model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       1.00      0.83      0.91        12
+           1       1.00      0.90      0.95        29
+           2       1.00      1.00      1.00        15
+           3       1.00      0.95      0.98        21
+           4       0.87      0.98      0.92        66
+           5       0.91      1.00      0.95        10
+           6       0.90      0.75      0.82        12
+           7       0.92      0.79      0.85        14
+
+    accuracy                           0.93       179
+   macro avg       0.95      0.90      0.92       179
+weighted avg       0.93      0.93      0.93       179
+
+2025-11-27 17:34:37,278 - core.classifier - INFO - Uklad·m modely...
+2025-11-27 17:34:37,319 - core.feature_extractor - INFO - Feature extractor uloûen˝
+2025-11-27 17:34:37,430 - core.model_trainer - INFO - Model uloûen˝ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SO»\FilterSOC\FilterSOC_Alpha4_ML\data\models\trained_model.joblib
+2025-11-27 17:34:37,433 - core.data_processor - INFO - Label encoder ulozeny
+2025-11-27 17:34:37,434 - core.classifier - INFO - Vöetky modely uloûenÈ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SO»\FilterSOC\FilterSOC_Alpha4_ML\data\models
+2025-11-27 17:34:37,971 - core.classifier - INFO - KoneËn· presnosù: 0.9274
+2025-11-27 17:34:37,971 - core.classifier - INFO - Priemern· istota: 0.7226
+2025-11-27 17:34:37,971 - core.classifier - INFO - PoËet features: 2100
+2025-11-27 17:34:37,971 - core.classifier - INFO - === TR…NOVANIE ⁄SPEäNE DOKON»EN… ===
+2025-11-27 17:34:37,973 - __main__ - INFO - TrÈnovanie ˙speöne dokonËenÈ!

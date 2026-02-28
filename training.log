@@ -1,0 +1,161 @@
+2025-11-22 19:48:59,977 - __main__ - INFO - Spúšam trénovanie modelu...
+2025-11-22 19:48:59,977 - core.feature_extractor - INFO - Naèítavam Slovak BERT: gerulata/slovakbert
+2025-11-22 19:49:01,514 - core.feature_extractor - INFO - BERT model naèítanı na: cpu
+2025-11-22 19:49:01,514 - core.classifier - INFO - Classifier inicializovanı - BERT: True, TF-IDF: True
+2025-11-22 19:49:01,514 - core.classifier - INFO - Pouívané zariadenie: cpu
+2025-11-22 19:49:01,514 - core.classifier - INFO - === ZAÈÍNAM TRÉNOVANIE KLASIFIKÁTORA ===
+2025-11-22 19:49:01,514 - core.data_processor - INFO - Naèítavam dáta z: data/raw/training_data.csv
+2025-11-22 19:49:01,524 - core.data_processor - INFO - Dáta úspešne naèítané. Tvar: (725, 2)
+2025-11-22 19:49:01,525 - core.classifier - INFO - Naèítanıch 725 trénovacích príkladov
+2025-11-22 19:49:01,525 - core.data_processor - INFO - Zaèínam augmentáciu dát...
+2025-11-22 19:49:01,712 - core.data_processor - INFO - Rozdelenie kategórií po augmentácii:
+2025-11-22 19:49:01,716 - core.data_processor - INFO -   legitimate: 144 príkladov
+2025-11-22 19:49:01,716 - core.data_processor - INFO -   clickbait: 117 príkladov
+2025-11-22 19:49:01,716 - core.data_processor - INFO -   false_news: 88 príkladov
+2025-11-22 19:49:01,716 - core.data_processor - INFO -   conspiracy: 65 príkladov
+2025-11-22 19:49:01,716 - core.data_processor - INFO -   satire: 55 príkladov
+2025-11-22 19:49:01,716 - core.data_processor - INFO -   propaganda: 43 príkladov
+2025-11-22 19:49:01,716 - core.data_processor - INFO -   misleading: 41 príkladov
+2025-11-22 19:49:01,716 - core.data_processor - INFO -   biased: 31 príkladov
+2025-11-22 19:49:01,717 - core.classifier - INFO - Po augmentácii: 584 príkladov
+2025-11-22 19:49:01,717 - core.data_processor - INFO - Spúšam preprocessing dát...
+2025-11-22 19:49:01,728 - core.data_processor - INFO - Preprocessing dokonèenı. Poèet príkladov: 584
+2025-11-22 19:49:01,729 - core.data_processor - INFO - Rozdelenie kategórií:
+category
+legitimate    144
+clickbait     117
+false_news     88
+conspiracy     65
+satire         55
+propaganda     43
+misleading     41
+biased         31
+Name: count, dtype: int64
+2025-11-22 19:49:01,734 - core.data_processor - INFO - Trénovacie dáta: 467
+2025-11-22 19:49:01,734 - core.data_processor - INFO - Testovacie dáta: 117
+2025-11-22 19:49:01,734 - core.classifier - INFO - Zaèínam feature extraction...
+2025-11-22 19:49:01,734 - core.feature_extractor - INFO - Trénujem hybridnı feature extractor...
+2025-11-22 19:49:01,734 - core.feature_extractor - INFO - Trénujem TF-IDF...
+2025-11-22 19:49:01,746 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre trénovacie dáta...
+2025-11-22 19:49:01,746 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 467 textov...
+2025-11-22 19:49:17,331 - core.feature_extractor - INFO - BERT embeddings shape: (467, 768)
+2025-11-22 19:49:17,332 - core.feature_extractor - INFO - Redukujem BERT dimenzie na 100
+2025-11-22 19:49:17,502 - core.feature_extractor - INFO - Feature extractor úspešne natrénovanı
+2025-11-22 19:49:17,520 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 467 textov...
+2025-11-22 19:49:31,492 - core.feature_extractor - INFO - BERT embeddings shape: (467, 768)
+2025-11-22 19:49:31,498 - core.feature_extractor - INFO - Kombinované features shape: (467, 1038)
+2025-11-22 19:49:31,504 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 117 textov...
+2025-11-22 19:49:35,243 - core.feature_extractor - INFO - BERT embeddings shape: (117, 768)
+2025-11-22 19:49:35,245 - core.feature_extractor - INFO - Kombinované features shape: (117, 1038)
+2025-11-22 19:49:35,245 - core.classifier - INFO - Trénovacie features: (467, 1038)
+2025-11-22 19:49:35,246 - core.classifier - INFO - Testovacie features: (117, 1038)
+2025-11-22 19:49:35,246 - core.model_trainer - INFO - Zaèínam trénovanie modelu...
+2025-11-22 19:49:35,246 - core.model_trainer - INFO - Trénujem Random Forest...
+2025-11-22 19:49:35,670 - core.model_trainer - INFO - Trénovacia presnos: 0.9979
+2025-11-22 19:49:35,670 - core.model_trainer - INFO - Testovacia presnos: 0.9658
+2025-11-22 19:49:35,701 - core.model_trainer - INFO - 
+Classification Report:
+2025-11-22 19:49:35,711 - core.model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.83      0.83      0.83         6
+           1       1.00      1.00      1.00        23
+           2       1.00      1.00      1.00        13
+           3       1.00      0.94      0.97        18
+           4       0.97      1.00      0.98        29
+           5       1.00      0.88      0.93         8
+           6       1.00      0.89      0.94         9
+           7       0.85      1.00      0.92        11
+
+    accuracy                           0.97       117
+   macro avg       0.96      0.94      0.95       117
+weighted avg       0.97      0.97      0.97       117
+
+2025-11-22 19:49:35,711 - core.classifier - INFO - Ukladám modely...
+2025-11-22 19:49:35,730 - core.feature_extractor - INFO - Feature extractor uloenı
+2025-11-22 19:49:35,766 - core.model_trainer - INFO - Model uloenı do: data/models/trained_model.joblib
+2025-11-22 19:49:35,768 - core.data_processor - INFO - Label encoder uloenı
+2025-11-22 19:49:35,769 - core.classifier - INFO - Všetky modely uloené do: data/models/
+2025-11-22 19:49:37,691 - matplotlib.font_manager - INFO - generated new fontManager
+2025-11-22 19:49:38,319 - core.classifier - INFO - === TRÉNOVANIE ÚSPEŠNE DOKONÈENÉ ===
+2025-11-22 19:49:38,319 - __main__ - INFO - Trénovanie úspešne dokonèené!
+2025-11-24 08:04:04,748 - __main__ - INFO - Spúšam trénovanie modelu...
+2025-11-24 08:04:04,749 - core.feature_extractor - INFO - Naèítavam Slovak BERT: gerulata/slovakbert
+2025-11-24 08:04:07,154 - core.feature_extractor - INFO - BERT model naèítanı na: cpu
+2025-11-24 08:04:07,155 - core.classifier - INFO - Classifier inicializovanı - BERT: True, TF-IDF: True
+2025-11-24 08:04:07,155 - core.classifier - INFO - Pouívané zariadenie: cpu
+2025-11-24 08:04:07,155 - core.classifier - INFO - === ZAÈÍNAM TRÉNOVANIE KLASIFIKÁTORA ===
+2025-11-24 08:04:07,156 - core.data_processor - INFO - Naèítavam dáta z: data/raw/training_data.csv
+2025-11-24 08:04:07,167 - core.data_processor - INFO - Dáta úspešne naèítané. Tvar: (760, 2)
+2025-11-24 08:04:07,167 - core.classifier - INFO - Naèítanıch 760 trénovacích príkladov
+2025-11-24 08:04:07,168 - core.data_processor - INFO - Zaèínam augmentáciu dát...
+2025-11-24 08:04:07,417 - core.data_processor - INFO - Rozdelenie kategórií po augmentácii:
+2025-11-24 08:04:07,420 - core.data_processor - INFO -   legitimate: 161 príkladov
+2025-11-24 08:04:07,420 - core.data_processor - INFO -   clickbait: 124 príkladov
+2025-11-24 08:04:07,420 - core.data_processor - INFO -   false_news: 101 príkladov
+2025-11-24 08:04:07,421 - core.data_processor - INFO -   conspiracy: 74 príkladov
+2025-11-24 08:04:07,421 - core.data_processor - INFO -   satire: 64 príkladov
+2025-11-24 08:04:07,421 - core.data_processor - INFO -   misleading: 53 príkladov
+2025-11-24 08:04:07,421 - core.data_processor - INFO -   propaganda: 51 príkladov
+2025-11-24 08:04:07,421 - core.data_processor - INFO -   biased: 41 príkladov
+2025-11-24 08:04:07,423 - core.classifier - INFO - Po augmentácii: 669 príkladov
+2025-11-24 08:04:07,424 - core.data_processor - INFO - Spúšam preprocessing dát...
+2025-11-24 08:04:07,436 - core.data_processor - INFO - Preprocessing dokonèenı. Poèet príkladov: 669
+2025-11-24 08:04:07,438 - core.data_processor - INFO - Rozdelenie kategórií:
+category
+legitimate    161
+clickbait     124
+false_news    101
+conspiracy     74
+satire         64
+misleading     53
+propaganda     51
+biased         41
+Name: count, dtype: int64
+2025-11-24 08:04:07,442 - core.data_processor - INFO - Trénovacie dáta: 535
+2025-11-24 08:04:07,443 - core.data_processor - INFO - Testovacie dáta: 134
+2025-11-24 08:04:07,443 - core.classifier - INFO - Zaèínam feature extraction...
+2025-11-24 08:04:07,443 - core.feature_extractor - INFO - Trénujem hybridnı feature extractor...
+2025-11-24 08:04:07,444 - core.feature_extractor - INFO - Trénujem TF-IDF...
+2025-11-24 08:04:07,456 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre trénovacie dáta...
+2025-11-24 08:04:07,456 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 535 textov...
+2025-11-24 08:04:20,843 - core.feature_extractor - INFO - BERT embeddings shape: (535, 768)
+2025-11-24 08:04:20,843 - core.feature_extractor - INFO - Redukujem BERT dimenzie na 100
+2025-11-24 08:04:20,973 - core.feature_extractor - INFO - Feature extractor úspešne natrénovanı
+2025-11-24 08:04:20,985 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 535 textov...
+2025-11-24 08:04:33,883 - core.feature_extractor - INFO - BERT embeddings shape: (535, 768)
+2025-11-24 08:04:33,888 - core.feature_extractor - INFO - Kombinované features shape: (535, 1301)
+2025-11-24 08:04:33,894 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 134 textov...
+2025-11-24 08:04:36,185 - core.feature_extractor - INFO - BERT embeddings shape: (134, 768)
+2025-11-24 08:04:36,187 - core.feature_extractor - INFO - Kombinované features shape: (134, 1301)
+2025-11-24 08:04:36,187 - core.classifier - INFO - Trénovacie features: (535, 1301)
+2025-11-24 08:04:36,187 - core.classifier - INFO - Testovacie features: (134, 1301)
+2025-11-24 08:04:36,188 - core.model_trainer - INFO - Zaèínam trénovanie modelu...
+2025-11-24 08:04:36,188 - core.model_trainer - INFO - Trénujem Random Forest...
+2025-11-24 08:04:36,512 - core.model_trainer - INFO - Trénovacia presnos: 1.0000
+2025-11-24 08:04:36,513 - core.model_trainer - INFO - Testovacia presnos: 0.9627
+2025-11-24 08:04:36,544 - core.model_trainer - INFO - 
+Classification Report:
+2025-11-24 08:04:36,551 - core.model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       1.00      0.88      0.93         8
+           1       1.00      1.00      1.00        25
+           2       1.00      1.00      1.00        15
+           3       1.00      1.00      1.00        20
+           4       0.86      1.00      0.93        32
+           5       1.00      0.91      0.95        11
+           6       1.00      0.90      0.95        10
+           7       1.00      0.85      0.92        13
+
+    accuracy                           0.96       134
+   macro avg       0.98      0.94      0.96       134
+weighted avg       0.97      0.96      0.96       134
+
+2025-11-24 08:04:36,551 - core.classifier - INFO - Ukladám modely...
+2025-11-24 08:04:36,567 - core.feature_extractor - INFO - Feature extractor uloenı
+2025-11-24 08:04:36,591 - core.model_trainer - INFO - Model uloenı do: data/models/trained_model.joblib
+2025-11-24 08:04:36,592 - core.data_processor - INFO - Label encoder uloenı
+2025-11-24 08:04:36,593 - core.classifier - INFO - Všetky modely uloené do: data/models/
+2025-11-24 08:04:37,519 - core.classifier - INFO - === TRÉNOVANIE ÚSPEŠNE DOKONÈENÉ ===
+2025-11-24 08:04:37,520 - __main__ - INFO - Trénovanie úspešne dokonèené!

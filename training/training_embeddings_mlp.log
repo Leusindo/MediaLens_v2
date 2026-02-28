@@ -1,0 +1,750 @@
+2026-02-25 10:50:09,058 - __main__ - INFO - Sp˙öùam trÈnovanie: Sentence-Embeddings + MLP ...
+2026-02-25 10:50:09,059 - core.feature_extractor - INFO - NaËÌtavam Slovak BERT: gerulata/slovakbert
+2026-02-25 10:50:10,788 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/gerulata/slovakbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 10:50:10,807 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/gerulata/slovakbert/629d4e16f546fad0054b5143fe13ccbea03259e2/config.json "HTTP/1.1 200 OK"
+2026-02-25 10:50:11,028 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/gerulata/slovakbert/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 10:50:11,047 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/gerulata/slovakbert/629d4e16f546fad0054b5143fe13ccbea03259e2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 10:50:11,237 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/gerulata/slovakbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-25 10:50:11,377 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/gerulata/slovakbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-25 10:50:11,744 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/gerulata/slovakbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 10:50:11,759 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/gerulata/slovakbert/629d4e16f546fad0054b5143fe13ccbea03259e2/config.json "HTTP/1.1 200 OK"
+2026-02-25 10:50:12,262 - core.feature_extractor - INFO - BERT model naËÌtan˝ na: cpu
+2026-02-25 10:50:12,262 - core.classifier - INFO - Classifier inicializovan˝ - BERT: False, TF-IDF: False, SENT: True, MODEL: mlp
+2026-02-25 10:50:12,262 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2026-02-25 10:50:12,263 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2026-02-25 10:50:12,263 - core.data_processor - INFO - Nacitavam data z: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\raw\training_data.csv
+2026-02-25 10:50:12,272 - core.data_processor - INFO - Data uspesne nacitane. Tvar: (913, 2)
+2026-02-25 10:50:12,273 - core.classifier - INFO - NaËÌtan˝ch 913 trÈnovacÌch prÌkladov
+2026-02-25 10:50:12,273 - core.data_processor - INFO - Zacinam augmentaciu dat...
+2026-02-25 10:50:12,602 - core.data_processor - INFO - Rozdelenie kategorii po augmentacii:
+2026-02-25 10:50:12,603 - core.data_processor - INFO -   legitimate: 323 prikladov
+2026-02-25 10:50:12,604 - core.data_processor - INFO -   clickbait: 144 prikladov
+2026-02-25 10:50:12,604 - core.data_processor - INFO -   false_news: 100 prikladov
+2026-02-25 10:50:12,604 - core.data_processor - INFO -   conspiracy: 76 prikladov
+2026-02-25 10:50:12,604 - core.data_processor - INFO -   satire: 65 prikladov
+2026-02-25 10:50:12,604 - core.data_processor - INFO -   biased: 60 prikladov
+2026-02-25 10:50:12,604 - core.data_processor - INFO -   misleading: 56 prikladov
+2026-02-25 10:50:12,604 - core.data_processor - INFO -   propaganda: 54 prikladov
+2026-02-25 10:50:12,606 - core.classifier - INFO - Po augment·cii: 878 prÌkladov
+2026-02-25 10:50:12,607 - core.data_processor - INFO - Spustam preprocessing dat...
+2026-02-25 10:50:12,628 - core.data_processor - INFO - Preprocessing dokoncen˝. Pocet prikladov: 878
+2026-02-25 10:50:12,631 - core.data_processor - INFO - Rozdelenie kategorii:
+category
+legitimate    323
+clickbait     144
+false_news    100
+conspiracy     76
+satire         65
+biased         60
+misleading     56
+propaganda     54
+Name: count, dtype: int64
+2026-02-25 10:50:12,637 - core.data_processor - INFO - TrÈnovacie d·ta: 702
+2026-02-25 10:50:12,637 - core.data_processor - INFO - Testovacie d·ta: 176
+2026-02-25 10:50:12,637 - core.classifier - INFO - ZaËÌnam feature extraction...
+2026-02-25 10:50:12,637 - core.feature_extractor - INFO - TrÈnujem hybridn˝ feature extractor...
+2026-02-25 10:50:12,637 - core.feature_extractor - INFO - TrÈnujem TF-IDF...
+2026-02-25 10:50:12,673 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre trÈnovacie d·ta...
+2026-02-25 10:50:12,674 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 702 textov...
+2026-02-25 10:50:52,590 - core.feature_extractor - INFO - BERT embeddings shape: (702, 768)
+2026-02-25 10:50:52,591 - core.feature_extractor - INFO - Redukujem BERT dimenzie na 100
+2026-02-25 10:50:52,823 - core.feature_extractor - INFO - Feature extractor ˙speöne natrÈnovan˝
+2026-02-25 10:50:52,844 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 702 textov...
+2026-02-25 10:51:28,928 - core.feature_extractor - INFO - BERT embeddings shape: (702, 768)
+2026-02-25 10:51:28,943 - core.feature_extractor - INFO - KombinovanÈ features shape: (702, 2100)
+2026-02-25 10:51:28,957 - core.feature_extractor - INFO - Extrahujem BERT embeddings pre 176 textov...
+2026-02-25 10:51:38,301 - core.feature_extractor - INFO - BERT embeddings shape: (176, 768)
+2026-02-25 10:51:38,305 - core.feature_extractor - INFO - KombinovanÈ features shape: (176, 2100)
+2026-02-25 10:51:38,307 - core.classifier - INFO - TrÈnovacie features: (702, 2100)
+2026-02-25 10:51:38,307 - core.classifier - INFO - Testovacie features: (176, 2100)
+2026-02-25 10:51:38,307 - core.model_trainer - INFO - ZaËÌnam trÈnovanie modelu...
+2026-02-25 10:51:38,307 - core.model_trainer - INFO - TrÈnujem Random Forest...
+2026-02-25 10:51:56,427 - core.model_trainer - INFO - TrÈnovacia presnosù: 0.9986
+2026-02-25 10:51:56,427 - core.model_trainer - INFO - Testovacia presnosù: 0.9261
+2026-02-25 10:51:56,461 - core.model_trainer - INFO - 
+Classification Report:
+2026-02-25 10:51:56,468 - core.model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.92      0.92      0.92        12
+           1       0.96      0.93      0.95        29
+           2       0.88      1.00      0.94        15
+           3       0.95      0.95      0.95        20
+           4       0.89      0.98      0.93        65
+           5       1.00      0.91      0.95        11
+           6       1.00      0.73      0.84        11
+           7       1.00      0.69      0.82        13
+
+    accuracy                           0.93       176
+   macro avg       0.95      0.89      0.91       176
+weighted avg       0.93      0.93      0.92       176
+
+2026-02-25 10:51:56,468 - core.classifier - INFO - Uklad·m modely...
+2026-02-25 10:51:56,510 - core.feature_extractor - INFO - Feature extractor uloûen˝
+2026-02-25 10:51:56,612 - core.model_trainer - INFO - Model uloûen˝ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models\trained_model.joblib
+2026-02-25 10:51:56,615 - core.data_processor - INFO - Label encoder ulozeny
+2026-02-25 10:51:56,617 - core.classifier - INFO - Vöetky modely uloûenÈ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models
+2026-02-25 10:51:56,729 - core.classifier - INFO - KoneËn· presnosù: 0.9261
+2026-02-25 10:51:56,730 - core.classifier - INFO - Priemern· istota: 0.7482
+2026-02-25 10:51:56,730 - core.classifier - INFO - PoËet features: 2100
+2026-02-25 10:51:56,730 - core.classifier - INFO - === TR…NOVANIE ⁄SPEäNE DOKON»EN… ===
+2026-02-25 10:51:56,731 - __main__ - INFO - TrÈnovanie ˙speöne dokonËenÈ!
+2026-02-25 11:19:11,822 - __main__ - INFO - Sp˙öùam trÈnovanie: Sentence-Embeddings + MLP ...
+2026-02-25 11:19:11,823 - core.feature_extractor - INFO - NaËÌtavam SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-02-25 11:19:11,825 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-02-25 11:19:12,686 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 11:19:12,703 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:12,727 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:12,882 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 11:19:12,904 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:12,933 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:13,089 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 11:19:13,105 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:13,299 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 11:19:13,324 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-25 11:19:13,346 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-25 11:19:13,497 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 11:19:13,512 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:13,701 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 11:19:13,717 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:13,737 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:13,912 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-25 11:19:14,111 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 11:19:14,128 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:14,148 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:14,549 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-02-25 11:19:14,839 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/xet-read-token/e8f8c211226b894fcb81acc59f3b34ba3efd5f42 "HTTP/1.1 200 OK"
+2026-02-25 11:19:32,851 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 11:19:32,870 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:33,055 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 11:19:33,075 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:33,105 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:33,266 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 11:19:33,267 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-25 11:19:33,297 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:33,466 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-25 11:19:33,642 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-25 11:19:33,908 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer.json "HTTP/1.1 302 Found"
+2026-02-25 11:19:34,646 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer.model "HTTP/1.1 404 Not Found"
+2026-02-25 11:19:34,817 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-02-25 11:19:34,964 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 11:19:34,981 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:34,999 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:35,136 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-02-25 11:19:37,264 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-25 11:19:37,665 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 11:19:37,679 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:37,696 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-25 11:19:37,881 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-25 11:19:37,894 - core.classifier - INFO - Classifier inicializovan˝ - BERT: False, TF-IDF: False, SENT: True, MODEL: mlp
+2026-02-25 11:19:37,895 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2026-02-25 11:19:37,895 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2026-02-25 11:19:37,895 - core.data_processor - INFO - Nacitavam data z: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\raw\training_data.csv
+2026-02-25 11:19:37,921 - core.data_processor - INFO - Data uspesne nacitane. Tvar: (913, 2)
+2026-02-25 11:19:37,921 - core.classifier - INFO - NaËÌtan˝ch 913 trÈnovacÌch prÌkladov
+2026-02-25 11:19:37,921 - core.data_processor - INFO - Zacinam augmentaciu dat...
+2026-02-25 11:19:38,054 - core.data_processor - INFO - Rozdelenie kategorii po augmentacii:
+2026-02-25 11:19:38,058 - core.data_processor - INFO -   legitimate: 322 prikladov
+2026-02-25 11:19:38,058 - core.data_processor - INFO -   clickbait: 142 prikladov
+2026-02-25 11:19:38,058 - core.data_processor - INFO -   false_news: 101 prikladov
+2026-02-25 11:19:38,058 - core.data_processor - INFO -   conspiracy: 75 prikladov
+2026-02-25 11:19:38,058 - core.data_processor - INFO -   satire: 73 prikladov
+2026-02-25 11:19:38,058 - core.data_processor - INFO -   biased: 61 prikladov
+2026-02-25 11:19:38,058 - core.data_processor - INFO -   propaganda: 57 prikladov
+2026-02-25 11:19:38,058 - core.data_processor - INFO -   misleading: 55 prikladov
+2026-02-25 11:19:38,060 - core.classifier - INFO - Po augment·cii: 886 prÌkladov
+2026-02-25 11:19:38,060 - core.data_processor - INFO - Spustam preprocessing dat...
+2026-02-25 11:19:38,072 - core.data_processor - INFO - Preprocessing dokoncen˝. Pocet prikladov: 886
+2026-02-25 11:19:38,073 - core.data_processor - INFO - Rozdelenie kategorii:
+category
+legitimate    322
+clickbait     142
+false_news    101
+conspiracy     75
+satire         73
+biased         61
+propaganda     57
+misleading     55
+Name: count, dtype: int64
+2026-02-25 11:19:38,081 - core.data_processor - INFO - TrÈnovacie d·ta: 708
+2026-02-25 11:19:38,082 - core.data_processor - INFO - Testovacie d·ta: 178
+2026-02-25 11:19:38,082 - core.classifier - INFO - ZaËÌnam feature extraction...
+2026-02-25 11:19:38,082 - core.feature_extractor - INFO - TrÈnujem hybridn˝ feature extractor...
+2026-02-25 11:19:38,082 - core.feature_extractor - INFO - Warmup: sentence embeddings...
+2026-02-25 11:19:38,082 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 4 textov...
+2026-02-25 11:19:38,440 - core.feature_extractor - INFO - Sentence embeddings shape: (4, 384)
+2026-02-25 11:19:38,441 - core.feature_extractor - INFO - Feature extractor ˙speöne natrÈnovan˝
+2026-02-25 11:19:38,441 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 708 textov...
+2026-02-25 11:19:46,270 - core.feature_extractor - INFO - Sentence embeddings shape: (708, 384)
+2026-02-25 11:19:46,271 - core.feature_extractor - INFO - KombinovanÈ features shape: (708, 384)
+2026-02-25 11:19:46,272 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 178 textov...
+2026-02-25 11:19:48,382 - core.feature_extractor - INFO - Sentence embeddings shape: (178, 384)
+2026-02-25 11:19:48,382 - core.feature_extractor - INFO - KombinovanÈ features shape: (178, 384)
+2026-02-25 11:19:48,383 - core.classifier - INFO - TrÈnovacie features: (708, 384)
+2026-02-25 11:19:48,383 - core.classifier - INFO - Testovacie features: (178, 384)
+2026-02-25 11:19:48,383 - core.model_trainer - INFO - ZaËÌnam trÈnovanie modelu...
+2026-02-25 11:19:48,384 - core.model_trainer - INFO - TrÈnujem MLP (na embeddings/features)...
+2026-02-25 11:19:52,123 - core.model_trainer - INFO - TrÈnovacia presnosù: 0.9887
+2026-02-25 11:19:52,123 - core.model_trainer - INFO - Testovacia presnosù: 0.9213
+2026-02-25 11:19:52,125 - core.model_trainer - INFO - 
+Classification Report:
+2026-02-25 11:19:52,132 - core.model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.83      0.83      0.83        12
+           1       0.88      0.97      0.92        29
+           2       1.00      0.93      0.97        15
+           3       1.00      1.00      1.00        20
+           4       0.92      0.91      0.91        65
+           5       0.75      0.82      0.78        11
+           6       1.00      0.82      0.90        11
+           7       1.00      1.00      1.00        15
+
+    accuracy                           0.92       178
+   macro avg       0.92      0.91      0.91       178
+weighted avg       0.92      0.92      0.92       178
+
+2026-02-25 11:19:52,132 - core.classifier - INFO - Uklad·m modely...
+2026-02-25 11:19:52,133 - core.feature_extractor - INFO - Feature extractor uloûen˝
+2026-02-25 11:19:52,139 - core.model_trainer - INFO - Model uloûen˝ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models\trained_model.joblib
+2026-02-25 11:19:52,142 - core.data_processor - INFO - Label encoder ulozeny
+2026-02-25 11:19:52,144 - core.classifier - INFO - Vöetky modely uloûenÈ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models
+2026-02-25 11:19:52,159 - core.classifier - INFO - KoneËn· presnosù: 0.9213
+2026-02-25 11:19:52,159 - core.classifier - INFO - Priemern· istota: 0.9107
+2026-02-25 11:19:52,159 - core.classifier - INFO - PoËet features: 384
+2026-02-25 11:19:52,159 - core.classifier - INFO - === TR…NOVANIE ⁄SPEäNE DOKON»EN… ===
+2026-02-25 11:19:52,160 - __main__ - INFO - TrÈnovanie ˙speöne dokonËenÈ!
+2026-02-25 16:28:52,391 - __main__ - INFO - Sp˙öùam trÈnovanie: Sentence-Embeddings + MLP ...
+2026-02-25 16:28:52,392 - core.feature_extractor - INFO - NaËÌtavam SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-02-25 16:28:52,393 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-02-25 16:28:53,185 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:28:53,313 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 16:28:53,478 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:28:53,597 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 16:28:53,750 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:28:53,885 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 16:28:54,038 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:28:54,146 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-25 16:28:54,412 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:28:54,548 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 16:28:54,786 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:28:54,909 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:28:55,064 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-25 16:28:55,299 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:28:55,424 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 16:28:55,850 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:28:55,851 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-25 16:28:55,905 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 16:28:56,130 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:28:56,233 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:28:56,437 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:28:56,540 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:28:56,747 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-25 16:28:56,965 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-25 16:28:58,612 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-25 16:28:58,949 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:28:59,000 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-25 16:28:59,206 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-25 16:28:59,211 - core.classifier - INFO - Classifier inicializovan˝ - BERT: False, TF-IDF: False, SENT: True, MODEL: mlp
+2026-02-25 16:28:59,211 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2026-02-25 16:28:59,211 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2026-02-25 16:28:59,211 - core.data_processor - INFO - Nacitavam data z: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\raw\training_data.csv
+2026-02-25 16:28:59,218 - core.data_processor - INFO - Data uspesne nacitane. Tvar: (913, 2)
+2026-02-25 16:28:59,218 - core.classifier - INFO - NaËÌtan˝ch 913 trÈnovacÌch prÌkladov
+2026-02-25 16:28:59,218 - core.data_processor - INFO - Zacinam augmentaciu dat...
+2026-02-25 16:28:59,416 - core.data_processor - INFO - Rozdelenie kategorii po augmentacii:
+2026-02-25 16:28:59,417 - core.data_processor - INFO -   legitimate: 325 prikladov
+2026-02-25 16:28:59,417 - core.data_processor - INFO -   clickbait: 149 prikladov
+2026-02-25 16:28:59,418 - core.data_processor - INFO -   false_news: 101 prikladov
+2026-02-25 16:28:59,418 - core.data_processor - INFO -   conspiracy: 80 prikladov
+2026-02-25 16:28:59,418 - core.data_processor - INFO -   satire: 73 prikladov
+2026-02-25 16:28:59,418 - core.data_processor - INFO -   biased: 62 prikladov
+2026-02-25 16:28:59,418 - core.data_processor - INFO -   propaganda: 60 prikladov
+2026-02-25 16:28:59,418 - core.data_processor - INFO -   misleading: 57 prikladov
+2026-02-25 16:28:59,419 - core.classifier - INFO - Po augment·cii: 907 prÌkladov
+2026-02-25 16:28:59,419 - core.data_processor - INFO - Spustam preprocessing dat...
+2026-02-25 16:28:59,425 - core.data_processor - INFO - Preprocessing dokoncen˝. Pocet prikladov: 907
+2026-02-25 16:28:59,426 - core.data_processor - INFO - Rozdelenie kategorii:
+category
+legitimate    325
+clickbait     149
+false_news    101
+conspiracy     80
+satire         73
+biased         62
+propaganda     60
+misleading     57
+Name: count, dtype: int64
+2026-02-25 16:28:59,432 - core.data_processor - INFO - TrÈnovacie d·ta: 725
+2026-02-25 16:28:59,433 - core.data_processor - INFO - Testovacie d·ta: 182
+2026-02-25 16:28:59,433 - core.classifier - INFO - ZaËÌnam feature extraction...
+2026-02-25 16:28:59,433 - core.feature_extractor - INFO - TrÈnujem hybridn˝ feature extractor...
+2026-02-25 16:28:59,433 - core.feature_extractor - INFO - Warmup: sentence embeddings...
+2026-02-25 16:28:59,433 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 4 textov...
+2026-02-25 16:28:59,503 - core.feature_extractor - INFO - Sentence embeddings shape: (4, 384)
+2026-02-25 16:28:59,503 - core.feature_extractor - INFO - Feature extractor ˙speöne natrÈnovan˝
+2026-02-25 16:28:59,503 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 725 textov...
+2026-02-25 16:29:02,013 - core.feature_extractor - INFO - Sentence embeddings shape: (725, 384)
+2026-02-25 16:29:02,014 - core.feature_extractor - INFO - KombinovanÈ features shape: (725, 384)
+2026-02-25 16:29:02,014 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 182 textov...
+2026-02-25 16:29:02,679 - core.feature_extractor - INFO - Sentence embeddings shape: (182, 384)
+2026-02-25 16:29:02,680 - core.feature_extractor - INFO - KombinovanÈ features shape: (182, 384)
+2026-02-25 16:29:02,680 - core.classifier - INFO - TrÈnovacie features: (725, 384)
+2026-02-25 16:29:02,680 - core.classifier - INFO - Testovacie features: (182, 384)
+2026-02-25 16:29:02,680 - core.model_trainer - INFO - ZaËÌnam trÈnovanie modelu...
+2026-02-25 16:29:02,680 - core.model_trainer - INFO - TrÈnujem MLP (na embeddings/features)...
+2026-02-25 16:29:04,211 - core.model_trainer - INFO - TrÈnovacia presnosù: 0.9876
+2026-02-25 16:29:04,211 - core.model_trainer - INFO - Testovacia presnosù: 0.9176
+2026-02-25 16:29:04,212 - core.model_trainer - INFO - 
+Classification Report:
+2026-02-25 16:29:04,215 - core.model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       1.00      0.85      0.92        13
+           1       0.94      1.00      0.97        30
+           2       1.00      1.00      1.00        16
+           3       0.82      0.90      0.86        20
+           4       0.94      0.92      0.93        65
+           5       0.83      0.91      0.87        11
+           6       0.90      0.75      0.82        12
+           7       0.87      0.87      0.87        15
+
+    accuracy                           0.92       182
+   macro avg       0.91      0.90      0.90       182
+weighted avg       0.92      0.92      0.92       182
+
+2026-02-25 16:29:04,215 - core.classifier - INFO - Uklad·m modely...
+2026-02-25 16:29:04,216 - core.feature_extractor - INFO - Feature extractor uloûen˝
+2026-02-25 16:29:04,220 - core.model_trainer - INFO - Model uloûen˝ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models\trained_model.joblib
+2026-02-25 16:29:04,221 - core.data_processor - INFO - Label encoder ulozeny
+2026-02-25 16:29:04,221 - core.classifier - INFO - Vöetky modely uloûenÈ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models
+2026-02-25 16:29:04,231 - core.classifier - INFO - KoneËn· presnosù: 0.9176
+2026-02-25 16:29:04,231 - core.classifier - INFO - Priemern· istota: 0.8711
+2026-02-25 16:29:04,231 - core.classifier - INFO - PoËet features: 384
+2026-02-25 16:29:04,231 - core.classifier - INFO - === TR…NOVANIE ⁄SPEäNE DOKON»EN… ===
+2026-02-25 16:29:04,231 - __main__ - INFO - TrÈnovanie ˙speöne dokonËenÈ!
+2026-02-25 16:30:07,933 - __main__ - INFO - Sp˙öùam trÈnovanie: Sentence-Embeddings + MLP ...
+2026-02-25 16:30:07,933 - core.feature_extractor - INFO - NaËÌtavam SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-02-25 16:30:07,935 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-02-25 16:30:08,691 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:30:08,751 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 16:30:08,938 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:30:09,048 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 16:30:09,246 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:30:09,247 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-25 16:30:09,297 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 16:30:09,552 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:30:09,606 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-25 16:30:09,765 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:30:09,859 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 16:30:10,065 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:30:10,136 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:30:10,328 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-25 16:30:10,510 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:30:10,585 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 16:30:11,714 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:30:11,805 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 16:30:12,017 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:30:12,110 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:30:12,333 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:30:12,389 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:30:12,578 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-25 16:30:12,836 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-25 16:30:14,263 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-25 16:30:14,587 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:30:14,650 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-25 16:30:15,089 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-25 16:30:15,092 - core.classifier - INFO - Classifier inicializovan˝ - BERT: False, TF-IDF: False, SENT: True, MODEL: mlp
+2026-02-25 16:30:15,093 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2026-02-25 16:30:15,093 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2026-02-25 16:30:15,093 - core.data_processor - INFO - Nacitavam data z: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\raw\training_data.csv
+2026-02-25 16:30:15,096 - core.data_processor - INFO - Data uspesne nacitane. Tvar: (913, 2)
+2026-02-25 16:30:15,096 - core.classifier - INFO - NaËÌtan˝ch 913 trÈnovacÌch prÌkladov
+2026-02-25 16:30:15,096 - core.data_processor - INFO - Zacinam augmentaciu dat...
+2026-02-25 16:30:15,269 - core.data_processor - INFO - Rozdelenie kategorii po augmentacii:
+2026-02-25 16:30:15,270 - core.data_processor - INFO -   legitimate: 320 prikladov
+2026-02-25 16:30:15,270 - core.data_processor - INFO -   clickbait: 137 prikladov
+2026-02-25 16:30:15,270 - core.data_processor - INFO -   false_news: 101 prikladov
+2026-02-25 16:30:15,270 - core.data_processor - INFO -   conspiracy: 77 prikladov
+2026-02-25 16:30:15,270 - core.data_processor - INFO -   satire: 74 prikladov
+2026-02-25 16:30:15,270 - core.data_processor - INFO -   misleading: 61 prikladov
+2026-02-25 16:30:15,270 - core.data_processor - INFO -   biased: 59 prikladov
+2026-02-25 16:30:15,270 - core.data_processor - INFO -   propaganda: 57 prikladov
+2026-02-25 16:30:15,271 - core.classifier - INFO - Po augment·cii: 886 prÌkladov
+2026-02-25 16:30:15,271 - core.data_processor - INFO - Spustam preprocessing dat...
+2026-02-25 16:30:15,277 - core.data_processor - INFO - Preprocessing dokoncen˝. Pocet prikladov: 886
+2026-02-25 16:30:15,278 - core.data_processor - INFO - Rozdelenie kategorii:
+category
+legitimate    320
+clickbait     137
+false_news    101
+conspiracy     77
+satire         74
+misleading     61
+biased         59
+propaganda     57
+Name: count, dtype: int64
+2026-02-25 16:30:15,279 - core.data_processor - INFO - TrÈnovacie d·ta: 708
+2026-02-25 16:30:15,280 - core.data_processor - INFO - Testovacie d·ta: 178
+2026-02-25 16:30:15,280 - core.classifier - INFO - ZaËÌnam feature extraction...
+2026-02-25 16:30:15,280 - core.feature_extractor - INFO - TrÈnujem hybridn˝ feature extractor...
+2026-02-25 16:30:15,280 - core.feature_extractor - INFO - Warmup: sentence embeddings...
+2026-02-25 16:30:15,280 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 4 textov...
+2026-02-25 16:30:15,354 - core.feature_extractor - INFO - Sentence embeddings shape: (4, 384)
+2026-02-25 16:30:15,354 - core.feature_extractor - INFO - Feature extractor ˙speöne natrÈnovan˝
+2026-02-25 16:30:15,354 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 708 textov...
+2026-02-25 16:30:17,815 - core.feature_extractor - INFO - Sentence embeddings shape: (708, 384)
+2026-02-25 16:30:17,815 - core.feature_extractor - INFO - KombinovanÈ features shape: (708, 384)
+2026-02-25 16:30:17,815 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 178 textov...
+2026-02-25 16:30:18,457 - core.feature_extractor - INFO - Sentence embeddings shape: (178, 384)
+2026-02-25 16:30:18,457 - core.feature_extractor - INFO - KombinovanÈ features shape: (178, 384)
+2026-02-25 16:30:18,458 - core.classifier - INFO - TrÈnovacie features: (708, 384)
+2026-02-25 16:30:18,458 - core.classifier - INFO - Testovacie features: (178, 384)
+2026-02-25 16:30:18,458 - core.model_trainer - INFO - ZaËÌnam trÈnovanie modelu...
+2026-02-25 16:30:18,458 - core.model_trainer - INFO - TrÈnujem MLP (na embeddings/features)...
+2026-02-25 16:30:20,384 - core.model_trainer - INFO - TrÈnovacia presnosù: 0.9887
+2026-02-25 16:30:20,384 - core.model_trainer - INFO - Testovacia presnosù: 0.9494
+2026-02-25 16:30:20,386 - core.model_trainer - INFO - 
+Classification Report:
+2026-02-25 16:30:20,390 - core.model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.79      0.92      0.85        12
+           1       1.00      0.96      0.98        28
+           2       1.00      0.88      0.93        16
+           3       0.91      1.00      0.95        20
+           4       0.97      0.95      0.96        64
+           5       1.00      0.92      0.96        12
+           6       0.83      0.91      0.87        11
+           7       1.00      1.00      1.00        15
+
+    accuracy                           0.95       178
+   macro avg       0.94      0.94      0.94       178
+weighted avg       0.95      0.95      0.95       178
+
+2026-02-25 16:30:20,390 - core.classifier - INFO - Uklad·m modely...
+2026-02-25 16:30:20,391 - core.feature_extractor - INFO - Feature extractor uloûen˝
+2026-02-25 16:30:20,395 - core.model_trainer - INFO - Model uloûen˝ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models\trained_model.joblib
+2026-02-25 16:30:20,396 - core.data_processor - INFO - Label encoder ulozeny
+2026-02-25 16:30:20,397 - core.classifier - INFO - Vöetky modely uloûenÈ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models
+2026-02-25 16:30:20,405 - core.classifier - INFO - KoneËn· presnosù: 0.9494
+2026-02-25 16:30:20,405 - core.classifier - INFO - Priemern· istota: 0.9462
+2026-02-25 16:30:20,405 - core.classifier - INFO - PoËet features: 384
+2026-02-25 16:30:20,405 - core.classifier - INFO - === TR…NOVANIE ⁄SPEäNE DOKON»EN… ===
+2026-02-25 16:30:20,405 - __main__ - INFO - TrÈnovanie ˙speöne dokonËenÈ!
+2026-02-25 16:35:31,865 - __main__ - INFO - Sp˙öùam trÈnovanie: Sentence-Embeddings + MLP ...
+2026-02-25 16:35:31,865 - core.feature_extractor - INFO - NaËÌtavam SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-02-25 16:35:31,867 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-02-25 16:35:32,465 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:35:32,510 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 16:35:32,664 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:35:32,704 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 16:35:32,865 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:35:32,919 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 16:35:33,151 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:35:33,245 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-25 16:35:33,449 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:35:33,450 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-25 16:35:33,552 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 16:35:33,769 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:35:33,824 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:35:34,063 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-25 16:35:34,273 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:35:34,371 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 16:35:34,781 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:35:34,837 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 16:35:35,088 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:35:35,190 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:35:35,395 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:35:35,497 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:35:35,722 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-25 16:35:35,916 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-25 16:35:37,345 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-25 16:35:37,638 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:35:37,670 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-25 16:35:37,830 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-25 16:35:37,832 - core.classifier - INFO - Classifier inicializovan˝ - BERT: False, TF-IDF: False, SENT: True, MODEL: mlp
+2026-02-25 16:35:37,832 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2026-02-25 16:35:37,832 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2026-02-25 16:35:37,832 - core.data_processor - INFO - Nacitavam data z: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\raw\training_data.csv
+2026-02-25 16:35:37,836 - core.data_processor - INFO - Data uspesne nacitane. Tvar: (913, 2)
+2026-02-25 16:35:37,836 - core.classifier - INFO - NaËÌtan˝ch 913 trÈnovacÌch prÌkladov
+2026-02-25 16:35:37,836 - core.data_processor - INFO - Zacinam augmentaciu dat...
+2026-02-25 16:35:38,021 - core.data_processor - INFO - Rozdelenie kategorii po augmentacii:
+2026-02-25 16:35:38,022 - core.data_processor - INFO -   legitimate: 312 prikladov
+2026-02-25 16:35:38,022 - core.data_processor - INFO -   clickbait: 143 prikladov
+2026-02-25 16:35:38,022 - core.data_processor - INFO -   false_news: 108 prikladov
+2026-02-25 16:35:38,022 - core.data_processor - INFO -   conspiracy: 77 prikladov
+2026-02-25 16:35:38,022 - core.data_processor - INFO -   satire: 68 prikladov
+2026-02-25 16:35:38,022 - core.data_processor - INFO -   biased: 66 prikladov
+2026-02-25 16:35:38,022 - core.data_processor - INFO -   propaganda: 58 prikladov
+2026-02-25 16:35:38,022 - core.data_processor - INFO -   misleading: 56 prikladov
+2026-02-25 16:35:38,023 - core.classifier - INFO - Po augment·cii: 888 prÌkladov
+2026-02-25 16:35:38,023 - core.data_processor - INFO - Spustam preprocessing dat...
+2026-02-25 16:35:38,028 - core.data_processor - INFO - Preprocessing dokoncen˝. Pocet prikladov: 888
+2026-02-25 16:35:38,029 - core.data_processor - INFO - Rozdelenie kategorii:
+category
+legitimate    312
+clickbait     143
+false_news    108
+conspiracy     77
+satire         68
+biased         66
+propaganda     58
+misleading     56
+Name: count, dtype: int64
+2026-02-25 16:35:38,032 - core.data_processor - INFO - TrÈnovacie d·ta: 710
+2026-02-25 16:35:38,032 - core.data_processor - INFO - Testovacie d·ta: 178
+2026-02-25 16:35:38,032 - core.classifier - INFO - ZaËÌnam feature extraction...
+2026-02-25 16:35:38,032 - core.feature_extractor - INFO - TrÈnujem hybridn˝ feature extractor...
+2026-02-25 16:35:38,032 - core.feature_extractor - INFO - Warmup: sentence embeddings...
+2026-02-25 16:35:38,032 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 4 textov...
+2026-02-25 16:35:38,098 - core.feature_extractor - INFO - Sentence embeddings shape: (4, 384)
+2026-02-25 16:35:38,098 - core.feature_extractor - INFO - Feature extractor ˙speöne natrÈnovan˝
+2026-02-25 16:35:38,098 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 710 textov...
+2026-02-25 16:35:42,320 - core.feature_extractor - INFO - Sentence embeddings shape: (710, 384)
+2026-02-25 16:35:42,321 - core.feature_extractor - INFO - KombinovanÈ features shape: (710, 384)
+2026-02-25 16:35:42,321 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 178 textov...
+2026-02-25 16:35:43,959 - core.feature_extractor - INFO - Sentence embeddings shape: (178, 384)
+2026-02-25 16:35:43,959 - core.feature_extractor - INFO - KombinovanÈ features shape: (178, 384)
+2026-02-25 16:35:43,959 - core.classifier - INFO - TrÈnovacie features: (710, 384)
+2026-02-25 16:35:43,961 - core.classifier - INFO - Testovacie features: (178, 384)
+2026-02-25 16:35:43,961 - core.model_trainer - INFO - ZaËÌnam trÈnovanie modelu...
+2026-02-25 16:35:43,961 - core.model_trainer - INFO - TrÈnujem MLP (na embeddings/features)...
+2026-02-25 16:35:46,276 - core.model_trainer - INFO - TrÈnovacia presnosù: 0.9831
+2026-02-25 16:35:46,276 - core.model_trainer - INFO - Testovacia presnosù: 0.9607
+2026-02-25 16:35:46,277 - core.model_trainer - INFO - 
+Classification Report:
+2026-02-25 16:35:46,285 - core.model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.92      0.92      0.92        13
+           1       0.97      0.97      0.97        29
+           2       1.00      0.93      0.97        15
+           3       1.00      1.00      1.00        22
+           4       0.92      0.98      0.95        62
+           5       1.00      0.82      0.90        11
+           6       1.00      0.92      0.96        12
+           7       1.00      1.00      1.00        14
+
+    accuracy                           0.96       178
+   macro avg       0.98      0.94      0.96       178
+weighted avg       0.96      0.96      0.96       178
+
+2026-02-25 16:35:46,285 - core.classifier - INFO - Uklad·m modely...
+2026-02-25 16:35:46,286 - core.feature_extractor - INFO - Feature extractor uloûen˝
+2026-02-25 16:35:46,293 - core.model_trainer - INFO - Model uloûen˝ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models\trained_model.joblib
+2026-02-25 16:35:46,294 - core.data_processor - INFO - Label encoder ulozeny
+2026-02-25 16:35:46,295 - core.classifier - INFO - Vöetky modely uloûenÈ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models
+2026-02-25 16:35:46,308 - core.classifier - INFO - KoneËn· presnosù: 0.9607
+2026-02-25 16:35:46,308 - core.classifier - INFO - Priemern· istota: 0.8942
+2026-02-25 16:35:46,308 - core.classifier - INFO - PoËet features: 384
+2026-02-25 16:35:46,308 - core.classifier - INFO - === TR…NOVANIE ⁄SPEäNE DOKON»EN… ===
+2026-02-25 16:35:46,309 - __main__ - INFO - TrÈnovanie ˙speöne dokonËenÈ!
+2026-02-25 16:37:48,402 - __main__ - INFO - Sp˙öùam trÈnovanie: Sentence-Embeddings + MLP ...
+2026-02-25 16:37:48,402 - core.feature_extractor - INFO - NaËÌtavam SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-02-25 16:37:48,404 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-02-25 16:37:48,620 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:37:48,663 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 16:37:48,827 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:37:48,881 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 16:37:49,029 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:37:49,105 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 16:37:49,248 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:37:49,249 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-25 16:37:49,309 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-25 16:37:49,544 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:37:49,644 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 16:37:49,807 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:37:49,860 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:37:50,029 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-25 16:37:50,207 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:37:50,247 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 16:37:50,482 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:37:50,519 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 16:37:50,682 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:37:50,715 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:37:50,867 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:37:50,903 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:37:51,065 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-25 16:37:51,230 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-25 16:37:52,739 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-25 16:37:53,127 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:37:53,229 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-25 16:37:53,434 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-25 16:37:53,437 - core.classifier - INFO - Classifier inicializovan˝ - BERT: False, TF-IDF: False, SENT: True, MODEL: mlp
+2026-02-25 16:37:53,437 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2026-02-25 16:37:53,437 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2026-02-25 16:37:53,437 - core.data_processor - INFO - Nacitavam data z: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\raw\training_data.csv
+2026-02-25 16:37:53,442 - core.data_processor - INFO - Data uspesne nacitane. Tvar: (913, 2)
+2026-02-25 16:37:53,442 - core.classifier - INFO - NaËÌtan˝ch 913 trÈnovacÌch prÌkladov
+2026-02-25 16:37:53,442 - core.data_processor - INFO - Zacinam augmentaciu dat...
+2026-02-25 16:37:53,827 - core.data_processor - INFO - Rozdelenie kategorii po augmentacii:
+2026-02-25 16:37:53,828 - core.data_processor - INFO -   legitimate: 304 prikladov
+2026-02-25 16:37:53,828 - core.data_processor - INFO -   clickbait: 138 prikladov
+2026-02-25 16:37:53,828 - core.data_processor - INFO -   false_news: 95 prikladov
+2026-02-25 16:37:53,828 - core.data_processor - INFO -   conspiracy: 77 prikladov
+2026-02-25 16:37:53,828 - core.data_processor - INFO -   satire: 72 prikladov
+2026-02-25 16:37:53,828 - core.data_processor - INFO -   propaganda: 60 prikladov
+2026-02-25 16:37:53,829 - core.data_processor - INFO -   misleading: 57 prikladov
+2026-02-25 16:37:53,829 - core.data_processor - INFO -   biased: 56 prikladov
+2026-02-25 16:37:53,830 - core.classifier - INFO - Po augment·cii: 859 prÌkladov
+2026-02-25 16:37:53,830 - core.data_processor - INFO - Spustam preprocessing dat...
+2026-02-25 16:37:53,838 - core.data_processor - INFO - Preprocessing dokoncen˝. Pocet prikladov: 859
+2026-02-25 16:37:53,839 - core.data_processor - INFO - Rozdelenie kategorii:
+category
+legitimate    304
+clickbait     138
+false_news     95
+conspiracy     77
+satire         72
+propaganda     60
+misleading     57
+biased         56
+Name: count, dtype: int64
+2026-02-25 16:37:53,841 - core.data_processor - INFO - TrÈnovacie d·ta: 687
+2026-02-25 16:37:53,841 - core.data_processor - INFO - Testovacie d·ta: 172
+2026-02-25 16:37:53,841 - core.classifier - INFO - ZaËÌnam feature extraction...
+2026-02-25 16:37:53,841 - core.feature_extractor - INFO - TrÈnujem hybridn˝ feature extractor...
+2026-02-25 16:37:53,841 - core.feature_extractor - INFO - Warmup: sentence embeddings...
+2026-02-25 16:37:53,841 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 4 textov...
+2026-02-25 16:37:53,917 - core.feature_extractor - INFO - Sentence embeddings shape: (4, 384)
+2026-02-25 16:37:53,917 - core.feature_extractor - INFO - Feature extractor ˙speöne natrÈnovan˝
+2026-02-25 16:37:53,917 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 687 textov...
+2026-02-25 16:37:58,684 - core.feature_extractor - INFO - Sentence embeddings shape: (687, 384)
+2026-02-25 16:37:58,684 - core.feature_extractor - INFO - KombinovanÈ features shape: (687, 384)
+2026-02-25 16:37:58,685 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 172 textov...
+2026-02-25 16:37:59,793 - core.feature_extractor - INFO - Sentence embeddings shape: (172, 384)
+2026-02-25 16:37:59,793 - core.feature_extractor - INFO - KombinovanÈ features shape: (172, 384)
+2026-02-25 16:37:59,793 - core.classifier - INFO - TrÈnovacie features: (687, 384)
+2026-02-25 16:37:59,794 - core.classifier - INFO - Testovacie features: (172, 384)
+2026-02-25 16:37:59,794 - core.model_trainer - INFO - ZaËÌnam trÈnovanie modelu...
+2026-02-25 16:37:59,794 - core.model_trainer - INFO - TrÈnujem MLP (na embeddings/features)...
+2026-02-25 16:38:02,476 - core.model_trainer - INFO - TrÈnovacia presnosù: 0.9825
+2026-02-25 16:38:02,477 - core.model_trainer - INFO - Testovacia presnosù: 0.9186
+2026-02-25 16:38:02,479 - core.model_trainer - INFO - 
+Classification Report:
+2026-02-25 16:38:02,487 - core.model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.90      0.82      0.86        11
+           1       0.96      0.89      0.93        28
+           2       1.00      1.00      1.00        16
+           3       0.82      0.95      0.88        19
+           4       0.91      0.95      0.93        61
+           5       1.00      0.82      0.90        11
+           6       0.85      0.92      0.88        12
+           7       1.00      0.86      0.92        14
+
+    accuracy                           0.92       172
+   macro avg       0.93      0.90      0.91       172
+weighted avg       0.92      0.92      0.92       172
+
+2026-02-25 16:38:02,487 - core.classifier - INFO - Uklad·m modely...
+2026-02-25 16:38:02,488 - core.feature_extractor - INFO - Feature extractor uloûen˝
+2026-02-25 16:38:02,495 - core.model_trainer - INFO - Model uloûen˝ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models\trained_model.joblib
+2026-02-25 16:38:02,497 - core.data_processor - INFO - Label encoder ulozeny
+2026-02-25 16:38:02,497 - core.classifier - INFO - Vöetky modely uloûenÈ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models
+2026-02-25 16:38:02,509 - core.classifier - INFO - KoneËn· presnosù: 0.9186
+2026-02-25 16:38:02,510 - core.classifier - INFO - Priemern· istota: 0.9222
+2026-02-25 16:38:02,510 - core.classifier - INFO - PoËet features: 384
+2026-02-25 16:38:02,510 - core.classifier - INFO - === TR…NOVANIE ⁄SPEäNE DOKON»EN… ===
+2026-02-25 16:38:02,510 - __main__ - INFO - TrÈnovanie ˙speöne dokonËenÈ!
+2026-02-25 16:41:25,262 - __main__ - INFO - Sp˙öùam trÈnovanie: Sentence-Embeddings + MLP ...
+2026-02-25 16:41:25,262 - core.feature_extractor - INFO - NaËÌtavam SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-02-25 16:41:25,263 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-02-25 16:41:25,417 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:41:25,450 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 16:41:25,604 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:41:25,605 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-25 16:41:25,649 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 16:41:25,805 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:41:25,857 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-25 16:41:26,022 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:41:26,066 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-02-25 16:41:26,205 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:41:26,250 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-02-25 16:41:26,405 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:41:26,452 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:41:26,609 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-25 16:41:26,766 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:41:26,804 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 16:41:27,019 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:41:27,077 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-02-25 16:41:27,241 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:41:27,280 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:41:27,424 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:41:27,477 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-25 16:41:27,624 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-25 16:41:27,891 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-25 16:41:29,263 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-25 16:41:29,564 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-25 16:41:29,610 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-25 16:41:29,778 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-02-25 16:41:29,781 - core.classifier - INFO - Classifier inicializovan˝ - BERT: False, TF-IDF: False, SENT: True, MODEL: mlp
+2026-02-25 16:41:29,781 - core.classifier - INFO - PouûÌvanÈ zariadenie: cpu
+2026-02-25 16:41:29,781 - core.classifier - INFO - === ZA»ÕNAM TR…NOVANIE KLASIFIK¡TORA ===
+2026-02-25 16:41:29,781 - core.data_processor - INFO - Nacitavam data z: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\raw\training_data.csv
+2026-02-25 16:41:29,785 - core.data_processor - INFO - Data uspesne nacitane. Tvar: (913, 2)
+2026-02-25 16:41:29,785 - core.classifier - INFO - NaËÌtan˝ch 913 trÈnovacÌch prÌkladov
+2026-02-25 16:41:29,785 - core.data_processor - INFO - Spustam preprocessing dat...
+2026-02-25 16:41:29,791 - core.data_processor - INFO - Preprocessing dokoncen˝. Pocet prikladov: 913
+2026-02-25 16:41:29,792 - core.data_processor - INFO - Rozdelenie kategorii:
+category
+legitimate    268
+biased        108
+clickbait      92
+propaganda     91
+false_news     89
+conspiracy     89
+misleading     89
+satire         87
+Name: count, dtype: int64
+2026-02-25 16:41:29,794 - core.data_processor - INFO - TrÈnovacie d·ta: 730
+2026-02-25 16:41:29,794 - core.data_processor - INFO - Testovacie d·ta: 183
+2026-02-25 16:41:29,794 - core.classifier - INFO - ZaËÌnam feature extraction...
+2026-02-25 16:41:29,794 - core.feature_extractor - INFO - TrÈnujem hybridn˝ feature extractor...
+2026-02-25 16:41:29,794 - core.feature_extractor - INFO - Warmup: sentence embeddings...
+2026-02-25 16:41:29,794 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 4 textov...
+2026-02-25 16:41:29,866 - core.feature_extractor - INFO - Sentence embeddings shape: (4, 384)
+2026-02-25 16:41:29,866 - core.feature_extractor - INFO - Feature extractor ˙speöne natrÈnovan˝
+2026-02-25 16:41:29,867 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 730 textov...
+2026-02-25 16:41:33,860 - core.feature_extractor - INFO - Sentence embeddings shape: (730, 384)
+2026-02-25 16:41:33,862 - core.feature_extractor - INFO - KombinovanÈ features shape: (730, 384)
+2026-02-25 16:41:33,862 - core.feature_extractor - INFO - Extrahujem sentence embeddings pre 183 textov...
+2026-02-25 16:41:35,358 - core.feature_extractor - INFO - Sentence embeddings shape: (183, 384)
+2026-02-25 16:41:35,359 - core.feature_extractor - INFO - KombinovanÈ features shape: (183, 384)
+2026-02-25 16:41:35,359 - core.classifier - INFO - TrÈnovacie features: (730, 384)
+2026-02-25 16:41:35,359 - core.classifier - INFO - Testovacie features: (183, 384)
+2026-02-25 16:41:35,359 - core.model_trainer - INFO - ZaËÌnam trÈnovanie modelu...
+2026-02-25 16:41:35,360 - core.model_trainer - INFO - TrÈnujem MLP (na embeddings/features)...
+2026-02-25 16:41:39,633 - core.model_trainer - INFO - TrÈnovacia presnosù: 0.9836
+2026-02-25 16:41:39,633 - core.model_trainer - INFO - Testovacia presnosù: 0.9454
+2026-02-25 16:41:39,635 - core.model_trainer - INFO - 
+Classification Report:
+2026-02-25 16:41:39,641 - core.model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95        22
+           1       0.90      1.00      0.95        18
+           2       0.89      0.94      0.92        18
+           3       1.00      0.89      0.94        18
+           4       0.96      0.94      0.95        54
+           5       1.00      1.00      1.00        18
+           6       0.94      0.94      0.94        18
+           7       0.88      0.88      0.88        17
+
+    accuracy                           0.95       183
+   macro avg       0.94      0.94      0.94       183
+weighted avg       0.95      0.95      0.95       183
+
+2026-02-25 16:41:39,642 - core.classifier - INFO - Uklad·m modely...
+2026-02-25 16:41:39,643 - core.feature_extractor - INFO - Feature extractor uloûen˝
+2026-02-25 16:41:39,648 - core.model_trainer - INFO - Model uloûen˝ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models\trained_model.joblib
+2026-02-25 16:41:39,649 - core.data_processor - INFO - Label encoder ulozeny
+2026-02-25 16:41:39,650 - core.classifier - INFO - Vöetky modely uloûenÈ do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\MediaLens-embeddings-mlp\data\models
+2026-02-25 16:41:39,661 - core.classifier - INFO - KoneËn· presnosù: 0.9454
+2026-02-25 16:41:39,661 - core.classifier - INFO - Priemern· istota: 0.9303
+2026-02-25 16:41:39,661 - core.classifier - INFO - PoËet features: 384
+2026-02-25 16:41:39,661 - core.classifier - INFO - === TR…NOVANIE ⁄SPEäNE DOKON»EN… ===
+2026-02-25 16:41:39,662 - __main__ - INFO - TrÈnovanie ˙speöne dokonËenÈ!

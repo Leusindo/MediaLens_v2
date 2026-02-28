@@ -1,0 +1,72 @@
+3-2-2026 12:08
+INFO:core.self_learning:Aktuálne modely zálohované
+INFO:core.classifier:=== ZAČÍNAM TRÉNOVANIE KLASIFIKÁTORA ===
+INFO:core.data_processor:Nacitavam data z: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SOČ\FilterSOC\MediaLens\data\raw\training_data.csv
+INFO:core.data_processor:Data uspesne nacitane. Tvar: (913, 2)
+INFO:core.classifier:Načítaných 913 trénovacích príkladov
+INFO:core.data_processor:Spustam preprocessing dat...
+INFO:core.data_processor:Preprocessing dokoncený. Pocet prikladov: 913
+INFO:core.data_processor:Rozdelenie kategorii:
+category
+legitimate    268
+biased        108
+clickbait      92
+propaganda     91
+conspiracy     89
+false_news     89
+misleading     89
+satire         87
+Name: count, dtype: int64
+INFO:core.data_processor:Trénovacie dáta: 730
+INFO:core.data_processor:Testovacie dáta: 183
+INFO:core.classifier:Začínam feature extraction...
+INFO:core.feature_extractor:Trénujem hybridný feature extractor...
+INFO:core.feature_extractor:Trénujem TF-IDF...
+INFO:core.feature_extractor:Extrahujem BERT embeddings pre trénovacie dáta...
+INFO:core.feature_extractor:Extrahujem BERT embeddings pre 730 textov...
+INFO:core.feature_extractor:BERT embeddings shape: (730, 768)
+INFO:core.feature_extractor:Redukujem BERT dimenzie na 100
+INFO:core.feature_extractor:Feature extractor úspešne natrénovaný
+INFO:core.feature_extractor:Extrahujem BERT embeddings pre 730 textov...
+INFO:core.feature_extractor:BERT embeddings shape: (730, 768)
+INFO:core.feature_extractor:Kombinované features shape: (730, 1489)
+INFO:core.feature_extractor:Extrahujem BERT embeddings pre 183 textov...
+INFO:core.feature_extractor:BERT embeddings shape: (183, 768)
+INFO:core.feature_extractor:Kombinované features shape: (183, 1489)
+INFO:core.classifier:Trénovacie features: (730, 1489)
+INFO:core.classifier:Testovacie features: (183, 1489)
+INFO:core.model_trainer:Začínam trénovanie modelu...
+INFO:core.model_trainer:Trénujem Random Forest...
+INFO:core.model_trainer:Trénovacia presnosť: 1.0000
+INFO:core.model_trainer:Testovacia presnosť: 0.9454
+INFO:core.model_trainer:
+Classification Report:
+INFO:core.model_trainer:
+              precision    recall  f1-score   support
+
+           0       0.95      0.91      0.93        22
+           1       1.00      0.94      0.97        18
+           2       0.89      0.94      0.92        18
+           3       1.00      0.94      0.97        18
+           4       0.93      0.98      0.95        54
+           5       0.94      0.94      0.94        18
+           6       0.94      0.94      0.94        18
+           7       0.94      0.88      0.91        17
+
+    accuracy                           0.95       183
+   macro avg       0.95      0.94      0.94       183
+weighted avg       0.95      0.95      0.95       183
+
+INFO:core.classifier:Ukladám modely...
+INFO:core.feature_extractor:Feature extractor uložený
+INFO:core.model_trainer:Model uložený do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SOČ\FilterSOC\MediaLens\data\models\trained_model.joblib
+INFO:core.data_processor:Label encoder ulozeny
+INFO:core.classifier:Všetky modely uložené do: C:\Users\emtod\OneDrive\Desktop\Leuskove-vecicky\SOČ\FilterSOC\MediaLens\data\models
+INFO:core.classifier:Konečná presnosť: 0.9454
+INFO:core.classifier:Priemerná istota: 0.8435
+INFO:core.classifier:Počet features: 1489
+INFO:core.classifier:=== TRÉNOVANIE ÚSPEŠNE DOKONČENÉ ===
+INFO:core.self_learning:Pretrénovanie úspešné! Nová presnosť: 0.945
+INFO:core.self_learning:Načítaných 491 self-learning príkladov
+INFO:core.self_learning:Označených 491 príkladov ako spracovaných
+INFO:core.self_learning:Načítaných 491 self-learning príkladov

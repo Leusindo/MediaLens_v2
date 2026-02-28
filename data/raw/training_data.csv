@@ -1,0 +1,914 @@
+title,category
+"ŠOKUJÚCE! Neuveríte, čo sa stalo po otvorení novej diaľnice",clickbait
+"Kliknite sem a zistíte, aký trik používajú politici na zbohatnutie",clickbait
+"Neuveriteľná premena známej speváčky – fotky vás ohromia!",clickbait
+"Pozrite si, ako sa zmenil tento známy herec po desiatich rokoch",clickbait
+"Nový park sa otvorí budúci týždeň v centre mesta",legitimate
+"Ministerstvo zdravotníctva vydalo oficiálne vyhlásenie o očkovaní",legitimate
+"Primátor oznámil začiatok rekonštrukcie železničnej stanice",legitimate
+"Vláda schválila rozpočet na rok 2026",legitimate
+"Vedci objavili nový liek proti chrípke",legitimate
+"Slovensko od pondelka ruší všetky školy – vláda to potvrdila",false_news
+"Nový zákon zakazuje používanie mobilov na verejnosti",false_news
+"Zajtra bude na Slovensku zákaz vychádzania pre všetkých občanov",false_news
+"Voda v Tatrách je rádioaktívna – potvrdili vedci",false_news
+"Vláda tajne ovláda počasie pomocou špeciálnych zariadení",conspiracy
+"Elity riadia svet z podzemného bunkra",conspiracy
+"ALIENI! Vláda skrýva dôkazy o mimozemšťanoch",conspiracy
+"Farmaceutické firmy zatajujú pravdu o liekoch",conspiracy
+"Len naša strana dokáže zachrániť Slovensko pred úplným kolapsom",propaganda
+"Vládna strana prináša samé úspechy, opozícia len škodí",propaganda
+"Nová kampaň ukazuje, že iba jeden líder vie viesť krajinu",propaganda
+"Občania musia veriť našej strane, inak hrozí chaos",propaganda
+"Parlament schválil zákaz dažďa – odteraz povolené len slnečné dni",satire
+"Ministerstvo kultúry nariadilo povinné nosenie klobúkov",satire
+"Nový zákon prikazuje občanom jesť len bryndzové halušky",satire
+"Prezident vyhlásil, že pondelok bude zrušený",satire
+"Nový liek vyliečil všetkých pacientov",misleading
+"Graf ukazuje prudký nárast cien – v skutočnosti len vybrané mesiace",misleading
+"Vedci tvrdia, že čokoláda lieči rakovinu",misleading
+"Štatistiky dokazujú, že nezamestnanosť je nulová",misleading
+"Starosta je neschopný, preto jeho návrh nemá zmysel",biased
+"Opozičný politik opäť zlyhal, zatiaľ čo vládna strana prináša úspechy",biased
+"Novinár kritizuje len jednu stranu, druhú úplne ignoruje",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Šokujúce odhalenie: známa celebrita má tajný život",clickbait
+"Neuveríte, čo našli archeológovia pod hradom",clickbait
+"Kliknite a zistíte, ako schudnúť za týždeň",clickbait
+"Nový most spojí dve mestá už budúci rok",legitimate
+"Univerzita otvorila nové laboratórium pre študentov",legitimate
+"Obec získala grant na obnovu kultúrneho domu",legitimate
+"Nové opatrenia znížia ceny energií",legitimate
+"Školy dostanú moderné vybavenie pre žiakov",legitimate
+"Od zajtra sa ruší internet na Slovensku",false_news
+"Nový zákon prikazuje občanom nosiť prilby aj doma",false_news
+"Slovenské hory sú zatvorené kvôli radiácii",false_news
+"Všetky banky budú od pondelka zatvorené",false_news
+"Tajné spolky ovládajú rozhodnutia parlamentu",conspiracy
+"Vláda skrýva pravdu o vakcínach",conspiracy
+"Elity manipulujú médiá, aby ovládli občanov",conspiracy
+"Nový svetový poriadok už začal",conspiracy
+"Naša strana je jediná, ktorá myslí na ľudí",propaganda
+"Bez našej strany by krajina skolabovala",propaganda
+"Vládny líder je jediný záchranca Slovenska",propaganda
+"Občania musia podporiť našu stranu, inak hrozí chaos",propaganda
+"Ministerstvo zakázalo dážď – odteraz len slnečné dni",satire
+"Nový zákon prikazuje jesť len kapustnicu",satire
+"Prezident vyhlásil, že utorok bude zrušený",satire
+"Občania musia nosiť ponožky na rukách",satire
+"Nový liek zázračne vyliečil všetkých pacientov",misleading
+"Štatistiky dokazujú, že inflácia je nulová",misleading
+"Vedci tvrdia, že káva predlžuje život o 50 rokov",misleading
+"Graf ukazuje pokles cien, ale len za jeden mesiac",misleading
+"Opozičný politik je úplne neschopný",biased
+"Vládna strana je jediná, ktorá prináša úspechy",biased
+"Novinár píše len proti opozícii",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Šokujúce! Neuveríte, čo sa stalo v Bratislave",clickbait
+"Kliknite a zistíte, ako zarobiť milión za deň",clickbait
+"Neuveriteľná premena známej osobnosti",clickbait
+"Nový park sa otvorí v centre mesta",legitimate
+"Ministerstvo vydalo oficiálne vyhlásenie o opatreniach",legitimate
+"Primátor oznámil rekonštrukciu školy",legitimate
+"Vláda schválila nový zákon",legitimate
+"Vedci objavili nový liek",legitimate
+"Slovensko od pondelka ruší všetky nemocnice",false_news
+"Nový zákon zakazuje používanie bicyklov",false_news
+"Zajtra bude zákaz vychádzania pre všetkých",false_news
+"Voda v Tatrách je jedovatá",false_news
+"Vláda tajne ovláda médiá",conspiracy
+"Elity riadia svet z podzemia",conspiracy
+"ALIENI sú medzi nami",conspiracy
+"Farmaceutické firmy zatajujú pravdu",conspiracy
+"Naša strana je jediná záchrana",propaganda
+"Vládna strana prináša úspechy",propaganda
+"Nová kampaň ukazuje silu lídra",propaganda
+"Občania musia veriť našej strane",propaganda
+"Parlament zakázal sneh",satire
+"Ministerstvo prikázalo nosiť klobúky",satire
+"Nový zákon prikazuje jesť halušky",satire
+"Prezident zrušil pondelok",satire
+"Nový liek vyliečil všetkých",misleading
+"Graf ukazuje nárast cien",misleading
+"Vedci tvrdia, že čokoláda lieči",misleading
+"Štatistiky dokazujú nulovú nezamestnanosť",misleading
+"Starosta je neschopný",biased
+"Opozičný politik zlyhal",biased
+"Novinár kritizuje len jednu stranu",biased
+"Politik z našej strany je hrdina",biased
+"Neuvidíte nikde inde: tajné video uniklo na internet!",clickbait
+"Šokujúce odhalenie o známej osobnosti – kliknite a zistíte viac",clickbait
+"Neuveriteľná zmena počas jednej noci – fotky vás ohromia",clickbait
+"Nový most spojí dve dediny, obyvatelia sa tešia",legitimate
+"Univerzita otvorila moderné laboratórium pre študentov",legitimate
+"Obec získala grant na obnovu kultúrneho domu",legitimate
+"Ministerstvo dopravy oznámilo nové investície do železníc",legitimate
+"Vedci predstavili nový liek proti chrípke",legitimate
+"Slovensko od pondelka ruší všetky nemocnice",false_news
+"Nový zákon zakazuje používanie bicyklov na verejnosti",false_news
+"Zajtra bude zákaz vychádzania pre všetkých občanov",false_news
+"Voda v Tatrách je jedovatá – potvrdili vedci",false_news
+"Tajné spolky ovládajú rozhodnutia parlamentu",conspiracy
+"Vláda skrýva pravdu o vakcínach",conspiracy
+"Elity manipulujú médiá, aby ovládli občanov",conspiracy
+"Nový svetový poriadok už začal",conspiracy
+"Naša strana je jediná, ktorá myslí na ľudí",propaganda
+"Bez našej strany by krajina skolabovala",propaganda
+"Vládny líder je jediný záchranca Slovenska",propaganda
+"Občania musia podporiť našu stranu, inak hrozí chaos",propaganda
+"Ministerstvo zakázalo dážď – odteraz len slnečné dni",satire
+"Nový zákon prikazuje jesť len kapustnicu",satire
+"Prezident vyhlásil, že utorok bude zrušený",satire
+"Občania musia nosiť ponožky na rukách",satire
+"Nový liek zázračne vyliečil všetkých pacientov",misleading
+"Štatistiky dokazujú, že inflácia je nulová",misleading
+"Vedci tvrdia, že káva predlžuje život o 50 rokov",misleading
+"Graf ukazuje pokles cien, ale len za jeden mesiac",misleading
+"Opozičný politik je úplne neschopný",biased
+"Vládna strana je jediná, ktorá prináša úspechy",biased
+"Novinár píše len proti opozícii",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Šokujúce! Neuveríte, čo sa stalo v Bratislave",clickbait
+"Kliknite a zistíte, ako zarobiť milión za deň",clickbait
+"Neuveriteľná premena známej osobnosti",clickbait
+"Nový park sa otvorí v centre mesta",legitimate
+"Ministerstvo vydalo oficiálne vyhlásenie o opatreniach",legitimate
+"Primátor oznámil rekonštrukciu školy",legitimate
+"Vláda schválila nový zákon",legitimate
+"Vedci objavili nový liek",legitimate
+"Slovensko od pondelka ruší všetky banky",false_news
+"Nový zákon zakazuje používanie mobilov doma",false_news
+"Zajtra bude zákaz cestovania po Slovensku",false_news
+"Voda v Dunaji je toxická",false_news
+"Vláda tajne ovláda médiá",conspiracy
+"Elity riadia svet z podzemia",conspiracy
+"ALIENI sú medzi nami",conspiracy
+"Farmaceutické firmy zatajujú pravdu",conspiracy
+"Neuvidíte nikde inde: tajné video uniklo na internet!",clickbait
+"Šokujúce odhalenie o známej osobnosti – kliknite a zistíte viac",clickbait
+"Neuveriteľná zmena počas jednej noci – fotky vás ohromia",clickbait
+"Pozrite si, ako sa zmenil známy herec po desiatich rokoch",clickbait
+"Kliknite a zistíte, ako schudnúť za týždeň",clickbait
+"Šokujúce! Neuveríte, čo sa stalo v Bratislave",clickbait
+"Kliknite a zistíte, ako zarobiť milión za deň",clickbait
+"Neuveriteľná premena známej osobnosti",clickbait
+"Šokujúce odhalenie: známa celebrita má tajný život",clickbait
+"Neuveríte, čo našli archeológovia pod hradom",clickbait
+"Nový most spojí dve dediny, obyvatelia sa tešia",legitimate
+"Univerzita otvorila moderné laboratórium pre študentov",legitimate
+"Obec získala grant na obnovu kultúrneho domu",legitimate
+"Ministerstvo dopravy oznámilo nové investície do železníc",legitimate
+"Vedci predstavili nový liek proti chrípke",legitimate
+"Primátor oznámil začiatok rekonštrukcie železničnej stanice",legitimate
+"Vláda schválila rozpočet na rok 2026",legitimate
+"Nový park sa otvorí budúci týždeň v centre mesta",legitimate
+"Ministerstvo zdravotníctva vydalo oficiálne vyhlásenie o očkovaní",legitimate
+"Školy dostanú moderné vybavenie pre žiakov",legitimate
+"Slovensko od pondelka ruší všetky nemocnice",false_news
+"Nový zákon zakazuje používanie bicyklov na verejnosti",false_news
+"Zajtra bude zákaz vychádzania pre všetkých občanov",false_news
+"Voda v Tatrách je jedovatá – potvrdili vedci",false_news
+"Od zajtra sa ruší internet na Slovensku",false_news
+"Nový zákon prikazuje občanom nosiť prilby aj doma",false_news
+"Slovenské hory sú zatvorené kvôli radiácii",false_news
+"Všetky banky budú od pondelka zatvorené",false_news
+"Slovensko od pondelka ruší všetky školy – vláda to potvrdila",false_news
+"Nový zákon zakazuje používanie mobilov doma",false_news
+"Tajné spolky ovládajú rozhodnutia parlamentu",conspiracy
+"Vláda skrýva pravdu o vakcínach",conspiracy
+"Elity manipulujú médiá, aby ovládli občanov",conspiracy
+"Nový svetový poriadok už začal",conspiracy
+"Vláda tajne ovláda počasie pomocou špeciálnych zariadení",conspiracy
+"Elity riadia svet z podzemného bunkra",conspiracy
+"ALIENI! Vláda skrýva dôkazy o mimozemšťanoch",conspiracy
+"Farmaceutické firmy zatajujú pravdu o liekoch",conspiracy
+"Vláda tajne ovláda médiá",conspiracy
+"Elity riadia svet z podzemia",conspiracy
+"Naša strana je jediná, ktorá myslí na ľudí",propaganda
+"Bez našej strany by krajina skolabovala",propaganda
+"Vládny líder je jediný záchranca Slovenska",propaganda
+"Občania musia podporiť našu stranu, inak hrozí chaos",propaganda
+"Len naša strana dokáže zachrániť Slovensko pred úplným kolapsom",propaganda
+"Vládna strana prináša samé úspechy, opozícia len škodí",propaganda
+"Nová kampaň ukazuje, že iba jeden líder vie viesť krajinu",propaganda
+"Naša strana je jediná záchrana",propaganda
+"Vládna strana prináša úspechy",propaganda
+"Nová kampaň ukazuje silu lídra",propaganda
+"Parlament schválil zákaz dažďa – odteraz povolené len slnečné dni",satire
+"Ministerstvo kultúry nariadilo povinné nosenie klobúkov",satire
+"Nový zákon prikazuje občanom jesť len bryndzové halušky",satire
+"Prezident vyhlásil, že pondelok bude zrušený",satire
+"Ministerstvo zakázalo dážď – odteraz len slnečné dni",satire
+"Nový zákon prikazuje jesť len kapustnicu",satire
+"Prezident vyhlásil, že utorok bude zrušený",satire
+"Občania musia nosiť ponožky na rukách",satire
+"Parlament zakázal sneh",satire
+"Prezident zrušil pondelok",satire
+"Nový liek vyliečil všetkých pacientov",misleading
+"Graf ukazuje prudký nárast cien – v skutočnosti len vybrané mesiace",misleading
+"Vedci tvrdia, že čokoláda lieči rakovinu",misleading
+"Štatistiky dokazujú, že nezamestnanosť je nulová",misleading
+"Nový liek zázračne vyliečil všetkých pacientov",misleading
+"Štatistiky dokazujú, že inflácia je nulová",misleading
+"Vedci tvrdia, že káva predlžuje život o 50 rokov",misleading
+"Graf ukazuje pokles cien, ale len za jeden mesiac",misleading
+"Nový liek vyliečil všetkých",misleading
+"Graf ukazuje nárast cien",misleading
+"Starosta je neschopný, preto jeho návrh nemá zmysel",biased
+"Opozičný politik opäť zlyhal, zatiaľ čo vládna strana prináša úspechy",biased
+"Novinár kritizuje len jednu stranu, druhú úplne ignoruje",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Opozičný politik je úplne neschopný",biased
+"Vládna strana je jediná, ktorá prináša úspechy",biased
+"Novinár píše len proti opozícii",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Starosta je neschopný",biased
+"Opozičný politik zlyhal",biased
+"Novinár kritizuje len jednu stranu",biased
+"Politik z našej strany je hrdina",biased
+"Nový most spojí dve mestá už budúci rok",legitimate
+"Univerzita otvorila nové laboratórium pre študentov",legitimate
+"Obec získala grant na obnovu kultúrneho domu",legitimate
+"Nové opatrenia znížia ceny energií",legitimate
+"Školy dostanú moderné vybavenie pre žiakov",legitimate
+"Ministerstvo vydalo oficiálne vyhlásenie o opatreniach",legitimate
+"Primátor oznámil rekonštrukciu školy",legitimate
+"Vláda schválila nový zákon",legitimate
+"Vedci objavili nový liek",legitimate
+"Nový park sa otvorí v centre mesta",legitimate
+"Neuvidíte nikde inde: tajné fotografie unikli na internet",clickbait
+"Šokujúce odhalenie o známej speváčke – kliknite a zistíte viac",clickbait
+"Neuveriteľná zmena počas jednej noci – fotky vás ohromia",clickbait
+"Pozrite si, ako sa zmenil známy politik po rokoch",clickbait
+"Kliknite a zistíte, ako schudnúť za tri dni",clickbait
+"Šokujúce! Neuveríte, čo sa stalo v Košiciach",clickbait
+"Kliknite a zistíte, ako zarobiť tisíc eur za hodinu",clickbait
+"Neuveriteľná premena známej osobnosti – pred a po",clickbait
+"Šokujúce odhalenie: známa celebrita má dvojitý život",clickbait
+"Neuveríte, čo našli archeológovia pod Spišským hradom",clickbait
+"Nový most spojí dve mestá, obyvatelia sa tešia",legitimate
+"Univerzita otvorila moderné laboratórium pre študentov",legitimate
+"Obec získala grant na obnovu kultúrneho domu",legitimate
+"Ministerstvo dopravy oznámilo nové investície do železníc",legitimate
+"Vedci predstavili nový liek proti chrípke",legitimate
+"Primátor oznámil začiatok rekonštrukcie školy",legitimate
+"Vláda schválila rozpočet na rok 2027",legitimate
+"Nový park sa otvorí budúci týždeň v centre mesta",legitimate
+"Ministerstvo zdravotníctva vydalo oficiálne vyhlásenie o očkovaní",legitimate
+"Školy dostanú moderné vybavenie pre žiakov",legitimate
+"Slovensko od pondelka ruší všetky nemocnice",false_news
+"Nový zákon zakazuje používanie bicyklov na verejnosti",false_news
+"Zajtra bude zákaz vychádzania pre všetkých občanov",false_news
+"Voda v Tatrách je jedovatá – potvrdili vedci",false_news
+"Od zajtra sa ruší internet na Slovensku",false_news
+"Nový zákon prikazuje občanom nosiť prilby aj doma",false_news
+"Slovenské hory sú zatvorené kvôli radiácii",false_news
+"Všetky banky budú od pondelka zatvorené",false_news
+"Slovensko od pondelka ruší všetky školy – vláda to potvrdila",false_news
+"Nový zákon zakazuje používanie mobilov doma",false_news
+"Tajné spolky ovládajú rozhodnutia parlamentu",conspiracy
+"Vláda skrýva pravdu o vakcínach",conspiracy
+"Elity manipulujú médiá, aby ovládli občanov",conspiracy
+"Nový svetový poriadok už začal",conspiracy
+"Vláda tajne ovláda počasie pomocou špeciálnych zariadení",conspiracy
+"Elity riadia svet z podzemného bunkra",conspiracy
+"ALIENI! Vláda skrýva dôkazy o mimozemšťanoch",conspiracy
+"Farmaceutické firmy zatajujú pravdu o liekoch",conspiracy
+"Vláda tajne ovláda médiá",conspiracy
+"Elity riadia svet z podzemia",conspiracy
+"Naša strana je jediná, ktorá myslí na ľudí",propaganda
+"Bez našej strany by krajina skolabovala",propaganda
+"Vládny líder je jediný záchranca Slovenska",propaganda
+"Občania musia podporiť našu stranu, inak hrozí chaos",propaganda
+"Len naša strana dokáže zachrániť Slovensko pred úplným kolapsom",propaganda
+"Vládna strana prináša samé úspechy, opozícia len škodí",propaganda
+"Nová kampaň ukazuje, že iba jeden líder vie viesť krajinu",propaganda
+"Naša strana je jediná záchrana",propaganda
+"Vládna strana prináša úspechy",propaganda
+"Nová kampaň ukazuje silu lídra",propaganda
+"Parlament schválil zákaz dažďa – odteraz povolené len slnečné dni",satire
+"Ministerstvo kultúry nariadilo povinné nosenie klobúkov",satire
+"Nový zákon prikazuje občanom jesť len bryndzové halušky",satire
+"Prezident vyhlásil, že pondelok bude zrušený",satire
+"Ministerstvo zakázalo dážď – odteraz len slnečné dni",satire
+"Nový zákon prikazuje jesť len kapustnicu",satire
+"Prezident vyhlásil, že utorok bude zrušený",satire
+"Občania musia nosiť ponožky na rukách",satire
+"Parlament zakázal sneh",satire
+"Prezident zrušil pondelok",satire
+"Nový liek vyliečil všetkých pacientov",misleading
+"Graf ukazuje prudký nárast cien – v skutočnosti len vybrané mesiace",misleading
+"Vedci tvrdia, že čokoláda lieči rakovinu",misleading
+"Štatistiky dokazujú, že nezamestnanosť je nulová",misleading
+"Nový liek zázračne vyliečil všetkých pacientov",misleading
+"Štatistiky dokazujú, že inflácia je nulová",misleading
+"Vedci tvrdia, že káva predlžuje život o 50 rokov",misleading
+"Graf ukazuje pokles cien, ale len za jeden mesiac",misleading
+"Nový liek vyliečil všetkých",misleading
+"Graf ukazuje nárast cien",misleading
+"Starosta je neschopný, preto jeho návrh nemá zmysel",biased
+"Opozičný politik opäť zlyhal, zatiaľ čo vládna strana prináša úspechy",biased
+"Novinár kritizuje len jednu stranu, druhú úplne ignoruje",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Opozičný politik je úplne neschopný",biased
+"Vládna strana je jediná, ktorá prináša úspechy",biased
+"Novinár píše len proti opozícii",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Starosta je neschopný",biased
+"Opozičný politik zlyhal",biased
+"Novinár kritizuje len jednu stranu",biased
+"Politik z našej strany je hrdina",biased
+"Nový most spojí dve mestá už budúci rok",legitimate
+"Univerzita otvorila nové laboratórium pre študentov",legitimate
+"Obec získala grant na obnovu kultúrneho domu",legitimate
+"Nové opatrenia znížia ceny energií",legitimate
+"Školy dostanú moderné vybavenie pre žiakov",legitimate
+"Ministerstvo vydalo oficiálne vyhlásenie o opatreniach",legitimate
+"Primátor oznámil rekonštrukciu školy",legitimate
+"Vláda schválila nový zákon",legitimate
+"Vedci objavili nový liek",legitimate
+"Nový park sa otvorí v centre mesta",legitimate
+"Obec otvorila nové detské ihrisko pre rodiny",legitimate
+"Nová nemocnica bude postavená v Prešove",legitimate
+"Ministerstvo školstva oznámilo reformu vzdelávania",legitimate
+"Nový vlakový spoj zlepší dopravu medzi mestami",legitimate
+"Slovenskí vedci vyvinuli ekologický materiál",legitimate
+"Nový cyklistický chodník spojí dve obce",legitimate
+"Obec získala ocenenie za ekologické projekty",legitimate
+"Nový festival priláka tisíce návštevníkov",legitimate
+"Ministerstvo kultúry podporí nové divadelné projekty",legitimate
+"Neuvidíte, čo sa stalo na koncerte – šokujúce zábery!",clickbait
+"Kliknite a zistíte, ako sa zmenil známy športovec",clickbait
+"Šokujúce odhalenie: známa herečka má tajný život",clickbait
+"Neuveriteľná premena domu – pred a po fotkách",clickbait
+"Pozrite si, ako vyzerá nový most po dokončení",clickbait
+"Kliknite sem a zistíte, čo skrýva známy politik",clickbait
+"Šokujúce! Neuveríte, čo sa stalo v Žiline",clickbait
+"Neuveriteľná zmena počas jednej noci – fotky vás ohromia",clickbait
+"Kliknite a zistíte, ako zarobiť tisíc eur za hodinu",clickbait
+"Šokujúce odhalenie o známej speváčke – kliknite a zistíte viac",clickbait
+"Nový park sa otvorí v centre mesta",legitimate
+"Ministerstvo vydalo oficiálne vyhlásenie o opatreniach",legitimate
+"Primátor oznámil rekonštrukciu školy",legitimate
+"Vláda schválila nový zákon",legitimate
+"Vedci objavili nový liek",legitimate
+"Nový festival priláka tisíce návštevníkov",legitimate
+"Obec otvorila nové detské ihrisko pre rodiny",legitimate
+"Nová nemocnica bude postavená v Prešove",legitimate
+"Ministerstvo školstva oznámilo reformu vzdelávania",legitimate
+"Nový vlakový spoj zlepší dopravu medzi mestami",legitimate
+"Slovensko od pondelka ruší všetky banky",false_news
+"Nový zákon zakazuje používanie mobilov doma",false_news
+"Zajtra bude zákaz cestovania po Slovensku",false_news
+"Voda v Dunaji je toxická",false_news
+"Od pondelka sa ruší internet na Slovensku",false_news
+"Nový zákon prikazuje občanom jesť len kapustnicu",false_news
+"Slovenské hory sú zatvorené kvôli radiácii",false_news
+"Všetky nemocnice budú od pondelka zatvorené",false_news
+"Slovensko od pondelka ruší všetky školy – vláda to potvrdila",false_news
+"Nový zákon zakazuje používanie bicyklov na verejnosti",false_news
+"Tajné spolky ovládajú rozhodnutia parlamentu",conspiracy
+"Vláda skrýva pravdu o vakcínach",conspiracy
+"Elity manipulujú médiá, aby ovládli občanov",conspiracy
+"Nový svetový poriadok už začal",conspiracy
+"Vláda tajne ovláda počasie pomocou špeciálnych zariadení",conspiracy
+"Elity riadia svet z podzemného bunkra",conspiracy
+"ALIENI! Vláda skrýva dôkazy o mimozemšťanoch",conspiracy
+"Farmaceutické firmy zatajujú pravdu o liekoch",conspiracy
+"Vláda tajne ovláda médiá",conspiracy
+"Elity riadia svet z podzemia",conspiracy
+"Naša strana je jediná, ktorá myslí na ľudí",propaganda
+"Bez našej strany by krajina skolabovala",propaganda
+"Vládny líder je jediný záchranca Slovenska",propaganda
+"Občania musia podporiť našu stranu, inak hrozí chaos",propaganda
+"Len naša strana dokáže zachrániť Slovensko pred úplným kolapsom",propaganda
+"Vládna strana prináša samé úspechy, opozícia len škodí",propaganda
+"Nová kampaň ukazuje, že iba jeden líder vie viesť krajinu",propaganda
+"Naša strana je jediná záchrana",propaganda
+"Vládna strana prináša úspechy",propaganda
+"Nová kampaň ukazuje silu lídra",propaganda
+"Parlament schválil zákaz dažďa – odteraz povolené len slnečné dni",satire
+"Ministerstvo kultúry nariadilo povinné nosenie klobúkov",satire
+"Nový zákon prikazuje občanom jesť len bryndzové halušky",satire
+"Prezident vyhlásil, že pondelok bude zrušený",satire
+"Ministerstvo zakázalo dážď – odteraz len slnečné dni",satire
+"Nový zákon prikazuje jesť len kapustnicu",satire
+"Prezident vyhlásil, že utorok bude zrušený",satire
+"Občania musia nosiť ponožky na rukách",satire
+"Parlament zakázal sneh",satire
+"Prezident zrušil pondelok",satire
+"Nový liek vyliečil všetkých pacientov",misleading
+"Graf ukazuje prudký nárast cien – v skutočnosti len vybrané mesiace",misleading
+"Vedci tvrdia, že čokoláda lieči rakovinu",misleading
+"Štatistiky dokazujú, že nezamestnanosť je nulová",misleading
+"Nový liek zázračne vyliečil všetkých pacientov",misleading
+"Štatistiky dokazujú, že inflácia je nulová",misleading
+"Vedci tvrdia, že káva predlžuje život o 50 rokov",misleading
+"Graf ukazuje pokles cien, ale len za jeden mesiac",misleading
+"Nový liek vyliečil všetkých",misleading
+"Graf ukazuje nárast cien",misleading
+"Starosta je neschopný, preto jeho návrh nemá zmysel",biased
+"Opozičný politik opäť zlyhal, zatiaľ čo vládna strana prináša úspechy",biased
+"Novinár kritizuje len jednu stranu, druhú úplne ignoruje",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Opozičný politik je úplne neschopný",biased
+"Vládna strana je jediná, ktorá prináša úspechy",biased
+"Novinár píše len proti opozícii",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Starosta je neschopný",biased
+"Opozičný politik zlyhal",biased
+"Novinár kritizuje len jednu stranu",biased
+"Politik z našej strany je hrdina",biased
+"Nový most spojí dve mestá už budúci rok",legitimate
+"Univerzita otvorila nové laboratórium pre študentov",legitimate
+"Obec získala grant na obnovu kultúrneho domu",legitimate
+"Nové opatrenia znížia ceny energií",legitimate
+"Školy dostanú moderné vybavenie pre žiakov",legitimate
+"Ministerstvo vydalo oficiálne vyhlásenie o opatreniach",legitimate
+"Primátor oznámil rekonštrukciu školy",legitimate
+"Vláda schválila nový zákon",legitimate
+"Vedci objavili nový liek",legitimate
+"Nový park sa otvorí v centre mesta",legitimate
+"Neuvidíte, čo sa stalo na svadbe známej speváčky – šokujúce zábery!",clickbait
+"Kliknite a zistíte, ako sa zmenil známy moderátor",clickbait
+"Šokujúce odhalenie: známa osobnosť má tajný život",clickbait
+"Neuveriteľná premena domu – pred a po fotkách",clickbait
+"Pozrite si, ako vyzerá nový most po dokončení",clickbait
+"Kliknite sem a zistíte, čo skrýva známy politik",clickbait
+"Šokujúce! Neuveríte, čo sa stalo v Prešove",clickbait
+"Neuveriteľná zmena počas jednej noci – fotky vás ohromia",clickbait
+"Kliknite a zistíte, ako zarobiť tisíc eur za hodinu",clickbait
+"Šokujúce odhalenie o známej speváčke – kliknite a zistíte viac",clickbait
+"Nový park sa otvorí v centre Bratislavy",legitimate
+"Ministerstvo vydalo oficiálne vyhlásenie o opatreniach proti chrípke",legitimate
+"Primátor oznámil rekonštrukciu základnej školy",legitimate
+"Vláda schválila nový zákon o doprave",legitimate
+"Vedci objavili nový liek proti rakovine",legitimate
+"Nový festival priláka tisíce návštevníkov do Košíc",legitimate
+"Obec otvorila nové detské ihrisko pre rodiny",legitimate
+"Nová nemocnica bude postavená v Prešove",legitimate
+"Ministerstvo školstva oznámilo reformu vzdelávania",legitimate
+"Nový vlakový spoj zlepší dopravu medzi mestami",legitimate
+"Slovensko od pondelka ruší všetky banky",false_news
+"Nový zákon zakazuje používanie mobilov doma",false_news
+"Zajtra bude zákaz cestovania po Slovensku",false_news
+"Voda v Dunaji je toxická – tvrdia vedci",false_news
+"Od pondelka sa ruší internet na Slovensku",false_news
+"Nový zákon prikazuje občanom jesť len kapustnicu",false_news
+"Slovenské hory sú zatvorené kvôli radiácii",false_news
+"Všetky nemocnice budú od pondelka zatvorené",false_news
+"Slovensko od pondelka ruší všetky školy – vláda to potvrdila",false_news
+"Nový zákon zakazuje používanie bicyklov na verejnosti",false_news
+"Tajné spolky ovládajú rozhodnutia parlamentu",conspiracy
+"Vláda skrýva pravdu o vakcínach",conspiracy
+"Elity manipulujú médiá, aby ovládli občanov",conspiracy
+"Nový svetový poriadok už začal",conspiracy
+"Vláda tajne ovláda počasie pomocou špeciálnych zariadení",conspiracy
+"Elity riadia svet z podzemného bunkra",conspiracy
+"ALIENI! Vláda skrýva dôkazy o mimozemšťanoch",conspiracy
+"Farmaceutické firmy zatajujú pravdu o liekoch",conspiracy
+"Vláda tajne ovláda médiá",conspiracy
+"Elity riadia svet z podzemia",conspiracy
+"Naša strana je jediná, ktorá myslí na ľudí",propaganda
+"Bez našej strany by krajina skolabovala",propaganda
+"Vládny líder je jediný záchranca Slovenska",propaganda
+"Občania musia podporiť našu stranu, inak hrozí chaos",propaganda
+"Len naša strana dokáže zachrániť Slovensko pred úplným kolapsom",propaganda
+"Vládna strana prináša samé úspechy, opozícia len škodí",propaganda
+"Nová kampaň ukazuje, že iba jeden líder vie viesť krajinu",propaganda
+"Naša strana je jediná záchrana",propaganda
+"Vládna strana prináša úspechy",propaganda
+"Nová kampaň ukazuje silu lídra",propaganda
+"Parlament schválil zákaz dažďa – odteraz povolené len slnečné dni",satire
+"Ministerstvo kultúry nariadilo povinné nosenie klobúkov",satire
+"Nový zákon prikazuje občanom jesť len bryndzové halušky",satire
+"Prezident vyhlásil, že pondelok bude zrušený",satire
+"Ministerstvo zakázalo dážď – odteraz len slnečné dni",satire
+"Nový zákon prikazuje jesť len kapustnicu",satire
+"Prezident vyhlásil, že utorok bude zrušený",satire
+"Občania musia nosiť ponožky na rukách",satire
+"Parlament zakázal sneh",satire
+"Prezident zrušil pondelok",satire
+"Nový liek vyliečil všetkých pacientov",misleading
+"Graf ukazuje prudký nárast cien – v skutočnosti len vybrané mesiace",misleading
+"Vedci tvrdia, že čokoláda lieči rakovinu",misleading
+"Štatistiky dokazujú, že nezamestnanosť je nulová",misleading
+"Nový liek zázračne vyliečil všetkých pacientov",misleading
+"Štatistiky dokazujú, že inflácia je nulová",misleading
+"Vedci tvrdia, že káva predlžuje život o 50 rokov",misleading
+"Graf ukazuje pokles cien, ale len za jeden mesiac",misleading
+"Nový liek vyliečil všetkých",misleading
+"Graf ukazuje nárast cien",misleading
+"Starosta je neschopný, preto jeho návrh nemá zmysel",biased
+"Opozičný politik opäť zlyhal, zatiaľ čo vládna strana prináša úspechy",biased
+"Novinár kritizuje len jednu stranu, druhú úplne ignoruje",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Opozičný politik je úplne neschopný",biased
+"Vládna strana je jediná, ktorá prináša úspechy",biased
+"Novinár píše len proti opozícii",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Starosta je neschopný",biased
+"Opozičný politik zlyhal",biased
+"Novinár kritizuje len jednu stranu",biased
+"Politik z našej strany je hrdina",biased
+"Nový most spojí dve mestá už budúci rok",legitimate
+"Univerzita otvorila nové laboratórium pre študentov",legitimate
+"Obec získala grant na obnovu kultúrneho domu",legitimate
+"Nové opatrenia znížia ceny energií",legitimate
+"Školy dostanú moderné vybavenie pre žiakov",legitimate
+"Ministerstvo vydalo oficiálne vyhlásenie o opatreniach",legitimate
+"Primátor oznámil rekonštrukciu školy",legitimate
+"Vláda schválila nový zákon",legitimate
+"Vedci objavili nový liek",legitimate
+"Nový park sa otvorí v centre mesta",legitimate
+"Neuvidíte, čo sa stalo na futbalovom zápase – šokujúce zábery!",clickbait
+"Kliknite a zistíte, ako sa zmenil známy moderátor",clickbait
+"Šokujúce odhalenie: známa osobnosť má tajný život",clickbait
+"Neuveriteľná premena domu – pred a po fotkách",clickbait
+"Pozrite si, ako vyzerá nový most po dokončení",clickbait
+"Kliknite sem a zistíte, čo skrýva známy politik",clickbait
+"Šokujúce! Neuveríte, čo sa stalo v Nitre",clickbait
+"Neuveriteľná zmena počas jednej noci – fotky vás ohromia",clickbait
+"Kliknite a zistíte, ako zarobiť tisíc eur za hodinu",clickbait
+"Šokujúce odhalenie o známej speváčke – kliknite a zistíte viac",clickbait
+"Nový park sa otvorí v centre Košíc",legitimate
+"Ministerstvo vydalo oficiálne vyhlásenie o opatreniach proti chrípke",legitimate
+"Primátor oznámil rekonštrukciu základnej školy",legitimate
+"Vláda schválila nový zákon o doprave",legitimate
+"Vedci objavili nový liek proti rakovine",legitimate
+"Nový festival priláka tisíce návštevníkov do Bratislavy",legitimate
+"Obec otvorila nové detské ihrisko pre rodiny",legitimate
+"Nová nemocnica bude postavená v Žiline",legitimate
+"Ministerstvo školstva oznámilo reformu vzdelávania",legitimate
+"Nový vlakový spoj zlepší dopravu medzi mestami",legitimate
+"Slovensko od pondelka ruší všetky banky",false_news
+"Nový zákon zakazuje používanie mobilov doma",false_news
+"Zajtra bude zákaz cestovania po Slovensku",false_news
+"Voda v Dunaji je toxická – tvrdia vedci",false_news
+"Od pondelka sa ruší internet na Slovensku",false_news
+"Nový zákon prikazuje občanom jesť len kapustnicu",false_news
+"Slovenské hory sú zatvorené kvôli radiácii",false_news
+"Všetky nemocnice budú od pondelka zatvorené",false_news
+"Slovensko od pondelka ruší všetky školy – vláda to potvrdila",false_news
+"Nový zákon zakazuje používanie bicyklov na verejnosti",false_news
+"Tajné spolky ovládajú rozhodnutia parlamentu",conspiracy
+"Vláda skrýva pravdu o vakcínach",conspiracy
+"Elity manipulujú médiá, aby ovládli občanov",conspiracy
+"Nový svetový poriadok už začal",conspiracy
+"Vláda tajne ovláda počasie pomocou špeciálnych zariadení",conspiracy
+"Elity riadia svet z podzemného bunkra",conspiracy
+"ALIENI! Vláda skrýva dôkazy o mimozemšťanoch",conspiracy
+"Farmaceutické firmy zatajujú pravdu o liekoch",conspiracy
+"Vláda tajne ovláda médiá",conspiracy
+"Elity riadia svet z podzemia",conspiracy
+"Naša strana je jediná, ktorá myslí na ľudí",propaganda
+"Bez našej strany by krajina skolabovala",propaganda
+"Vládny líder je jediný záchranca Slovenska",propaganda
+"Občania musia podporiť našu stranu, inak hrozí chaos",propaganda
+"Len naša strana dokáže zachrániť Slovensko pred úplným kolapsom",propaganda
+"Vládna strana prináša samé úspechy, opozícia len škodí",propaganda
+"Nová kampaň ukazuje, že iba jeden líder vie viesť krajinu",propaganda
+"Naša strana je jediná záchrana",propaganda
+"Vládna strana prináša úspechy",propaganda
+"Nová kampaň ukazuje silu lídra",propaganda
+"Parlament schválil zákaz dažďa – odteraz povolené len slnečné dni",satire
+"Ministerstvo kultúry nariadilo povinné nosenie klobúkov",satire
+"Nový zákon prikazuje občanom jesť len bryndzové halušky",satire
+"Prezident vyhlásil, že pondelok bude zrušený",satire
+"Ministerstvo zakázalo dážď – odteraz len slnečné dni",satire
+"Nový zákon prikazuje jesť len kapustnicu",satire
+"Prezident vyhlásil, že utorok bude zrušený",satire
+"Občania musia nosiť ponožky na rukách",satire
+"Parlament zakázal sneh",satire
+"Prezident zrušil pondelok",satire
+"Nový liek vyliečil všetkých pacientov",misleading
+"Graf ukazuje prudký nárast cien – v skutočnosti len vybrané mesiace",misleading
+"Vedci tvrdia, že čokoláda lieči rakovinu",misleading
+"Štatistiky dokazujú, že nezamestnanosť je nulová",misleading
+"Nový liek zázračne vyliečil všetkých pacientov",misleading
+"Štatistiky dokazujú, že inflácia je nulová",misleading
+"Vedci tvrdia, že káva predlžuje život o 50 rokov",misleading
+"Graf ukazuje pokles cien, ale len za jeden mesiac",misleading
+"Nový liek vyliečil všetkých",misleading
+"Graf ukazuje nárast cien",misleading
+"Starosta je neschopný, preto jeho návrh nemá zmysel",biased
+"Opozičný politik opäť zlyhal, zatiaľ čo vládna strana prináša úspechy",biased
+"Novinár kritizuje len jednu stranu, druhú úplne ignoruje",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Opozičný politik je úplne neschopný",biased
+"Vládna strana je jediná, ktorá prináša úspechy",biased
+"Novinár píše len proti opozícii",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Starosta je neschopný",biased
+"Opozičný politik zlyhal",biased
+"Novinár kritizuje len jednu stranu",biased
+"Politik z našej strany je hrdina",biased
+"Nový most spojí dve mestá už budúci rok",legitimate
+"Univerzita otvorila nové laboratórium pre študentov",legitimate
+"Obec získala grant na obnovu kultúrneho domu",legitimate
+"Nové opatrenia znížia ceny energií",legitimate
+"Školy dostanú moderné vybavenie pre žiakov",legitimate
+"Ministerstvo vydalo oficiálne vyhlásenie o opatreniach",legitimate
+"Primátor oznámil rekonštrukciu školy",legitimate
+"Vláda schválila nový zákon",legitimate
+"Vedci objavili nový liek",legitimate
+"Nový park sa otvorí v centre mesta",legitimate
+"Prezident podpísal novelu zákona o školstve",legitimate
+"Slovensko zaznamenalo rekordný počet turistov v Tatrách",legitimate
+"Minister financií predstavil návrh rozpočtu na budúci rok",legitimate
+"V Bratislave otvorili novú električkovú trať",legitimate
+"Vedci z Košíc vyvinuli nový typ batérie",legitimate
+"Slovensko od pondelka ruší všetky nemocnice",false_news
+"Nový zákon zakazuje používanie bicyklov na verejnosti",false_news
+"Voda v Dunaji je toxická – tvrdia vedci",false_news
+"Od pondelka sa ruší internet na Slovensku",false_news
+"Tajné spolky ovládajú rozhodnutia parlamentu",conspiracy
+"Elity manipulujú médiá, aby ovládli občanov",conspiracy
+"Nový svetový poriadok už začal",conspiracy
+"Farmaceutické firmy zatajujú pravdu o liekoch",conspiracy
+"Len naša strana dokáže zachrániť Slovensko pred úplným kolapsom",propaganda
+"Vládna strana prináša samé úspechy, opozícia len škodí",propaganda
+"Nová kampaň ukazuje, že iba jeden líder vie viesť krajinu",propaganda
+"Občania musia veriť našej strane, inak hrozí chaos",propaganda
+"Parlament schválil zákaz dažďa – odteraz povolené len slnečné dni",satire
+"Ministerstvo kultúry nariadilo povinné nosenie klobúkov",satire
+"Nový zákon prikazuje občanom jesť len bryndzové halušky",satire
+"Prezident vyhlásil, že pondelok bude zrušený",satire
+"Nový liek vyliečil všetkých pacientov",misleading
+"Graf ukazuje prudký nárast cien – v skutočnosti len vybrané mesiace",misleading
+"Vedci tvrdia, že čokoláda lieči rakovinu",misleading
+"Štatistiky dokazujú, že nezamestnanosť je nulová",misleading
+"Starosta je neschopný, preto jeho návrh nemá zmysel",biased
+"Opozičný politik opäť zlyhal, zatiaľ čo vládna strana prináša úspechy",biased
+"Novinár kritizuje len jednu stranu, druhú úplne ignoruje",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Prezident podpísal novelu zákona o zdravotníctve",legitimate
+"Slovensko zaznamenalo rekordný počet turistov v Tatrách",legitimate
+"Minister financií predstavil návrh rozpočtu na budúci rok",legitimate
+"V Bratislave otvorili novú električkovú trať",legitimate
+"Vedci z Košíc vyvinuli nový typ batérie",legitimate
+"Nový festival prilákal tisíce návštevníkov do centra mesta",legitimate
+"Obec otvorila nové detské ihrisko pre rodiny",legitimate
+"Nová nemocnica bude postavená v Žiline",legitimate
+"Ministerstvo školstva oznámilo reformu vzdelávania",legitimate
+"Nový vlakový spoj zlepší dopravu medzi mestami",legitimate
+"Slovensko od pondelka ruší všetky nemocnice",false_news
+"Nový zákon zakazuje používanie bicyklov na verejnosti",false_news
+"Zajtra bude zákaz vychádzania pre všetkých občanov",false_news
+"Voda v Dunaji je toxická – tvrdia vedci",false_news
+"Od pondelka sa ruší internet na Slovensku",false_news
+"Nový zákon prikazuje občanom jesť len kapustnicu",false_news
+"Slovenské hory sú zatvorené kvôli radiácii",false_news
+"Všetky banky budú od pondelka zatvorené",false_news
+"Slovensko od pondelka ruší všetky školy – vláda to potvrdila",false_news
+"Nový zákon zakazuje používanie mobilov doma",false_news
+"Tajné spolky ovládajú rozhodnutia parlamentu",conspiracy
+"Vláda skrýva pravdu o vakcínach",conspiracy
+"Elity manipulujú médiá, aby ovládli občanov",conspiracy
+"Nový svetový poriadok už začal",conspiracy
+"Vláda tajne ovláda počasie pomocou špeciálnych zariadení",conspiracy
+"Elity riadia svet z podzemného bunkra",conspiracy
+"ALIENI! Vláda skrýva dôkazy o mimozemšťanoch",conspiracy
+"Farmaceutické firmy zatajujú pravdu o liekoch",conspiracy
+"Vláda tajne ovláda médiá",conspiracy
+"Elity riadia svet z podzemia",conspiracy
+"Naša strana je jediná, ktorá myslí na ľudí",propaganda
+"Bez našej strany by krajina skolabovala",propaganda
+"Vládny líder je jediný záchranca Slovenska",propaganda
+"Občania musia podporiť našu stranu, inak hrozí chaos",propaganda
+"Len naša strana dokáže zachrániť Slovensko pred úplným kolapsom",propaganda
+"Vládna strana prináša samé úspechy, opozícia len škodí",propaganda
+"Nová kampaň ukazuje, že iba jeden líder vie viesť krajinu",propaganda
+"Naša strana je jediná záchrana",propaganda
+"Vládna strana prináša úspechy",propaganda
+"Nová kampaň ukazuje silu lídra",propaganda
+"Parlament schválil zákaz dažďa – odteraz povolené len slnečné dni",satire
+"Ministerstvo kultúry nariadilo povinné nosenie klobúkov",satire
+"Nový zákon prikazuje občanom jesť len bryndzové halušky",satire
+"Prezident vyhlásil, že pondelok bude zrušený",satire
+"Ministerstvo zakázalo dážď – odteraz len slnečné dni",satire
+"Nový zákon prikazuje jesť len kapustnicu",satire
+"Prezident vyhlásil, že utorok bude zrušený",satire
+"Občania musia nosiť ponožky na rukách",satire
+"Parlament zakázal sneh",satire
+"Prezident zrušil pondelok",satire
+"Nový liek vyliečil všetkých pacientov",misleading
+"Graf ukazuje prudký nárast cien – v skutočnosti len vybrané mesiace",misleading
+"Vedci tvrdia, že čokoláda lieči rakovinu",misleading
+"Štatistiky dokazujú, že nezamestnanosť je nulová",misleading
+"Nový liek zázračne vyliečil všetkých pacientov",misleading
+"Štatistiky dokazujú, že inflácia je nulová",misleading
+"Vedci tvrdia, že káva predlžuje život o 50 rokov",misleading
+"Graf ukazuje pokles cien, ale len za jeden mesiac",misleading
+"Nový liek vyliečil všetkých",misleading
+"Graf ukazuje nárast cien",misleading
+"Starosta je neschopný, preto jeho návrh nemá zmysel",biased
+"Opozičný politik opäť zlyhal, zatiaľ čo vládna strana prináša úspechy",biased
+"Novinár kritizuje len jednu stranu, druhú úplne ignoruje",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Opozičný politik je úplne neschopný",biased
+"Vládna strana je jediná, ktorá prináša úspechy",biased
+"Novinár píše len proti opozícii",biased
+"Politik z našej strany je hrdina, ostatní sú podvodníci",biased
+"Starosta je neschopný",biased
+"Opozičný politik zlyhal",biased
+"Novinár kritizuje len jednu stranu",biased
+"Politik z našej strany je hrdina",biased
+"Neuvidíte, čo sa stalo na koncerte – šokujúce zábery!",clickbait
+"Kliknite a zistíte, ako sa zmenil známy športovec",clickbait
+"Šokujúce odhalenie: známa herečka má tajný život",clickbait
+"Neuveriteľná premena domu – pred a po fotkách",clickbait
+"Pozrite si, ako vyzerá nový most po dokončení",clickbait
+"Kliknite sem a zistíte, čo skrýva známy politik",clickbait
+"Šokujúce! Neuveríte, čo sa stalo v Žiline",clickbait
+"Neuveriteľná zmena počas jednej noci – fotky vás ohromia",clickbait
+"Kliknite a zistíte, ako zarobiť tisíc eur za hodinu",clickbait
+"Šokujúce odhalenie o známej speváčke – kliknite a zistíte viac",clickbait
+"Ministerstvo zdravotníctva poprelo hoax o povinných covid náramkoch",false_news
+"Hoax o neexistujúcich utečeneckých dávkach sa opäť šíri na Facebooku",false_news
+"Slovenská pošta varuje pred falošnými SMS správami o balíkoch",false_news
+"Polícia vyvracia vymyslený príbeh o únosoch detí pri obchodných centrách",false_news
+"Šíri sa hoax o tom, že voda z vodovodu je kontaminovaná pesticídmi",false_news
+"Známy politik tvrdí, že Soros ovláda slovenské médiá",conspiracy
+"Status na Facebooku tvrdí, že EÚ tajne pripravuje zákaz hotovosti",conspiracy
+"Video tvrdí, že vláda riadi počasie pomocou chemtrails",conspiracy
+"Hoaxová stránka tvrdí, že WHO plánuje ovládať národné vlády",conspiracy
+"Fáma o tom, že vakcíny menia DNA, sa opäť objavila v skupinách",conspiracy
+"Vládna strana predstavila historický úspech – opozícia vraj len sabotuje",propaganda
+"Predseda strany označil svoju vládu za jedinú záruku stability",propaganda
+"Stranícka televízia ukázala reportáž o tom, ako opozícia 'ničí Slovensko'",propaganda
+"Kampaň tvrdí, že bez vládneho lídra by ekonomika skolabovala",propaganda
+"Vládny billboard oznamuje, že len ich líder ochráni rodiny",propaganda
+"Satirická stránka zverejnila článok o tom, že Bratislava zakáže guláš",satire
+"Vtipná paródia tvrdí, že vláda chce nahradiť poslancov robotmi",satire
+"Humorný článok oznamuje, že pondelok bude po skúške zrušený",satire
+"Nový 'zákon' prikazuje nosiť ponožky na rukách v zime",satire
+"Parlament vraj hlasoval o zákaze dažďa – satirická paródia",satire
+"Článok zavádza tvrdením, že nové opatrenia znížili infláciu na nulu",misleading
+"Graf vynecháva údaje z posledných mesiacov a skresľuje trend",misleading
+"Blog tvrdí, že vitamín C lieči rakovinu – odvoláva sa na neúplnú štúdiu",misleading
+"Politik sa chváli znížením dlhu, ale ignoruje kontext pandémie",misleading
+"Reklama tvrdí, že prípravok zlepší pamäť o 300 %, bez relevantných štúdií",misleading
+"Komentár útočí na primátora bez faktoch – nazýva ho 'nemožný amatér'",biased
+"Článok favorizuje len jednu politickú stranu a ignoruje ich chyby",biased
+"Novinár označuje opozíciu za neschopnú bez dôkazov",biased
+"Komentár tvrdí, že vláda je najlepšia v histórii – bez porovnania",biased
+"Správa vyzdvihuje len úspechy obľúbeného politika a ignoruje problémy",biased
+"Slovenskí vedci predstavili nový biosenzor",legitimate
+"Ministerstvo oznámilo nové opatrenia pre školy",legitimate
+"V Košiciach otvorili nové výskumné centrum",legitimate
+"Univerzita spustila nový študijný program zameraný na informatiku",legitimate
+"Primátor predstavil plán rozšírenia cyklotrás",legitimate
+"Firma z Prešova vykupuje od lekární lieky. O tom, či ich vyváža do zahraničia, mlčí",legitimate
+"Aj jeden názor môže zmeniť postoj celého Ústavného súdu. Fiačan poslancom pripomenul ich povinnosť",legitimate
+"Oznamovateľka korupcie: Ak po zrušení úradu stratím prácu, budem uvažovať o odchode zo Slovenska",legitimate
+"Únia sa bude naozaj trhať a treba si vybrať",misleading
+"Na vianočných trhoch v Bratislave si za pečenú klobásu pýtajú deväť eur. Ceny tento rok opäť narástli",legitimate
+"Originálna dokumentárna esej AMOOSED: losia odysea skúma vzťah človeka a prírody cez príbeh losa",legitimate
+"Šokujúci prípad v Nemecku. Gruzínec polial svoju manželku horľavinou a zapálil ju v električke",clickbait
+"V Pukanci sa zrútila časť historických hradieb, obec pristúpila k nutnému kroku",clickbait
+"Neozbrojený tanker HMNZS Aotearoa sa plavil Taiwanským prielivom pod dohľadom Číny",legitimate
+"V Košiciach vznikla prvá ambulancia pre ľudí bez domova na Slovensku",legitimate
+"Taraba kývol na obrovský dopravný uzol v Bratislave. Za pol miliardy pribudne koľaj, mosty aj európsky systém",legitimate
+"Pápež v Turecku vyzval na rešpekt, krajina by sa mala usilovať o medzinárodnú stabilitu",legitimate
+"Pellegrini: Mier na Ukrajine je zatiaľ v rukách Trumpa, Putina a Zelenského. Európa by sa nemala rozčuľovať",legitimate
+"Harabin sa má opäť postaviť pred súd v kauze schvaľovania ruskej agresie",legitimate
+"Taliansko odovzdalo do Nemecka Ukrajinca z kauzy Nord Stream",legitimate
+"Firma z Prešova vykupuje od lekární lieky. O tom, či ich vyváža do zahraničia, mlčí",legitimate
+"Aj jeden názor môže zmeniť postoj celého Ústavného súdu. Fiačan poslancom pripomenul ich povinnosť",legitimate
+"Oznamovateľka korupcie: Ak po zrušení úradu stratím prácu, budem uvažovať o odchode zo Slovenska",legitimate
+"Únia sa bude naozaj trhať a treba si vybrať",misleading
+"Na vianočných trhoch v Bratislave si za pečenú klobásu pýtajú deväť eur. Ceny tento rok opäť narástli",legitimate
+"Ako je to s Benešovými dekrétmi: Čo sa deje na južnom Slovensku a čo skutočne navrhuje PS?",biased
+"Za tatranským hotelovým kolosom sa v tichosti objavila firma známeho oligarchu",legitimate
+"Je jedno, čo ste čakali. Finále Stranger Things dokazuje, prečo je najlepším seriálom Netflixu",clickbait
+"Cynická obluda: Akútna hrozba porušovania základných ľudských práv",biased
+"SME Minúta: Koalícia nemá istotu, že Pellegrini podpíše zrušenie protikorupčného úradu. Kroky vlády nechápe",legitimate
+"Afganistan je pekelná diera, vraví Trump. Po útoku v DC chystá kolektívny trest",legitimate
+"SME Minúta: Európa sa obáva, že Trump podmieni bezpečnostné záruky Ukrajine uzavretím mierovej dohody",legitimate
+"Ako sa žije na Slovensku: Človek by neveril, koľko toho telo dokáže vydržať, hovorí rušňovodič",legitimate
+"Šeherezáda lákala viac než španielske hviezdy. Pre koho ten futbal robíme? pýtal sa Weiss",legitimate
+"Opravu múru v havarijnom stave nemá kto vykonať. Hrozí poškodenie domu, cesty aj plynovodu",legitimate
+"Inšpekcia vypočúva poškodených v kauze technického spisu. Na rad prišiel pán X",clickbait
+"Rozprávka, ktorá ukazuje, že aj po strate sa dá ísť ďalej, zbiera jednu cenu za druhou",legitimate
+"Spor ožil, prokurátor uspel so sťažnosťou. Verdikt bude dôležitý pre desiatky samospráv",legitimate
+"Nemôžete ho vymeniť, hovorí expert. Nemec to urobil znova, nazývajú ho hrdinom",clickbait
+"Ako sa má Bruce Willis? Jeho rodinu nik nepripravil na to, aké bude starať sa oňho",clickbait
+"Jedlá dlhovekosti: Spomaľujú starnutie a posilňujú mladistvú vitalitu",misleading
+"Igor Matovič v statuse tvrdil, že premiér ide na ďalšie gymnázium, realitu vysvetlil riaditeľ",legitimate
+"Originálna dokumentárna esej AMOOSED: losia odysea skúma vzťah človeka a prírody cez príbeh losa",legitimate
+"Šokujúci prípad v Nemecku. Gruzínec polial svoju manželku horľavinou a zapálil ju v električke",clickbait
+"V Pukanci sa zrútila časť historických hradieb, obec pristúpila k nutnému kroku",clickbait
+"Neozbrojený tanker HMNZS Aotearoa sa plavil Taiwanským prielivom pod dohľadom Číny",legitimate
+"V Košiciach vznikla prvá ambulancia pre ľudí bez domova na Slovensku",legitimate
+"Rusko označilo nadáciu Navaľného vo vyhnanstve za teroristickú organizáciu",legitimate
+"Prezident Pellegrini o rušení úradu: Vôbec nie je isté, že to podpíšem",legitimate
+"35. Mesiac fotografie má pred sebou posledné dni, niektoré výstavy ešte budú pokračovať",legitimate
+"Dá sa byť šťastnými aj v tejto dobe?",clickbait
+"Na charitatívnom podujatí Doma dobre, ktorého cieľom je pomôcť ľuďom bez domova, tento rok vystúpia Hex, Bez ladu a skladu a Lucerka",legitimate
+"EP vyzval na garancie bezpečnosti Ukrajiny podľa NATO a EÚ",legitimate
+"Poľsko obvinilo dvoch mužov zo sabotáže železničnej trate v prospech Ruska",legitimate
+"Primátorka Sliača kriticky: Voda sa do mesta valila od letiska. Škody mohli byť menšie, keby armáda urobila jednu vec (+VIDEO)",clickbait
+"Základom rokovaní o konci vojny na Ukrajine musí byť súčasná línia bojov, povedal Merz",legitimate
+"Klub 500 varuje pred ohrozením priemyslu. Slovenské firmy majú doplácať za výpadok ruského plynu",legitimate
+"Taraba kývol na obrovský dopravný uzol v Bratislave. Za pol miliardy pribudne koľaj, mosty aj európsky systém",legitimate
+"Pápež v Turecku vyzval na rešpekt, krajina by sa mala usilovať o medzinárodnú stabilitu",legitimate
+"Pellegrini: Mier na Ukrajine je zatiaľ v rukách Trumpa, Putina a Zelenského. Európa by sa nemala rozčuľovať",legitimate
+"Harabin sa má opäť postaviť pred súd v kauze schvaľovania ruskej agresie",legitimate
+"Taliansko odovzdalo do Nemecka Ukrajinca z kauzy Nord Stream",legitimate
+"Fiačan apeloval, aby Národná rada zvolila kandidátov na uvoľnené miesto sudcu Ústavného súdu",legitimate
+"Je kreatín bezpečný doplnok? Farmaceutka o jeho neuroprotektívnych účinkoch aj rizikách",legitimate
+"SaS tvrdí, že vie, prečo chce Fico žalovať Brusel kvôli plynu",legitimate
+"Ako podať žiadosť o dôchodok: presný návod krok za krokom​",legitimate
+"Americký plán by mohol byť základom budúcich dohôd, vraví Putin. Uisťuje, že Rusko Európu nenapadne",propaganda
+"Pellegrini reagoval na stretnutie s koaličnými lídrami: Niekedy som zhrozený z toho, čo sa deje",legitimate
+"Zástanca riadeného chaosu, ktorého vychválil aj Weiss. Zo šéfa lavičky Raya môže byť budúca trénerská hviezda",legitimate
+"Trumpov ústupok nestačí. Káva napriek nižším clám zrejme opäť zdražie",legitimate
+"Podpíšte to, bez mierovej dohody Rusko môže zasiahnuť Európu, varujú USA",misleading
+"V Rakúsku sa strhla veľká lavína. Zasiahla aj zjazdovku, štyria ľudia utrpeli zranenia",legitimate
+"Kto je kto na sociálnych sieťach",clickbait
+"Slovákov obkľúčili zlé pocity, našťastie nie všetkých",biased
+"Ján Ferenčák nemá pre Hlas hodnotu, jeho ideály miznú pri pozícii šéfa výboru",biased
+"Na Slovensko prídu len poslanci vznikajúcej koalície, rozhodol Okamura",legitimate
+"Určite nie je istota, že zrušenie Úradu na ochranu oznamovateľov podpíšem, vyhlásil Pellegrini",legitimate
+"Francúzsko zavedie od leta dobrovoľnú vojenskú službu",legitimate
+"Ľudia nemali šancu utekať. Ako sa oheň mohol šíriť tak rýchlo? Hongkong hľadá vinníkov",legitimate
+"Komisia prijala zmeny v stabilizačnej rezerve pre nový systém emisných povoleniek ETS2",legitimate
+"Libanonsko-cyperská dohoda o demarkácii hraníc je neprijateľná, tvrdí Turecko",legitimate
+"Prvé kusy sú už zrejme na svete. Apple testuje skladací iPhone, pri ktorom odstránil ryhu v displeji",legitimate
+"Teplári vítajú aukciu na plynové zdroje, SaS hovorí o biznise za stovky miliónov",legitimate
+"Moskva hlási postup na severe Pokrovska. Pozície držíme a Rusov ničíme, oponuje Ukrajina",legitimate
+"Počet obetí záplav v Thajsku vzrástol na 80, v susednej Malajzii zomreli dvaja ľudia",legitimate
+"Dôvera v ekonomiku eurozóny aj EÚ v novembri mierne vzrástla, priemysel zaostáva",legitimate
+"Žiga si nemyslí, že by prípadný odchod Ferenčáka ohrozil stabilitu koalície",legitimate
+"Ak Japonsko prekročí čiaru čo i len o pol kroku, zaplatí bolestivú cenu, hrozí Peking",propaganda
+"V Martine došlo k explózii. Pred domom podnikateľa mala vybuchnúť bomba, zasahuje tam polícia",legitimate
+"Choďte a zničte ich! Boh to chce! Prvá križiacka výprava sa skončila masakrom, Jeruzalem sa topil v krvi",clickbait
+"Ukrajina sa dohodla s Medzinárodným menovým fondom na novom úvere. Získať môže vyše osem miliárd dolárov",legitimate
+"Luxus v Číne opäť naberá na sile: Nasvedčujú tomu aj výsledky prémiových značiek",legitimate
+"Pred diskusiou o nasadení jednotiek na Ukrajinu je potrebné prímerie, reaguje Ankara na Macrona",legitimate
+"V Rusku rastie nová hviezda, na ktorú stavil Putin. Na Slovensku sme o ňom vedeli už v roku 2021",propaganda
+"Úvery domácnostiam v eurozóne rastú rýchlejšie, peňažná zásoba zostáva stabilná",legitimate
+"Vedci po vyše 50 rokoch otvorili skalu z Mesiaca a objavili veľké prekvapenie",clickbait
+"Bude ministerstvo hospodárstva fúkať, aby veterné elektrárne vyrábali dostatok elektriny primeranej kvality?",satire
+"Dokáže zakročiť proti všetkým zbraniam sveta. Obávaná Zlatá kupola spustí nové preteky v zbrojení",clickbait
+"Po bleskových povodniach v Indonézii hlásia 49 obetí",legitimate
+"EÚ by mala napredovať vo využití zmrazených ruských aktív, uviedol eurokomisár pre ekonomiku",legitimate
+"Na ukrajinskom fronte zahynul mladý Čech, padol pri Izjume",legitimate
+"Posledná šanca kúpiť legendárny roadster od BMW. Blíži sa koniec jednej éry značky",clickbait
+"Pokrovsk zažíva ťažké boje, na internete však víťazia Rusi. Takto zneužívajú umelú inteligenciu na propagandu",legitimate
+"Matovič hovorí o šikane. Gašpar je človek na úrovni Al Caponeho, tvrdí",biased
+"Rusko odsúdilo ôsmich ľudí na doživotie v kauze výbuchu na Krymskom moste",legitimate
+"Ochranári spochybňujú verziu funkcionára poľovníckej komory. Nesedí čas a miesto obhliadky zastreleného vlka",legitimate
+"The Government's Propaganda War Now Says Péter Magyar Wants to Tax Kittens (136 Days Until the Election)",satire
+"Sudcovia ako „návod na zárobok“? Analýza sporného rozhovoru Ayše Pružinec Eren",legitimate
+"Orbánova propaganda bojuje proti Magyarovi aj mačiatkami (136 dní do volieb)",propaganda
+"Vývoj bojov (1372. deň): Prekážky sú srdcom ukrajinskej obrany. Tento rok ich začali stavať správne, tvrdí analytik",legitimate
+"Štát obnovuje staré konfiškácie. Vysvetľujeme, v čom je dnes problém s Benešovými dekrétmi",legitimate
+"Neočakávame, že úroky hypoték pôjdu hlbšie pod 3 percentá, hovoria odborníci na reality Kuba a Molnár",legitimate
+"Česi rozumejú Hartlovi a Hartl Čechom napriek frflaniu literárnych kritikov. S Vieweghom a Bočkom je to horšie",biased
+"Podľa PS Taraba škrečkuje pre Babiša peniaze určené na vrakunskú skládku a gudrónové jamy",biased
+"Mýtus zlého Izraela",biased
+"Novým šéfom rozhlasu bude Peter Janků, doterajší asistent poslanca KDH Jozefa Hajka",legitimate
+"Ochranári spochybňujú verziu funkcionára poľovníckej komory. Nesedí čas a miesto obhliadky zastreleného vlka",legitimate
+"Sudcovia ako „návod na zárobok“? Analýza sporného rozhovoru Ayše Pružinec Eren",legitimate
+"Orbánova propaganda bojuje proti Magyarovi aj mačiatkami (136 dní do volieb)",propaganda
+"Vývoj bojov (1372. deň): Prekážky sú srdcom ukrajinskej obrany. Tento rok ich začali stavať správne, tvrdí analytik",legitimate
+"Štát obnovuje staré konfiškácie. Vysvetľujeme, v čom je dnes problém s Benešovými dekrétmi",legitimate
+"Neočakávame, že úroky hypoték pôjdu hlbšie pod 3 percentá, hovoria odborníci na reality Kuba a Molnár",legitimate
+"Česi rozumejú Hartlovi a Hartl Čechom napriek frflaniu literárnych kritikov. S Vieweghom a Bočkom je to horšie",biased
+"Podľa PS Taraba škrečkuje pre Babiša peniaze určené na vrakunskú skládku a gudrónové jamy",biased
+"Únia musí prevziať vedúcu úlohu pri rokovaniach o Ukrajine, vyzvali europoslanci",legitimate
+"Základom rokovaní o konci vojny na Ukrajine musí byť súčasná línia bojov, povedal Merz",legitimate
+"Klub 500 varuje pred ohrozením priemyslu. Slovenské firmy majú doplácať za výpadok ruského plynu",legitimate
+"Taraba kývol na obrovský dopravný uzol v Bratislave. Za pol miliardy pribudne koľaj, mosty aj európsky systém",legitimate
+"Pápež v Turecku vyzval na rešpekt, krajina by sa mala usilovať o medzinárodnú stabilitu",legitimate
+"Pellegrini: Mier na Ukrajine je zatiaľ v rukách Trumpa, Putina a Zelenského. Európa by sa nemala rozčuľovať",legitimate
+"Harabin sa má opäť postaviť pred súd v kauze schvaľovania ruskej agresie",legitimate
+"Taliansko odovzdalo do Nemecka Ukrajinca z kauzy Nord Stream",legitimate
+"Fiačan apeloval, aby Národná rada zvolila kandidátov na uvoľnené miesto sudcu Ústavného súdu",legitimate
+"Je kreatín bezpečný doplnok? Farmaceutka o jeho neuroprotektívnych účinkoch aj rizikách",legitimate
+"SaS tvrdí, že vie, prečo chce Fico žalovať Brusel kvôli plynu",legitimate
+"Ako podať žiadosť o dôchodok: presný návod krok za krokom",legitimate
+"Americký plán by mohol byť základom budúcich dohôd, vraví Putin. Uisťuje, že Rusko Európu nenapadne",propaganda
+"Pellegrini reagoval na stretnutie s koaličnými lídrami: Niekedy som zhrozený z toho, čo sa deje",legitimate
+"Zástanca riadeného chaosu, ktorého vychválil aj Weiss. Zo šéfa lavičky Raya môže byť budúca trénerská hviezda",legitimate
+"Kazaň dominuje rebríčku hokejových klubov, zo SR najvyššie Košice",legitimate
+"Do systému Dobrý anjel pribudli košické basketbalistky",legitimate
+"Uhynulo ďalšie zviera z košickej ZOO!",clickbait
+"Košickí poslanci schválili nový úver na rozvojové projekty",legitimate
+"Line-up micro.Wilsonicu v Bratislave a Košiciach je známy",legitimate
+"Košičania nemajú pred odvetou v Ríme veľké oči",legitimate
+"Vodiča autobusu odsúdili za napadnutie cestujúceho",legitimate
+"Slovensko bude dočasným domovom pre palestínskych utečencov",legitimate
+"AS Rím nastúpi proti Košiciam bez zranených Brighiho a Andreolliho",legitimate
+"STV bude hľadať detské talenty aj na východe",legitimate
+"Tonya Graves dodržiava české i americké zvyky",legitimate
+"Leteckí záchranári pomohli zranenému mužovi",legitimate
+"Investor potvrdil plány na úplné zbúranie PKO",legitimate
+"Mestskí policajti budú hliadkovať aj na Štedrý deň",legitimate
+"Odvoz odpadu cez sviatky bude ako v pracovné dni",legitimate
+"Počet poberateľov sociálnych dávok neustále rastie",legitimate
+"Odstúpenie Krčméryho je diskriminačným tlakom",biased
+"Vážny chce, aby mýto vyhnalo náklad z cesty",legitimate
+"VIDEOANALÝZA: Nálada ekonomiky v SR sa zlepšila",legitimate
