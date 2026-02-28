@@ -11,7 +11,6 @@ sys.path.insert(0, project_root)
 from core.classifier import NewsClassifier
 
 
-
 def setup_logging():
     logging.basicConfig(
         level=logging.INFO,
@@ -31,7 +30,7 @@ def main():
     parser.add_argument(
         "--model-type",
         choices=["mlp", "rf"],
-        default="mlp",
+        default="rf",
         help="Typ modelu, ktorý sa má trénovať (mlp alebo rf)."
     )
     args = parser.parse_args()
