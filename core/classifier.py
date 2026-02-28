@@ -13,17 +13,39 @@ from .model_trainer import ModelTrainer
 
 
 class NewsClassifier:
+    MODEL_FEATURE_PRESETS = {
+        'rf': {
+            'use_bert': True,
+            'use_tfidf': True,
+            'use_sentence_embeddings': False,
+        },
+        'mlp': {
+            'use_bert': False,
+            'use_tfidf': False,
+            'use_sentence_embeddings': True,
+        }
+    }
 
-    def __init__(self, use_bert: bool = True, use_tfidf: bool = True, use_sentence_embeddings: bool = False, model_type: Optional[str] = None):
+    def __init__(self, use_bert: bool = False, use_tfidf: bool = True, use_sentence_embeddings: bool = False, model_type: Optional[str] = None):
 
         self.config = Config()
         self.logger = logging.getLogger(__name__)
 
+        if model_type in self.MODEL_FEATURE_PRESETS:
+            preset = self.MODEL_FEATURE_PRESETS[model_type]
+            use_bert = preset['use_bert']
+            use_tfidf = preset['use_tfidf']
+            use_sentence_embeddings = preset['use_sentence_embeddings']
+
         self.config.USE_BERT = use_bert
         self.config.USE_TFIDF = use_tfidf
         self.config.USE_SENTENCE_EMBEDDINGS = use_sentence_embeddings
+        Config.USE_BERT = use_bert
+        Config.USE_TFIDF = use_tfidf
+        Config.USE_SENTENCE_EMBEDDINGS = use_sentence_embeddings
         if model_type is not None:
             self.config.MODEL_TYPE = model_type
+            Config.MODEL_TYPE = model_type
 
         self.feature_extractor = HybridFeatureExtractor()
         self.model_trainer = ModelTrainer()
@@ -31,8 +53,13 @@ class NewsClassifier:
 
         self.is_trained = False
         self.is_loaded = False
+        self.ensemble_models: Dict[str, Dict[str, Any]] = {}
+        self.last_winning_model: Optional[str] = None
 
-        self.logger.info(f"Classifier inicializovaný - BERT: {use_bert}, TF-IDF: {use_tfidf}, SENT: {use_sentence_embeddings}, MODEL: {getattr(self.config,'MODEL_TYPE','rf')}")
+        self.logger.info(
+            f"Classifier inicializovaný - BERT: {self.config.USE_BERT}, TF-IDF: {self.config.USE_TFIDF}, "
+            f"SENT: {self.config.USE_SENTENCE_EMBEDDINGS}, MODEL: {getattr(self.config, 'MODEL_TYPE', 'rf')}"
+        )
         self.logger.info(f"Používané zariadenie: {self.config.DEVICE}")
 
     def train(self, enable_augmentation: bool = True) -> Dict[str, Any]:
@@ -88,17 +115,24 @@ class NewsClassifier:
 
         self.data_processor.save_label_encoder()
 
-        config_path = os.path.join(self.config.MODELS_DIR, 'training_config.joblib')
-        joblib.dump({
+        model_type = getattr(self.config, 'MODEL_TYPE', 'rf')
+        config_payload = {
             'use_bert': self.config.USE_BERT,
             'use_tfidf': self.config.USE_TFIDF,
+            'use_sentence_embeddings': self.config.USE_SENTENCE_EMBEDDINGS,
+            'model_type': model_type,
             'categories': self.config.CATEGORIES,
             'feature_dimensions': {
                 'bert_original': self.config.BERT_EMBEDDING_DIM,
                 'bert_reduced': self.config.REDUCED_BERT_DIM,
                 'tfidf': self.config.TFIDF_MAX_FEATURES
             }
-        }, config_path)
+        }
+
+        config_path = os.path.join(self.config.MODELS_DIR, 'training_config.joblib')
+        typed_config_path = os.path.join(self.config.MODELS_DIR, f'training_config_{model_type}.joblib')
+        joblib.dump(config_payload, config_path)
+        joblib.dump(config_payload, typed_config_path)
 
         self.logger.info(f"Všetky modely uložené do: {self.config.MODELS_DIR}")
 
@@ -132,31 +166,72 @@ class NewsClassifier:
 
         return results
 
-    def load_models(self) -> bool:
+    def _apply_model_preset(self, model_type: str):
+        preset = self.MODEL_FEATURE_PRESETS[model_type]
+        self.config.USE_BERT = preset['use_bert']
+        self.config.USE_TFIDF = preset['use_tfidf']
+        self.config.USE_SENTENCE_EMBEDDINGS = preset['use_sentence_embeddings']
+        self.config.MODEL_TYPE = model_type
+        Config.USE_BERT = preset['use_bert']
+        Config.USE_TFIDF = preset['use_tfidf']
+        Config.USE_SENTENCE_EMBEDDINGS = preset['use_sentence_embeddings']
+        Config.MODEL_TYPE = model_type
+
+    def _load_single_model(self, model_type: str) -> bool:
+        if model_type not in self.MODEL_FEATURE_PRESETS:
+            self.logger.error(f"Neplatný typ modelu: {model_type}")
+            return False
+
+        self._apply_model_preset(model_type)
+
+        model_path = os.path.join(self.config.MODELS_DIR, f"trained_model_{model_type}.joblib")
+        legacy_model_path = os.path.join(self.config.MODELS_DIR, "trained_model.joblib")
+        if not os.path.exists(model_path) and not os.path.exists(legacy_model_path):
+            self.logger.warning(f"Preskakujem {model_type}: model súbor neexistuje")
+            return False
+
+        feature_extractor = HybridFeatureExtractor()
+        model_trainer = ModelTrainer()
+        data_processor = DataProcessor()
+
+        feature_extractor.load()
+        model_trainer.load_model(model_type=model_type)
+        data_processor.load_label_encoder()
+
+        self.ensemble_models[model_type] = {
+            'feature_extractor': feature_extractor,
+            'model_trainer': model_trainer,
+            'data_processor': data_processor,
+        }
+        return True
+
+    def load_models(self, model_type: Optional[str] = None) -> bool:
         try:
             self.logger.info("Načítavam natrénované modely...")
 
-            required_files = [
-                'trained_model.joblib',
-                'label_encoder.joblib',
-                'training_config.joblib'
-            ]
+            label_path = os.path.join(self.config.MODELS_DIR, 'label_encoder.joblib')
+            if not os.path.exists(label_path):
+                self.logger.error("Chýbajúci súbor: label_encoder.joblib")
+                return False
 
-            for file in required_files:
-                if not os.path.exists(os.path.join(self.config.MODELS_DIR, file)):
-                    self.logger.error(f"Chýbajúci súbor: {file}")
-                    return False
+            self.ensemble_models = {}
+            targets = [model_type] if model_type else ['rf', 'mlp']
+            loaded_types = [m for m in targets if self._load_single_model(m)]
 
-            self.feature_extractor.load()
-            self.model_trainer.load_model()
-            self.data_processor.load_label_encoder()
+            if not loaded_types:
+                self.logger.error("Nepodarilo sa načítať žiadny model (rf/mlp)")
+                return False
 
-            config_path = os.path.join(self.config.MODELS_DIR, 'training_config.joblib')
-            training_config = joblib.load(config_path)
+            primary_model_type = loaded_types[0]
+            self.feature_extractor = self.ensemble_models[primary_model_type]['feature_extractor']
+            self.model_trainer = self.ensemble_models[primary_model_type]['model_trainer']
+            self.data_processor = self.ensemble_models[primary_model_type]['data_processor']
+            self.config.MODEL_TYPE = primary_model_type
+            Config.MODEL_TYPE = primary_model_type
 
             self.is_loaded = True
             self.logger.info("Všetky modely úspešne načítané")
-            self.logger.info(f"Kategórie: {', '.join(training_config['categories'])}")
+            self.logger.info(f"Načítané modely: {', '.join(loaded_types)}")
 
             return True
 
@@ -174,27 +249,39 @@ class NewsClassifier:
         if not cleaned_text:
             raise ValueError("Text je prázdny po vyčistení!")
 
-        try:
-            features = self.feature_extractor.transform([cleaned_text])
-        except Exception as e:
-            self.logger.error(f"Chyba pri feature extraction: {e}")
-            return self._fallback_prediction(text)
+        if not self.ensemble_models:
+            self.ensemble_models = {
+                self.config.MODEL_TYPE: {
+                    'feature_extractor': self.feature_extractor,
+                    'model_trainer': self.model_trainer,
+                    'data_processor': self.data_processor,
+                }
+            }
 
-        prediction = self.model_trainer.model.predict(features)[0]
-        probabilities = self.model_trainer.model.predict_proba(features)[0]
+        candidates = []
+        for active_model_type, bundle in self.ensemble_models.items():
+            try:
+                model_features = bundle['feature_extractor'].transform([cleaned_text])
+                prediction = bundle['model_trainer'].model.predict(model_features)[0]
+                probabilities = bundle['model_trainer'].model.predict_proba(model_features)[0]
+                predicted_label = bundle['data_processor'].label_encoder.inverse_transform([prediction])[0]
+                prob_dict = {
+                    category: float(prob) for category, prob in zip(
+                        bundle['data_processor'].label_encoder.classes_,
+                        probabilities
+                    )
+                }
+                confidence = float(max(probabilities))
+                candidates.append((confidence, predicted_label, prob_dict, active_model_type))
+            except Exception as exc:
+                self.logger.warning("Model %s zlyhal pri predikcii: %s", active_model_type, exc)
 
-        predicted_label = self.data_processor.label_encoder.inverse_transform([prediction])[0]
+        if not candidates:
+            raise ValueError("Žiadny model nedokázal spraviť predikciu")
 
-        prob_dict = {
-            category: float(prob) for category, prob in zip(
-                self.data_processor.label_encoder.classes_,
-                probabilities
-            )
-        }
-
-        max_prob = max(probabilities)
-        if max_prob > 0.85:
-            self.logger.debug(f"Vysoká istota ({max_prob:.3f}) pre: '{text}' -> {predicted_label}")
+        confidence, predicted_label, prob_dict, winning_model = max(candidates, key=lambda x: x[0])
+        self.last_winning_model = winning_model
+        self.logger.debug(f"Vybraný model: {winning_model} (confidence={confidence:.3f})")
 
         return predicted_label, prob_dict
 
@@ -217,6 +304,7 @@ class NewsClassifier:
             "confidence": confidence,
             "probabilities": probabilities,
             "cleaned_text": cleaned_text,
+            "model_used": self.last_winning_model or getattr(self.config, "MODEL_TYPE", None),
         }
 
     def predict_batch(self, texts: List[str], show_progress: bool = True) -> List[Dict[str, Any]]:
