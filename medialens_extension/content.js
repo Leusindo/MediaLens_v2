@@ -291,6 +291,21 @@ function pickHeadlines(root = document, { limit = 120 } = {}) {
   return out;
 }
 
+function getBadgeColor(label, confidence) {
+  const normalizedLabel = (label || "").trim().toLowerCase();
+  const normalizedConfidence = typeof confidence === "number" ? confidence : 0;
+
+  if (normalizedConfidence < 0.5) {
+    return "#facc15"; // yellow for low-confidence results
+  }
+
+  if (normalizedLabel === "dôveryhodné" || normalizedLabel === "legitimate") {
+    return "#3ddc84"; // green for legitimate
+  }
+
+  return "#ff5c5c"; // red for all other confident results
+}
+
 function badge(label, confidence) {
   const b = document.createElement("span");
   b.className = "medialens-badge";
@@ -303,12 +318,7 @@ function badge(label, confidence) {
     <span class="p">${percent}%</span>
   `;
 
-  // 🔥 COLOR LOGIC
-  if ((confidence || 0) >= 0.60) {
-    b.style.color = "#3ddc84";   // zelená
-  } else {
-    b.style.color = "#ff5c5c";   // červená
-  }
+  b.style.color = getBadgeColor(label, confidence);
 
   return b;
 }

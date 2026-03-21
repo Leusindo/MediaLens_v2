@@ -2,6 +2,7 @@
 import logging
 import os
 import sys
+import argparse
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
@@ -26,10 +27,19 @@ def main():
     setup_logging()
     logger = logging.getLogger(__name__)
 
-    try:
-        logger.info("Spúšťam trénovanie modelu...")
+    parser = argparse.ArgumentParser(description="Trénovanie MediaLens modelu")
+    parser.add_argument(
+        "--model-type",
+        choices=["mlp", "rf"],
+        default="mlp",
+        help="Typ modelu, ktorý sa má trénovať (mlp alebo rf)."
+    )
+    args = parser.parse_args()
 
-        classifier = NewsClassifier()
+    try:
+        logger.info(f"Spúšťam trénovanie modelu typu: {args.model_type}")
+
+        classifier = NewsClassifier(model_type=args.model_type)
         classifier.train()
 
         logger.info("Trénovanie úspešne dokončené!")

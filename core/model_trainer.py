@@ -16,6 +16,12 @@ class ModelTrainer:
         self.logger = logging.getLogger(__name__)
         self.model = None
 
+    def _get_model_path(self, model_type: str = None) -> str:
+        selected_type = (model_type or getattr(self.config, "MODEL_TYPE", "rf")).lower()
+        if selected_type not in {"mlp", "rf"}:
+            raise ValueError(f"Neplatný model_type: {selected_type}. Očakávam 'mlp' alebo 'rf'.")
+        return os.path.join(self.config.MODELS_DIR, f"trained_model_{selected_type}.joblib")
+
     def train_model(self, X_train, y_train, X_test, y_test):
         self.logger.info("Začínam trénovanie modelu...")
 
@@ -65,12 +71,18 @@ class ModelTrainer:
     def save_model(self):
         if self.model is not None:
             os.makedirs(self.config.MODELS_DIR, exist_ok=True)
-            model_path = os.path.join(self.config.MODELS_DIR, "trained_model.joblib")
+            model_path = self._get_model_path()
             joblib.dump(self.model, model_path)
             self.logger.info(f"Model uložený do: {model_path}")
 
-    def load_model(self):
-        model_path = os.path.join(self.config.MODELS_DIR, "trained_model.joblib")
+    def load_model(self, model_type: str = None):
+        model_path = self._get_model_path(model_type=model_type)
+
+        if not os.path.exists(model_path):
+            legacy_model_path = os.path.join(self.config.MODELS_DIR, "trained_model.joblib")
+            if os.path.exists(legacy_model_path):
+                model_path = legacy_model_path
+
         self.model = joblib.load(model_path)
-        self.logger.info("Model načítaný")
+        self.logger.info(f"Model načítaný: {model_path}")
         return self.model

@@ -40,6 +40,7 @@ class MediaLensApp:
         self.setup_logging()
         self.setup_layout()
         self.show_analysis_view()
+        self.try_auto_load_models()
 
     def setup_logging(self):
         logging.basicConfig(level=logging.INFO)
@@ -157,16 +158,26 @@ class MediaLensApp:
         self.news_box = ctk.CTkTextbox(card)
         self.news_box.pack(fill="both", expand=True, padx=20, pady=20)
 
-    def load_models(self):
+    def try_auto_load_models(self):
+        self.load_models(show_message=False)
+
+    def load_models(self, show_message: bool = True):
         try:
-            self.classifier.load_models()
+            loaded = self.classifier.load_models()
+            if not loaded:
+                if show_message:
+                    messagebox.showwarning("Info", "Modely sa nepodarilo načítať.")
+                return
+
             self.self_learning = SelfLearningSystem(self.classifier)
             self.news_collector = NewsCollector(self.classifier)
             self.models_loaded = True
-            messagebox.showinfo("OK", "Modely načítané 🧠")
+            if show_message:
+                messagebox.showinfo("OK", "Modely načítané 🧠")
             self.update_learning_stats()
         except Exception as e:
-            messagebox.showerror("Error", str(e))
+            if show_message:
+                messagebox.showerror("Error", str(e))
 
     def classify_text(self):
         if not self.models_loaded:
