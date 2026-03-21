@@ -21,11 +21,12 @@ class DataProcessor:
         self.label_encoder = LabelEncoder()
         self.is_fitted = False
 
-    def load_data(self) -> pd.DataFrame:
-        self.logger.info(f"Nacitavam data z: {self.config.DATA_PATH}")
+    def load_data(self, data_path: str = None) -> pd.DataFrame:
+        target_path = data_path or self.config.DATA_PATH
+        self.logger.info(f"Nacitavam data z: {target_path}")
 
         try:
-            df = pd.read_csv(self.config.DATA_PATH)
+            df = pd.read_csv(target_path)
             self.logger.info(f"Data uspesne nacitane. Tvar: {df.shape}")
             return df
         except Exception as e:
