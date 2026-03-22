@@ -157,9 +157,10 @@ class SelfLearningSystem:
                 self.logger.info("Žiadne learning dáta pre pretrénovanie")
                 return False
 
-            verified_mask = pd.Series([True] * len(learning_data))
-
-            verified_data = learning_data[verified_mask]
+            if 'verified' in learning_data.columns:
+                verified_data = learning_data[learning_data['verified'] == True].copy()
+            else:
+                verified_data = learning_data.copy()
 
             if len(verified_data) == 0:
                 self.logger.info("Žiadne overené dáta pre pretrénovanie")
@@ -173,12 +174,18 @@ class SelfLearningSystem:
             })
 
             combined_data = pd.concat([original_data, new_data], ignore_index=True)
+            combined_data = combined_data.dropna(subset=['title', 'category'])
+            combined_data = combined_data.drop_duplicates(subset=['title'])
 
             self._backup_current_models()
 
-            self.classifier.feature_extractor.is_fitted = False
-
-            results = self.classifier.train(enable_augmentation=False)
+            original_path = self.config.DATA_PATH
+            try:
+                combined_data.to_csv(original_path, index=False)
+                self.classifier.feature_extractor.is_fitted = False
+                results = self.classifier.train(enable_augmentation=False)
+            finally:
+                original_data.to_csv(original_path, index=False)
 
             self.logger.info(f"Pretrénovanie úspešné! Nová presnosť: {results['accuracy']:.3f}")
 

@@ -1,24 +1,44 @@
 .medialens-badge{
   display:inline-flex;
   align-items:center;
-  gap:6px;
+  gap:8px;
   margin-left:10px;
-  padding:3px 8px;
+  padding:6px 12px;
   border-radius:999px;
-  font-size:12px;
+  font-size:13px;
+  line-height:1;
   font-weight:700;
-  border:1px solid rgba(255,255,255,.18);
-  background:rgba(15,23,42,.92);
+  letter-spacing:0.01em;
+  border:1px solid color-mix(in srgb, currentColor 34%, rgba(255,255,255,.22));
+  background:linear-gradient(180deg, rgba(15,23,42,.96), rgba(15,23,42,.9));
   color:#8ab4ff;
+  box-shadow:0 8px 18px rgba(2, 6, 23, 0.28);
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  vertical-align:middle;
+  text-shadow:0 1px 0 rgba(0,0,0,.25);
 }
 
 .medialens-badge .dot{
-  width:8px; height:8px;
+  width:8px;
+  height:8px;
+  flex:0 0 8px;
   border-radius:50%;
   background:currentColor;
+  box-shadow:0 0 0 3px color-mix(in srgb, currentColor 18%, transparent);
+}
+
+.medialens-badge .t{
+  color:#ffffff;
+  font-weight:800;
 }
 
 .medialens-badge .p{
-  opacity:.8;
-  font-weight:600;
+  padding:2px 6px;
+  border-radius:999px;
+  background:rgba(255,255,255,.1);
+  color:rgba(255,255,255,.92);
+  opacity:1;
+  font-weight:700;
+  font-size:11px;
 }

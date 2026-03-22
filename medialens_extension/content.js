@@ -1,7 +1,3 @@
-// ================================
-// MediaLens Content Script (FULL)
-// Smart headline extraction + badge injection
-// ================================
 
 const slovakLabels = {
   clickbait: "Clickbait",

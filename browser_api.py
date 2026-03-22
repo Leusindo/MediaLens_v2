@@ -7,17 +7,23 @@ app = Flask(__name__)
 CORS(app)
 
 classifier = NewsClassifier()
-classifier.load_models()
+MODELS_READY = classifier.load_models()
 
 
 @app.route("/classify", methods=["POST", "OPTIONS"])
 def classify():
+    global MODELS_READY
+
     data = request.get_json(silent=True) or {}
     text = (data.get("text") or "").strip()
     if not text:
         return jsonify({"error": "Empty text"}), 400
 
     try:
+        if not MODELS_READY:
+            MODELS_READY = classifier.load_models()
+        if not MODELS_READY:
+            return jsonify({"error": "Models are not available"}), 503
         result = classifier.classify(text)
     except ValueError as exc:
         return jsonify({"error": str(exc)}), 400
