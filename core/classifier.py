@@ -62,13 +62,17 @@ class NewsClassifier:
         )
         self.logger.info(f"Používané zariadenie: {self.config.DEVICE}")
 
-    def train(self, enable_augmentation: bool = True) -> Dict[str, Any]:
+    def train(self, enable_augmentation: bool = True, training_data=None) -> Dict[str, Any]:
 
         self.logger.info("=== ZAČÍNAM TRÉNOVANIE KLASIFIKÁTORA ===")
 
         try:
-            df = self.data_processor.load_data()
-            self.logger.info(f"Načítaných {len(df)} trénovacích príkladov")
+            if training_data is None:
+                df = self.data_processor.load_data()
+                self.logger.info(f"Načítaných {len(df)} trénovacích príkladov")
+            else:
+                df = training_data.copy()
+                self.logger.info(f"Používam vlastný dataset s {len(df)} trénovacími príkladmi")
 
             if enable_augmentation:
                 df = self.data_processor.augment_data(df)
